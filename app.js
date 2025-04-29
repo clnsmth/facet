@@ -6,6 +6,8 @@ vocabulary.concepts.forEach(c => {
 function buildTree(conceptId) {
   const concept = conceptMap[conceptId];
   const li = document.createElement('li');
+  li.dataset.label = concept.label.toLowerCase();
+  li.dataset.id = concept.id;
 
   const container = document.createElement('div');
   const toggleBtn = document.createElement('span');
@@ -55,12 +57,20 @@ function buildTree(conceptId) {
 }
 
 const form = document.getElementById('concept-form');
-const topLevelConcepts = vocabulary.concepts.filter(c => !Object.values(conceptMap).some(other => other.narrower.includes(c.id)));
+const searchInput = document.createElement('input');
+searchInput.type = 'text';
+searchInput.placeholder = 'Search concepts...';
+searchInput.id = 'concept-search';
+form.appendChild(searchInput);
+
 const ul = document.createElement('ul');
+const topLevelConcepts = vocabulary.concepts.filter(c => !Object.values(conceptMap).some(other => other.narrower.includes(c.id)));
 topLevelConcepts.forEach(concept => {
   ul.appendChild(buildTree(concept.id));
 });
 form.appendChild(ul);
+
+const selectedTiles = document.getElementById('selected-tiles');
 
 function filterRecords(selectedConcepts) {
   return data.records.filter(record =>
@@ -77,8 +87,8 @@ const data = {
 };
 
 function updateResults() {
-  const selected = Array.from(document.querySelectorAll('#concept-form input[type="checkbox"]:checked'))
-                         .map(cb => cb.value);
+  const selectedCheckboxes = Array.from(document.querySelectorAll('#concept-form input[type="checkbox"]:checked'));
+  const selected = selectedCheckboxes.map(cb => cb.value);
 
   const filtered = filterRecords(selected);
 
@@ -87,12 +97,68 @@ function updateResults() {
 
   if (filtered.length === 0) {
     resultList.innerHTML = '<li>No matching records.</li>';
-    return;
+  } else {
+    filtered.forEach(record => {
+      const li = document.createElement('li');
+      li.textContent = record.title;
+      resultList.appendChild(li);
+    });
   }
 
-  filtered.forEach(record => {
-    const li = document.createElement('li');
-    li.textContent = record.title;
-    resultList.appendChild(li);
+  // Update tiles
+  selectedTiles.innerHTML = '';
+  selectedCheckboxes.forEach(cb => {
+    const tile = document.createElement('div');
+    tile.classList.add('tile');
+    tile.textContent = conceptMap[cb.value]?.label || cb.value;
+
+    const closeBtn = document.createElement('button');
+    closeBtn.textContent = '×';
+    closeBtn.onclick = () => {
+      cb.checked = false;
+      updateResults();
+    };
+
+    tile.appendChild(closeBtn);
+    selectedTiles.appendChild(tile);
   });
 }
+
+// Concept search input logic
+searchInput.addEventListener('input', () => {
+  const term = searchInput.value.trim().toLowerCase();
+  const items = ul.querySelectorAll('li');
+
+  if (term === '') {
+    // Collapse everything when input is empty
+    items.forEach(item => {
+      const narrower = item.querySelector('ul.narrower');
+      if (narrower) {
+        narrower.classList.add('hidden');
+        const toggle = item.querySelector('.toggle-button');
+        if (toggle) toggle.textContent = '▶';
+      }
+      item.style.display = '';
+    });
+  } else {
+    items.forEach(item => {
+      const label = item.dataset.label || '';
+      const matches = label.includes(term);
+      const descendantMatches = Array.from(item.querySelectorAll('li')).some(child =>
+        (child.dataset.label || '').includes(term)
+      );
+
+      if (matches || descendantMatches) {
+        item.style.display = '';
+        const narrowerUl = item.querySelector('ul.narrower');
+        if (narrowerUl) {
+          narrowerUl.classList.remove('hidden');
+          const toggle = item.querySelector('.toggle-button');
+          if (toggle) toggle.textContent = '▼';
+        }
+      } else {
+        item.style.display = 'none';
+      }
+    });
+  }
+});
