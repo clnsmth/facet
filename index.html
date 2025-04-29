@@ -2,19 +2,23 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Faceted Search (Final Build)</title>
+  <title>Faceted Search (Final Deduped)</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>Faceted Search (Metadata Auto-Load)</h1>
+<h1>Faceted Search (Deduplicated Counts)</h1>
 
 <div class="container-vertical">
-
   <div id="filters" class="panel">
     <h2>Filter by Concept:</h2>
-    <form id="concept-form">
-    </form>
+    <form id="concept-form"></form>
+  </div>
+
+  <div class="panel" id="filter-mode">
+    <h2>Filter Mode:</h2>
+    <button id="and-mode">AND</button>
+    <button id="or-mode" class="active">OR</button>
   </div>
 
   <div class="panel" id="active-filters">
@@ -26,7 +30,6 @@
     <h2>Results:</h2>
     <ul id="result-list"></ul>
   </div>
-
 </div>
 
 <script src="vocabulary.js"></script>

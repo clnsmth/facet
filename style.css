@@ -15,3 +15,5 @@ label:hover { background-color: #f0f0f0; border-radius: 4px; padding: 2px 4px; }
 #selected-tiles { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px; }
 .tile { background-color: #e0f0ff; border: 1px solid #007acc; color: #007acc; padding: 6px 10px; border-radius: 20px; font-size: 14px; display: flex; align-items: center; }
 .tile button { background: none; border: none; color: #007acc; margin-left: 8px; cursor: pointer; font-weight: bold; }
+#filter-mode button { margin-right: 10px; padding: 6px 12px; border: 1px solid #007acc; background-color: #e0f0ff; color: #007acc; border-radius: 4px; cursor: pointer; }
+#filter-mode button.active { background-color: #007acc; color: white; }
