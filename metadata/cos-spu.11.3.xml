@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="cos-spu.11.3" system="https://pasta.edirepository.org" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>SPU_EDI_Data_Author</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>uid=zloutos,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.0311/FK2/6c8393dc9d61062e6695861c348d00cd</alternateIdentifier>
+    <title>City of Seattle, Seattle Public Utilities, Knotweed Control 2010-current, Cedar River Municipal Watershed, King County, WA</title>
+    <creator>
+      <individualName>
+        <givenName>Sally</givenName>
+        <surName>Nickelson</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Rd SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <userId directory="https://ror.org/">https://ror.org/05wkbzn97</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Julia</givenName>
+        <surName>Munger</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Rd SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <userId directory="https://orcid.org">https://orcid.org/0009-0005-9094-6493</userId>
+      <userId directory="https://ror.org/">https://ror.org/05wkbzn97</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Zoe</givenName>
+        <surName>Loutos</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Rd SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <userId directory="https://orcid.org">0009-0002-6287-4822</userId>
+      <userId directory="https://ror.org/">https://ror.org/05wkbzn97</userId>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Zoe</givenName>
+        <surName>Loutos</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Rd SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <userId directory="https://orcid.org">0009-0002-6287-4822</userId>
+      <userId directory="https://ror.org/">https://ror.org/05wkbzn97</userId>
+    </metadataProvider>
+    <pubDate>2025-04-09</pubDate>
+    <abstract>
+      <para>The City of Seattle’s Cedar River Municipal Watershed is managed to support and supply clean drinking water to 1.6 million people in the greater Seattle area. The watershed covers 91,000 acres, hosts a rich diversity of plants, animals, and habitats, and is owned by the City of Seattle. In 1999, the noxious weed knotweed was detected in the watershed and control was limited to manual and mechanical methods due to an herbicide moratorium intended to prevent broadcast spraying of roadside vegetation. These methods were largely unsuccessful and impractical for controlling acres of knotweed growing in remote locations of the watershed. In 2010, Seattle Public Utilities passed the first ordinance through Seattle City Council to approve the limited use of imazapyr to control knotweed in the watershed for three years. Four successive knotweed ordinances have been passed, allowing for herbicide control of knotweed in the watershed from 2010-2025. The reports included in this package are provided to Seattle City Council annually as a requirement of the ordinance. The data table provides the control history since the passage of the first ordinance and includes information about patch size and amount of imazapyr used. This data package will be updated annually with ongoing control efforts.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>herbicide</keyword>
+      <keyword>noxious weeds</keyword>
+      <keyword>imazapyr</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Cedar River Municipal Watershed (CRMW)</keyword>
+      <keywordThesaurus>City of Seattle Remote Watershed</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>invasive species</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>City of Seattle</keyword>
+      <keyword>Invasive Species Program</keyword>
+      <keyword>King County</keyword>
+      <keyword>Seattle Public Utilities</keyword>
+      <keyword>SPU</keyword>
+      <keyword>Washington</keyword>
+      <keywordThesaurus>SPU</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</para>
+    </intellectualRights>
+    <licensed>
+      <licenseName>Creative Commons Attribution 4.0 International</licenseName>
+      <url>https://spdx.org/licenses/CC-BY-4.0</url>
+      <identifier>CC-BY-4.0</identifier>
+    </licensed>
+    <distribution id="10.0311/FK2/6c8393dc9d61062e6695861c348d00cd" scope="system" system="https://pasta.edirepository.org">
+      <online>
+        <url function="information">https://doi.org/10.0311/FK2/6c8393dc9d61062e6695861c348d00cd</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Cedar River Municipal Watershed</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.0334104</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.3631524</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.49192463</northBoundingCoordinate>
+          <southBoundingCoordinate>47.24097306</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <singleDateTime>
+          <calendarDate>2010</calendarDate>
+        </singleDateTime>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Kingdom</taxonRankName>
+          <taxonRankValue>Viridiplantae</taxonRankValue>
+          <commonName>green plants</commonName>
+          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">33090</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>Phylum</taxonRankName>
+            <taxonRankValue>Streptophyta</taxonRankValue>
+            <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">35493</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>Subphylum</taxonRankName>
+              <taxonRankValue>Streptophytina</taxonRankValue>
+              <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">131221</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>Class</taxonRankName>
+                <taxonRankValue>Magnoliopsida</taxonRankValue>
+                <commonName>flowering plants</commonName>
+                <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3398</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>Order</taxonRankName>
+                  <taxonRankValue>Caryophyllales</taxonRankValue>
+                  <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3524</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>Family</taxonRankName>
+                    <taxonRankValue>Polygonaceae</taxonRankValue>
+                    <commonName>buckwheat family</commonName>
+                    <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3615</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>Subfamily</taxonRankName>
+                      <taxonRankValue>Polygonoideae</taxonRankValue>
+                      <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">1110380</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>Genus</taxonRankName>
+                        <taxonRankValue>Reynoutria</taxonRankValue>
+                        <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">655516</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>Species</taxonRankName>
+                          <taxonRankValue>Reynoutria x bohemica</taxonRankValue>
+                          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">429719</taxonId>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>There is ongoing data collection and this package will require annual updates with the current year's control summary.<para>There is ongoing data collection and this package will require annual updates with the current year's control summary.</para>
+         </description>
+      <maintenanceUpdateFrequency>annually</maintenanceUpdateFrequency>
+    </maintenance>
+    <contact>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>700 5th Avenue</deliveryPoint>
+        <deliveryPoint>Suite 4900</deliveryPoint>
+        <city>Seattle</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98104</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilites</onlineUrl>
+      <userId directory="https://ror.org/">https://ror.org/05wkbzn97</userId>
+    </contact>
+    <publisher>
+      <organizationName>Environmental Data Initiative</organizationName>
+      <electronicMailAddress>info@edirepository.org</electronicMailAddress>
+      <onlineUrl>https://edirepository.org</onlineUrl>
+      <userId directory="https://ror.org">0330j0z60</userId>
+    </publisher>
+    <pubPlace>Environmental Data Initiative</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Annual reports of knotweed control efforts in the Cedar River Watershed. The reports include data on acreage of knotweed controlled and amount of imazapyr used. Acreage was estimated using GPS points collected in the field and creating polygon shapefiles in GIS surrounding the mapped GPS points of knotweed. Amount of imazapyr used was totaled by measuring imazapyr with graduated cylinders in the field each time a new batch of herbicide was mixed.</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Invasive Species Program</title>
+      <personnel>
+        <individualName>
+          <givenName>Zoe</givenName>
+          <surName>Loutos</surName>
+        </individualName>
+        <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+        <address>
+          <city>North Bend</city>
+          <administrativeArea>WA</administrativeArea>
+          <postalCode>98045</postalCode>
+          <country>United States</country>
+        </address>
+        <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+        <onlineUrl>https://www.seattle.gov/</onlineUrl>
+        <userId directory="https://orcid.org">0009-0002-6287-4822</userId>
+        <role>Project Manager</role>
+      </personnel>
+      <abstract>
+        <para>The Invasive Species Program for Seattle’s watersheds was initiated in 2007 to fulfill several legal and policy requirements to eradicate or control invasive species. Program goals include maintaining municipal water quality and maintaining or restoring native biodiversity, habitat, and natural ecological functions. Specific objectives are to prevent the introduction of invasive species whenever possible, minimize human-caused dispersal and spread of invasive species, and use the most cost-effective, efficacious treatments with the least adverse environmental and social impact. To meet these objectives, the Invasive Species Program uses an Integrated Pest Management approach on established infestations and finds and treats new infestations while they are small.</para>
+      </abstract>
+      <award>
+        <funderName>Seattle Public Utilities</funderName>
+        <awardNumber>N000808</awardNumber>
+        <title>Watershed Invasives Program</title>
+      </award>
+    </project>
+    <dataTable id="d98e9201bdbaf94931bdecbd3635b652" scope="document" system="https://pasta.edirepository.org">
+      <entityName>Knotweed_Control_CRMW</entityName>
+      <entityDescription>Summary of efforts to control knotweed with imazapyr in the Cedar River Municipal Watershed, King County, WA. Includes quantities of imazapyr and acres treated at each site per year.</entityDescription>
+      <physical>
+        <objectName>Knotweed_Control_CRW.csv</objectName>
+        <size unit="byte">5188</size>
+        <authentication method="MD5">c747da4d94d695d575dcebd68a00b2c6</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/11/3/d98e9201bdbaf94931bdecbd3635b652</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Hydrographic Boundary</attributeName>
+          <attributeLabel>Hydrographic Boundary</attributeLabel>
+          <attributeDefinition>The Cedar River Watershed's hydrographic boundary. All land that drains to the Chester Morse Lake and the Cedar River and its tributaries, which serve as the drinking water source for the City of Seattle and nearby municipalities.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>In</code>
+                    <definition>inside the hydrographic boundary</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Out</code>
+                    <definition>outside the hydrographic boundary</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Category of site where knotweed was controlled.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="no">
+                  <codeDefinition>
+                    <code>Border Roads</code>
+                    <definition>Patches found along road systems outside the municipal hydrographic boundary.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Cedar Falls IN</code>
+                    <definition>Patches around Cedar Falls campus within municipal hydrographic boundary.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Cedar Falls OUT</code>
+                    <definition>Patches around Cedar Falls campus outside municipal hydrographic boundary.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Cedar River</code>
+                    <definition>Patches in the riparian habitat of the Cedar River.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Education Center</code>
+                    <definition>Patches in planting sites and along the Rattlesnake lakeshore trail near the Cedar River Watershed's Education Center.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Masonry Dam</code>
+                    <definition>Patches adjacent to Masonry Dam and road system adjacent to penstocks and dam infrastructure.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Rattlesnake Lake</code>
+                    <definition>Patches in riparian habitat along Rattlesnake Lake and forested recreation areas.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Road Patches</code>
+                    <definition>Patches along road systems within the municipal hydrographic boundary.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Rock Creek complex</code>
+                    <definition>Patches in riparian habitat of Rock Creek and within Rock Creek wetland complex.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Taylor</code>
+                    <definition>Patches in Taylor Townsite and along Taylor Ditch.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Walsh Lake</code>
+                    <definition>Patches found in riparian habitat near Walsh Lake and Walsh Creek.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Year</attributeName>
+          <attributeLabel>Year</attributeLabel>
+          <attributeDefinition>Year knotweed was controlled.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Product Used ml</attributeName>
+          <attributeLabel>Product Used ml</attributeLabel>
+          <attributeDefinition>Amount of imazapyr used in milliliters. This is the amount of imazapyr used only and does not reflect any amount of water added to herbicide mixture. Herbicide mixture is mixed with water at 1% concentration of imazapyr before application.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milliliter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Product Used oz</attributeName>
+          <attributeLabel>Product Used oz</attributeLabel>
+          <attributeDefinition>Amount of imazapyr used in ounces. This is the amount of imazapyr used only and does not reflect any amount of water added to herbicide mixture. Herbicide mixture is mixed with water at 1% concentration of imazapyr before application.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>ounce</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Area Treated sqft</attributeName>
+          <attributeLabel>Area Treated sqft</attributeLabel>
+          <attributeDefinition>The size of the site controlled for knotweed, in terms of square feet. Does not reflect patch density or percent cover.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>footSquared</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Area Treated acres</attributeName>
+          <attributeLabel>Area Treated acres</attributeLabel>
+          <attributeDefinition>The size of the site controlled for knotweed, in terms of acres. Does not reflect patch density or percent cover.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>acre</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>154</numberOfRecords>
+    </dataTable>
+    <otherEntity id="3df93363dd5adc05a79481c07ab79055" scope="document" system="https://pasta.edirepository.org">
+      <entityName>2010_KnotweedReport_Council</entityName>
+      <entityDescription>Prepared for Seattle City Council following treatment in 2010. Summary report detailing treatment methods, timeline, and locations, results from water quality sampling and treatment, and future plans for knotweed treatment.</entityDescription>
+      <physical>
+        <objectName>2010_KnotweedReport_Council.pdf</objectName>
+        <size unit="byte">596633</size>
+        <authentication method="MD5">8bc16a429ae6e0da5df5249c601c5679</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/11/3/3df93363dd5adc05a79481c07ab79055</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+    <otherEntity id="ad22621ee35bc044ecd17fda85e472bc" scope="document" system="https://pasta.edirepository.org">
+      <entityName>2011_KnotweedReport_Council</entityName>
+      <entityDescription>Prepared for Seattle City Council following treatment in 2011. Summary report detailing treatment methods, timeline, and locations, results from water quality sampling and treatment, and future plans for knotweed treatment.</entityDescription>
+      <physical>
+        <objectName>2011_KnotweedReport_Council.pdf</objectName>
+        <size unit="byte">742484</size>
+        <authentication method="MD5">d36402a11732ee4c6e1f4516539e56fb</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/11/3/ad22621ee35bc044ecd17fda85e472bc</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+    <otherEntity id="24d045330801ef238594f689319509b6" scope="document" system="https://pasta.edirepository.org">
+      <entityName>2012_KnotweedReport_Council</entityName>
+      <entityDescription>Prepared for Seattle City Council following treatment in 2012. Summary report detailing treatment methods, timeline, costs, and locations, results from water quality sampling and treatment, and future plans for knotweed treatment and site restoration.</entityDescription>
+      <physical>
+        <objectName>2012_KnotweedReport_Council.pdf</objectName>
+        <size unit="byte">1391367</size>
+        <authentication method="MD5">00b98e6c6f09a4623f200934654a519e</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/11/3/24d045330801ef238594f689319509b6</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+    <otherEntity id="1fb20fe738be18ffbd6e01169a280ef1" scope="document" system="https://pasta.edirepository.org">
+      <entityName>2013_KnotweedReport_Council</entityName>
+      <entityDescription>Prepared for Seattle City Council following treatment in 2013. Summary report detailing treatment methods, timeline, and locations, results from water quality sampling and treatment, and future plans for knotweed treatment and site restoration.</entityDescription>
+      <physical>
+        <objectName>2013_KnotweedReport_Council.pdf</objectName>
+        <size unit="byte">1370197</size>
+        <authentication method="MD5">c8399b9be80d1f58aff6442922c25cb1</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/11/3/1fb20fe738be18ffbd6e01169a280ef1</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+    <otherEntity id="b712ebb41b1b606b7cb6b1d3931789e4" scope="document" system="https://pasta.edirepository.org">
+      <entityName>2014_KnotweedReport_Council</entityName>
+      <entityDescription>Prepared for Seattle City Council following treatment in 2014. Summary report detailing treatment methods, timeline, and locations, results from water quality sampling and treatment, and future plans for knotweed treatment and site restoration.</entityDescription>
+      <physical>
+        <objectName>2014_KnotweedReport_Council.pdf</objectName>
+        <size unit="byte">1130017</size>
+        <authentication method="MD5">61b0c5a3a94c2519ef4bd5dfc832c3c7</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/11/3/b712ebb41b1b606b7cb6b1d3931789e4</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+    <otherEntity id="7413526a1b1a02556948d9a26455a129" scope="document" system="https://pasta.edirepository.org">
+      <entityName>2015_KnotweedReport_Council</entityName>
+      <entityDescription>Prepared for Seattle City Council following treatment in 2015. Summary report detailing treatment methods, timeline, and locations, results from water quality sampling and treatment, and future plans for knotweed treatment and site restoration. Includes appendices on risk assessment and literature review of treating knotweed with imazapyr and photos of knotweed treatment results.</entityDescription>
+      <physical>
+        <objectName>2015_KnotweedReport_Council.pdf</objectName>
+        <size unit="byte">7607280</size>
+        <authentication method="MD5">f4b74b0fecd558a5e1aed0fdcb21d633</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/11/3/7413526a1b1a02556948d9a26455a129</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+    <otherEntity id="561d6b9eccfe864a8d71a08bf5a0d3e7" scope="document" system="https://pasta.edirepository.org">
+      <entityName>2016_KnotweedReport_Council</entityName>
+      <entityDescription>Prepared for Seattle City Council following treatment in 2016. Summary report detailing treatment methods, timeline, costs, and locations, results from water quality sampling and treatment, and future plans for knotweed treatment and site restoration. Includes appendix with photos of knotweed treatment results.</entityDescription>
+      <physical>
+        <objectName>2016_KnotweedReport_Council.pdf</objectName>
+        <size unit="byte">6873280</size>
+        <authentication method="MD5">1ad7c760a04086782a24bc82378cd95f</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/11/3/561d6b9eccfe864a8d71a08bf5a0d3e7</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+    <otherEntity id="1bced3e0a85d89ff9e5e705f5af47094" scope="document" system="https://pasta.edirepository.org">
+      <entityName>2017_KnotweedReport_Council</entityName>
+      <entityDescription>Prepared for Seattle City Council following treatment in 2017. Summary report detailing treatment methods, timeline, costs, and locations, results from water quality sampling and treatment, and future plans for knotweed treatment and site restoration. Includes appendix with photos of knotweed treatment results.</entityDescription>
+      <physical>
+        <objectName>2017_KnotweedReport_Council.pdf</objectName>
+        <size unit="byte">7995205</size>
+        <authentication method="MD5">bfce5aa2763a77956cfb07b9bd80b97b</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/11/3/1bced3e0a85d89ff9e5e705f5af47094</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+    <otherEntity id="aba936a18fc958341a5ca3bf49f8fd33" scope="document" system="https://pasta.edirepository.org">
+      <entityName>2018_KnotweedReport_Council</entityName>
+      <entityDescription>Prepared for Seattle City Council following treatment in 2018. Summary report detailing drivers for control, treatment methods, timeline, costs, and locations, results from water quality sampling and treatment, and future plans for knotweed treatment. Includes appendices on risk analysis and literature review of treating knotweed with imazapyr and photos of knotweed treatment results and site restoration projects.</entityDescription>
+      <physical>
+        <objectName>2018_KnotweedReport_Council.pdf</objectName>
+        <size unit="byte">9872986</size>
+        <authentication method="MD5">d7117909683f6e5a7bfb283f78e841bb</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/11/3/aba936a18fc958341a5ca3bf49f8fd33</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+    <otherEntity id="cd8e6d00ea7e7fe38da6a0232b15cf67" scope="document" system="https://pasta.edirepository.org">
+      <entityName>2019_KnotweedReport_Council</entityName>
+      <entityDescription>Prepared for Seattle City Council following treatment in 2019. Summary report detailing drivers for control, treatment methods, timeline, costs, and locations, results from water quality sampling and treatment, and future plans for knotweed treatment. Includes appendices on risk analysis and literature review of treating knotweed with imazapyr and photos of knotweed treatment results and site restoration projects.</entityDescription>
+      <physical>
+        <objectName>2019_KnotweedReport_Council.pdf</objectName>
+        <size unit="byte">9832141</size>
+        <authentication method="MD5">96f9f979269d721792e660737fe299db</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/11/3/cd8e6d00ea7e7fe38da6a0232b15cf67</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+    <otherEntity id="47d68d2c01d502d5f5f036a1f60ef4d5" scope="document" system="https://pasta.edirepository.org">
+      <entityName>2020_KnotweedReport_Council</entityName>
+      <entityDescription>Prepared for Seattle City Council. Summary report detailing drivers for control, treatment methods, timeline, costs, and locations, results from water quality sampling and treatment, and future plans for knotweed treatment. Includes appendices on risk analysis and literature review of treating knotweed with imazapyr and photos of knotweed treatment results and site restoration projects.</entityDescription>
+      <physical>
+        <objectName>2020_KnotweedReport_Council.pdf</objectName>
+        <size unit="byte">9857602</size>
+        <authentication method="MD5">0dd77b36e03291eec3ba7e2e6a83aba8</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/11/3/47d68d2c01d502d5f5f036a1f60ef4d5</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+    <otherEntity id="e472dabd0dbf541cc255addc7d790a74" scope="document" system="https://pasta.edirepository.org">
+      <entityName>2021_KnotweedReport_Council</entityName>
+      <entityDescription>Prepared for Seattle City Council following treatment in 2021. Summary report detailing drivers for control, treatment methods, timeline, costs, and locations, results from water quality sampling and treatment, and future plans for knotweed treatment. Includes appendices on risk analysis and literature review of treating knotweed with imazapyr and photos of knotweed treatment results and site restoration projects.</entityDescription>
+      <physical>
+        <objectName>2021_KnotweedReport_Council.pdf</objectName>
+        <size unit="byte">9751987</size>
+        <authentication method="MD5">8d867080e9fb02952941e11cdcb7b058</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/11/3/e472dabd0dbf541cc255addc7d790a74</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+    <otherEntity id="28be32acad7de7329edf9879d33343f7" scope="document" system="https://pasta.edirepository.org">
+      <entityName>2023_KnotweedReport_Council</entityName>
+      <entityDescription>Prepared for Seattle City Council following treatment in 2023. Summary report detailing drivers for control, treatment methods, timeline, costs, and locations, results from water quality sampling and treatment, and future plans for knotweed treatment. Includes appendices on risk analysis and literature review of treating knotweed with imazapyr and photos of knotweed treatment results and site restoration projects.</entityDescription>
+      <physical>
+        <objectName>2023_KnotweedReport_Council.pdf</objectName>
+        <size unit="byte">3516338</size>
+        <authentication method="MD5">9663570207c69ed04e8e6afdf2bcf991</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/11/3/28be32acad7de7329edf9879d33343f7</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList>
+        <stmml:unit id="ounce" name="ounce">
+          <stmml:description/>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <emlEditor app="ezEML" release="2025.02.19"/>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

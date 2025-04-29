@@ -1,0 +1,1381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="cos-spu.27.1" system="https://pasta.edirepository.org" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>SPU_EDI_Data_Author</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>euPumgS_OFVR7WhsPalFZYTbYYevIqcBo6a4WNmvLvU</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.0311/FK2/090cfc36ba4741c8a0f8a11060b305bf</alternateIdentifier>
+    <title>City of Seattle, Seattle Public Utilities, Owl Surveys 2002-2018, Cedar River Municipal Watershed, King County, WA</title>
+    <creator>
+      <individualName>
+        <givenName>Alexander</givenName>
+        <surName>May</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-0013-1954</userId>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Alexander</givenName>
+        <surName>May</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-0013-1954</userId>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Sally</givenName>
+        <surName>Nickelson</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Surveyor and project manager</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Bill</givenName>
+        <surName>Richards</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Surveyor and project manager</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Alexander</givenName>
+        <surName>May</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-0013-1954</userId>
+      <role>EDI Package curator</role>
+    </associatedParty>
+    <pubDate>2025-04-09</pubDate>
+    <abstract>
+      <para>This dataset contains results from northern spotted owl (Strix occidentalis caurina) and barred owl (Strix varia) surveys conducted in the Cedar River Watershed, central Washington. The study area encompasses over 90,000 acres of mountainous, predominantly second-growth coniferous forests, extending westward from the Cascade Crest south of Snoqualmie Pass to south of North Bend, Washington. Approximately 6.5% of the area, totaling 14,000 acres, consists of mature and old-growth forest, primarily distributed across six distinct patches at higher elevations. This dataset spans multiple survey periods and projects: spotted owl surveys conducted in 2005 and 2008, a specific barred owl-focused survey in 2006, owl surveys conducted for a powerline right-of-way project in 2002 and 2003, and an annual supplemental spotted owl survey from 2006 to 2018.</para>
+      <para>The surveys were initiated to fulfill monitoring requirements in the Cedar River Municipal Watershed Habitat Conservation Plan (2000) to document presence, distribution, and occupancy status of northern spotted owl. Survey methods used human imitation and recorded owl calls to elicit responses from target species. Surveys predominantly occurred during twilight or nighttime conditions, aligning with owl activity peaks and limiting interference from diurnal predators.</para>
+      <para>No spotted owls were detected during the 2005 survey season. Weather in 2005 was notably wet, delaying surveys until mid-May. Barred owls were documented at multiple locations in 2005, indicating their established presence and potential territorial occupancy, particularly near wetlands and lakes. In 2006, targeted barred owl surveys further documented 25 responses at 20 stations. A correlation was observed between barred owl detections and proximity to water bodies. Stations located beyond a quarter-mile radius of water yielded no barred owl responses.</para>
+      <para>The 2008 surveys re-examined spotted owl presence and yielded a single male spotted owl detected and captured near Findley Lake. Genetic and observational analyses revealed this owl had been previously banded as a juvenile in 2006 at a site near Snoqualmie Pass, having been raised as a fledgling by a male barred and female spotted owl. The owl was a single resident and did not appear to be part of a breeding pair.</para>
+      <para>The data package also contains periodic annual follow-up surveys for spotted owls from 2009 to 2018, though they were single night efforts and contracted surveys by consultants as the 2005 2006 and 2008 surveys were. 2008 was the last time a spotted owl was detected in the watershed.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>barred owl</keyword>
+      <keyword>playback surveys</keyword>
+      <keyword>Habitat Conservation Plan</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Cedar River Municipal Watershed (CRMW)</keyword>
+      <keywordThesaurus>City of Seattle Remote Watershed</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Watershed Research and Monitoring</keyword>
+      <keywordThesaurus>HCP Category</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Watershed Terrestrial Monitoring and Research</keyword>
+      <keywordThesaurus>HCP Group</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>birds</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>City of Seattle</keyword>
+      <keyword>King County</keyword>
+      <keyword>Seattle Public Utilities</keyword>
+      <keyword>SPU</keyword>
+      <keyword>Washington</keyword>
+      <keywordThesaurus>SPU</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</para>
+    </intellectualRights>
+    <licensed>
+      <licenseName>Creative Commons Attribution 4.0 International</licenseName>
+      <url>https://spdx.org/licenses/CC-BY-4.0</url>
+      <identifier>CC-BY-4.0</identifier>
+    </licensed>
+    <distribution id="10.0311/FK2/090cfc36ba4741c8a0f8a11060b305bf" scope="system" system="https://pasta.edirepository.org">
+      <online>
+        <url function="information">https://doi.org/10.0311/FK2/090cfc36ba4741c8a0f8a11060b305bf</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Within Cedar River Municipal Watershed in King County Washington USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.955755324099</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.443472974864</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.4528886253695</northBoundingCoordinate>
+          <southBoundingCoordinate>47.287069132201</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2005</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2018-09-05</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Domain</taxonRankName>
+          <taxonRankValue>Eukaryota</taxonRankValue>
+          <commonName>eucaryotes</commonName>
+          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">2759</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>Kingdom</taxonRankName>
+            <taxonRankValue>Metazoa</taxonRankValue>
+            <commonName>metazoans</commonName>
+            <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">33208</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>Phylum</taxonRankName>
+              <taxonRankValue>Chordata</taxonRankValue>
+              <commonName>chordates</commonName>
+              <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">7711</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>Subphylum</taxonRankName>
+                <taxonRankValue>Craniata</taxonRankValue>
+                <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">89593</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>Superclass</taxonRankName>
+                  <taxonRankValue>Sarcopterygii</taxonRankValue>
+                  <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">8287</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>Class</taxonRankName>
+                    <taxonRankValue>Aves</taxonRankValue>
+                    <commonName>birds</commonName>
+                    <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">8782</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>Infraclass</taxonRankName>
+                      <taxonRankValue>Neognathae</taxonRankValue>
+                      <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">8825</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>Order</taxonRankName>
+                        <taxonRankValue>Strigiformes</taxonRankValue>
+                        <commonName>owls</commonName>
+                        <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">30458</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>Family</taxonRankName>
+                          <taxonRankValue>Strigidae</taxonRankValue>
+                          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">30459</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>Genus</taxonRankName>
+                            <taxonRankValue>Strix</taxonRankValue>
+                            <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">36304</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>Species</taxonRankName>
+                              <taxonRankValue>Strix varia</taxonRankValue>
+                              <commonName>Northern barred owl</commonName>
+                              <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">57075</taxonId>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Domain</taxonRankName>
+          <taxonRankValue>Eukaryota</taxonRankValue>
+          <commonName>eucaryotes</commonName>
+          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">2759</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>Kingdom</taxonRankName>
+            <taxonRankValue>Metazoa</taxonRankValue>
+            <commonName>metazoans</commonName>
+            <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">33208</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>Phylum</taxonRankName>
+              <taxonRankValue>Chordata</taxonRankValue>
+              <commonName>chordates</commonName>
+              <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">7711</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>Subphylum</taxonRankName>
+                <taxonRankValue>Craniata</taxonRankValue>
+                <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">89593</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>Superclass</taxonRankName>
+                  <taxonRankValue>Sarcopterygii</taxonRankValue>
+                  <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">8287</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>Class</taxonRankName>
+                    <taxonRankValue>Aves</taxonRankValue>
+                    <commonName>birds</commonName>
+                    <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">8782</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>Infraclass</taxonRankName>
+                      <taxonRankValue>Neognathae</taxonRankValue>
+                      <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">8825</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>Order</taxonRankName>
+                        <taxonRankValue>Strigiformes</taxonRankValue>
+                        <commonName>owls</commonName>
+                        <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">30458</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>Family</taxonRankName>
+                          <taxonRankValue>Strigidae</taxonRankValue>
+                          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">30459</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>Genus</taxonRankName>
+                            <taxonRankValue>Strix</taxonRankValue>
+                            <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">36304</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>Species</taxonRankName>
+                              <taxonRankValue>Strix occidentalis</taxonRankValue>
+                              <commonName>Spotted owl</commonName>
+                              <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">201991</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>Subspecies</taxonRankName>
+                                <taxonRankValue>Strix occidentalis caurina</taxonRankValue>
+                                <commonName>northern spotted owl</commonName>
+                                <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">311401</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Domain</taxonRankName>
+          <taxonRankValue>Eukaryota</taxonRankValue>
+          <commonName>eucaryotes</commonName>
+          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">2759</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>Kingdom</taxonRankName>
+            <taxonRankValue>Metazoa</taxonRankValue>
+            <commonName>metazoans</commonName>
+            <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">33208</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>Phylum</taxonRankName>
+              <taxonRankValue>Chordata</taxonRankValue>
+              <commonName>chordates</commonName>
+              <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">7711</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>Subphylum</taxonRankName>
+                <taxonRankValue>Craniata</taxonRankValue>
+                <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">89593</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>Superclass</taxonRankName>
+                  <taxonRankValue>Sarcopterygii</taxonRankValue>
+                  <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">8287</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>Class</taxonRankName>
+                    <taxonRankValue>Aves</taxonRankValue>
+                    <commonName>birds</commonName>
+                    <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">8782</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>Infraclass</taxonRankName>
+                      <taxonRankValue>Neognathae</taxonRankValue>
+                      <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">8825</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>Order</taxonRankName>
+                        <taxonRankValue>Strigiformes</taxonRankValue>
+                        <commonName>owls</commonName>
+                        <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">30458</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>Family</taxonRankName>
+                          <taxonRankValue>Strigidae</taxonRankValue>
+                          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">30459</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>Genus</taxonRankName>
+                            <taxonRankValue>Bubo</taxonRankValue>
+                            <commonName>eagle owls</commonName>
+                            <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">30460</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>Species</taxonRankName>
+                              <taxonRankValue>Bubo virginianus</taxonRankValue>
+                              <commonName>great horned owl</commonName>
+                              <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">56268</taxonId>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Domain</taxonRankName>
+          <taxonRankValue>Eukaryota</taxonRankValue>
+          <commonName>eucaryotes</commonName>
+          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">2759</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>Kingdom</taxonRankName>
+            <taxonRankValue>Metazoa</taxonRankValue>
+            <commonName>metazoans</commonName>
+            <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">33208</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>Phylum</taxonRankName>
+              <taxonRankValue>Chordata</taxonRankValue>
+              <commonName>chordates</commonName>
+              <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">7711</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>Subphylum</taxonRankName>
+                <taxonRankValue>Craniata</taxonRankValue>
+                <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">89593</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>Superclass</taxonRankName>
+                  <taxonRankValue>Sarcopterygii</taxonRankValue>
+                  <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">8287</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>Class</taxonRankName>
+                    <taxonRankValue>Aves</taxonRankValue>
+                    <commonName>birds</commonName>
+                    <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">8782</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>Infraclass</taxonRankName>
+                      <taxonRankValue>Neognathae</taxonRankValue>
+                      <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">8825</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>Order</taxonRankName>
+                        <taxonRankValue>Strigiformes</taxonRankValue>
+                        <commonName>owls</commonName>
+                        <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">30458</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>Family</taxonRankName>
+                          <taxonRankValue>Strigidae</taxonRankValue>
+                          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">30459</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>Genus</taxonRankName>
+                            <taxonRankValue>Glaucidium</taxonRankValue>
+                            <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">78216</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>Species</taxonRankName>
+                              <taxonRankValue>Glaucidium californicum</taxonRankValue>
+                              <commonName>northern pygmy-owl</commonName>
+                              <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">126806</taxonId>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>There is no planned or ongoing data collection related to this project. SPU has moved to a general passive acoustic avian monitoring program.</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Alexander</givenName>
+        <surName>May</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-0013-1954</userId>
+    </contact>
+    <contact>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>700 5th Avenue</deliveryPoint>
+        <deliveryPoint>Suite 4900</deliveryPoint>
+        <city>Seattle</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98104</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilites</onlineUrl>
+      <userId directory="https://ror.org/">https://ror.org/05wkbzn97</userId>
+    </contact>
+    <publisher>
+      <organizationName>Environmental Data Initiative</organizationName>
+      <electronicMailAddress>info@edirepository.org</electronicMailAddress>
+      <onlineUrl>https://edirepository.org</onlineUrl>
+      <userId directory="https://ror.org">0330j0z60</userId>
+    </publisher>
+    <pubPlace>Environmental Data Initiative</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Survey methods were modeled after guidelines recommended by the U.S. Fish and Wildlife Service (USFWS 1992). Surveys occurred during the breeding period, generally between March 15 and September 15, though specific timing varied annually due to weather conditions such as snowpack and precipitation. Survey sites included a combination of road-accessible stations, visited during nighttime, and hiking-accessible stations, surveyed during late afternoon or twilight. Surveyors used vocalizations—including human imitations, hoot-flutes, and recorded calls—to elicit responses from target owl species. Stations were strategically placed within and along the edges of suitable owl habitat to ensure complete coverage of each designated survey area.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>In 2005 and 2008, the surveys specifically targeted northern spotted owls. Each survey station was visited multiple times throughout the season, typically ranging from four to six visits, spaced evenly to optimize detection probability. Surveyors broadcast spotted owl vocalizations for a period of at least ten minutes per station, alternating between calling and listening. Survey efforts were suspended or rescheduled during moderate to heavy rainfall, significant tree-drip, or winds exceeding 10 mph. Barred owl and great horned owl (Bubo virginianus) responses were also recorded during surveys. When barred owls responded, surveyors waited until the barred owl stopped vocalizing before resuming spotted owl calls.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>In 2006, methods were adjusted to specifically detect barred owls. Surveys began at or shortly after civil twilight to align with peak barred owl activity. Each survey station was similarly visited multiple times, with barred owl vocalizations broadcasted, including digitally recorded agitated barred owl calls to enhance detection rates. Additionally, surveyors scanned the immediate area with strong flashlights post-calling to visually detect silent owls. Stations yielding confirmed barred owl pair detections were discontinued for the remainder of the season, and new stations were subsequently added to maximize coverage.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Data collection involved documenting owl responses, including vocalizations, visual sightings, and owl behaviors, at each station. Captures, when possible, involved providing mice as bait and using banding techniques to track owl movements and identification. Genetic sampling was performed on captured individuals to verify species and lineage.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Methods pertaining to 2002 and 2003 BPA surveys are unknown, but their data are included in this data package as they contain spatially referenced owl detections.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Methods pertaining to supplemental owl surveys contained in SupplementalOwlSurveys table: only metadata is "Annual spotted owl surveys - SPU staff meet Dale Herter at Cedar Notch at dusk.  Survey along 640 road (Seattle Creek) and off 660 road (Meadow Mt)". Dale Herter was the consultant conducting the 2005 and 2008 official spotted owl surveys. These supplemental surveys were conducted on one night per year using a programmable megaphone to elicit responses from territorial birds.</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Spotted Owl Baseline Survey</title>
+      <personnel>
+        <individualName>
+          <givenName>Alexander</givenName>
+          <surName>May</surName>
+        </individualName>
+        <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+        <address>
+          <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+          <city>North Bend</city>
+          <administrativeArea>WA</administrativeArea>
+          <postalCode>98045</postalCode>
+          <country>USA</country>
+        </address>
+        <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+        <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+        <userId directory="https://orcid.org">https://orcid.org/0000-0002-0013-1954</userId>
+        <role>EDI Package curator</role>
+      </personnel>
+      <abstract>
+        <para>The City will survey old-growth forest within the municipal watershed for spotted owl activity, if those areas are not actively being monitored by other agencies or interested parties (USFS, DNR, timber company), one or more years during HCP years 3-10. The City will either use an existing survey protocol (e.g., a USFWS protocol) or develop an appropriate modified protocol based on the best information available at the time of the survey and on consultation with regional experts and appropriate federal and state agency staff. The survey data collected as part of this monitoring and research program will be used, through adaptive management (Section 4.5.7), to determine if the mitigation and minimization strategies for spotted owls are achieving their conservation objectives and facilitating the adjustments needed to make the strategies better achieve their objectives. These data will also be used to ensure that active spotted owl nests and their surrounding habitat will be protected.</para>
+      </abstract>
+      <award>
+        <funderName>City of Seattle</funderName>
+        <awardNumber>N781309</awardNumber>
+        <title>Spotted Owl Baseline Survey</title>
+      </award>
+    </project>
+    <dataTable id="86b4731bd35846e18d13d4a97ad06046" scope="document" system="https://pasta.edirepository.org">
+      <entityName>OwlStations</entityName>
+      <entityDescription>Owl survey stations combined from several studies. The study the station belongs to is specified in the 'Project' column but not all columns are relevant or used in each study. If the csv is imported into excel it may interpret STATION_NM inaccurately as these are stored as day-month without year information.</entityDescription>
+      <physical>
+        <objectName>OwlStations1.csv</objectName>
+        <size unit="byte">12521</size>
+        <authentication method="MD5">26702dc8f1c4ae30703ed148d166cb04</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/27/1/86b4731bd35846e18d13d4a97ad06046</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Name</attributeName>
+          <attributeLabel>Name</attributeLabel>
+          <attributeDefinition>Station name. Column not used for all studies.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Name column not used in station data for a particular study</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>TargetSp</attributeName>
+          <attributeLabel>TargetSp</attributeLabel>
+          <attributeDefinition>Species targeted by the survey</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>BAOW</code>
+                    <definition>Barred Owl (Strix varia)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SPOW</code>
+                    <definition>Northern Spotted Owl (Strix occidentalis caurina)</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Project</attributeName>
+          <attributeLabel>Project</attributeLabel>
+          <attributeDefinition>Corresponding project that the owl station was a part of.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>2002-2003 BPA Spotted Owl Surveys</code>
+                    <definition>Powerline right-of-way project conducted in 2002 and 2003. Metadata for this project is unknown. Not known whether all stations were surveyed or in one or both years.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2005 SPU HCP Spotted Owl Surveys</code>
+                    <definition>2005 SPU HCP Spotted Owl Surveys. PDF report of this project is attached as Other Entity in this data package. Not known whether all stations surveyed in 2005, or if stations were also surveyed in 2008 project.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2006 SPU HCP Barred Owl Surveys</code>
+                    <definition>2006 SPU HCP Barred Owl Surveys. PDF report of this project is attached as Other Entity in this data package.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Location</attributeName>
+          <attributeLabel>Location</attributeLabel>
+          <attributeDefinition>Location description of owl station based on the watershed road numbering system. Excel may mis-read some of these as dates.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Location description not recorded</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Route</attributeName>
+          <attributeLabel>Route</attributeLabel>
+          <attributeDefinition>Unknown route identifier</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>information not in data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Station</attributeName>
+          <attributeLabel>Station</attributeLabel>
+          <attributeDefinition>Unknown station identifier</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>information not in data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>AREA</attributeName>
+          <attributeLabel>AREA</attributeLabel>
+          <attributeDefinition>Unknown area identifier</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>information not in data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>STATION_NM</attributeName>
+          <attributeLabel>STATION_NM</attributeLabel>
+          <attributeDefinition>Unknown station number. Mis-read as a date in excel.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>information not in data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>x</attributeName>
+          <attributeLabel>x</attributeLabel>
+          <attributeDefinition>Longitude position of owl station. Units are decimal degrees in WGS84.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>y</attributeName>
+          <attributeLabel>y</attributeLabel>
+          <attributeDefinition>Latitude position of owl station. Units are decimal degrees in WGS84.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>146</numberOfRecords>
+    </dataTable>
+    <dataTable id="3ce28d087c49cc05e9753b5fd040db5d" scope="document" system="https://pasta.edirepository.org">
+      <entityName>OwlDetections</entityName>
+      <entityDescription>Owls detections for most projects. Does not contain the 2008 data: those data are in Table 2 of the 2008 report attached in Other Entities, though they are not spatially referenced. 2008 was the only survey that detected a spotted owl, and this detection was not spatially referenced in a digitized data table--refer to the 2008 pdf report for information about that owl detection.</entityDescription>
+      <physical>
+        <objectName>OwlDetections1.csv</objectName>
+        <size unit="byte">7839</size>
+        <authentication method="MD5">b420b828d21a332b79fc4e8a7156de7d</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/27/1/3ce28d087c49cc05e9753b5fd040db5d</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>species</attributeName>
+          <attributeLabel>species</attributeLabel>
+          <attributeDefinition>Species of owl detection</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>BAOW</code>
+                    <definition>Barred Owl (Strix varia)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GHOW</code>
+                    <definition>Great Horned Owl (Bubo virginianus)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PYOW</code>
+                    <definition>Pygmy Owl (Glaucidium californicum)</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sex</attributeName>
+          <attributeLabel>sex</attributeLabel>
+          <attributeDefinition>Sex of owl that was detected</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>F</code>
+                    <definition>Female</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Male</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>U</code>
+                    <definition>Unknown</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>Date of detection</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>survey_are</attributeName>
+          <attributeLabel>survey_are</attributeLabel>
+          <attributeDefinition>Survey area. Only described for 2005 surveys.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Survey area not described</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>time</attributeName>
+          <attributeLabel>time</attributeLabel>
+          <attributeDefinition>Time of owl detection</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>station</attributeName>
+          <attributeLabel>station</attributeLabel>
+          <attributeDefinition>Owl survey station of detection. Note Excel will incorrectly read 2002-2003 stations as dates.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Station missing</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>vis_aud_bo</attributeName>
+          <attributeLabel>vis_aud_bo</attributeLabel>
+          <attributeDefinition>Visual detection, auditory detection, or both visual and auditory</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Auditory detection</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>Visual and auditory detection</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>V</code>
+                    <definition>Visual detection</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>bearing</attributeName>
+          <attributeLabel>bearing</attributeLabel>
+          <attributeDefinition>bearing of detection. likely bearing of owl from station, but this is not definitively known.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>bearing missing</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>notes</attributeName>
+          <attributeLabel>notes</attributeLabel>
+          <attributeDefinition>Notes related to detection</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No note listed</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>project</attributeName>
+          <attributeLabel>project</attributeLabel>
+          <attributeDefinition>Project or survey the owl was detected during.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>2002-2003 BPA Spotted Owl Surveys</code>
+                    <definition>2002-2003 BPA Spotted Owl Surveys</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2005 SPU HCP Spotted Owl Surveys</code>
+                    <definition>2005 SPU HCP Spotted Owl Surveys</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2006 SPU HCP Barred Owl Surveys</code>
+                    <definition>2006 SPU HCP Barred Owl Surveys</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>route</attributeName>
+          <attributeLabel>route</attributeLabel>
+          <attributeDefinition>route value of detection, likely related to OwlStations</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Unknown</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Unknown</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Unknown</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Route not listed</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>distance</attributeName>
+          <attributeLabel>distance</attributeLabel>
+          <attributeDefinition>Distance of detected owl. Unknown units-likely meters but may be yards.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>unknown units</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>age</attributeName>
+          <attributeLabel>age</attributeLabel>
+          <attributeDefinition>Age of owl detected</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Adult</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>J</code>
+                    <definition>Juvenile</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>U</code>
+                    <definition>Unknown age</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Age not specified</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>area</attributeName>
+          <attributeLabel>area</attributeLabel>
+          <attributeDefinition>Area of owl detection. Likely related to OwlStations</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Unknown</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Unknown</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Area not specified</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>x</attributeName>
+          <attributeLabel>x</attributeLabel>
+          <attributeDefinition>Longitude position of owl detection. Units are decimal degrees in WGS84.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>y</attributeName>
+          <attributeLabel>y</attributeLabel>
+          <attributeDefinition>Latitude position of owl detection. Units are decimal degrees in WGS84.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>64</numberOfRecords>
+    </dataTable>
+    <dataTable id="806a2af9e7c8fc57859fd27123c5eec8" scope="document" system="https://pasta.edirepository.org">
+      <entityName>SupplementalOwlSurveys</entityName>
+      <entityDescription>Contains supplemental annual one-night survey data from 2006-2018.</entityDescription>
+      <physical>
+        <objectName>SpottedOwlSurveySummary.csv</objectName>
+        <size unit="byte">2146</size>
+        <authentication method="MD5">d198150bc3857074f008f833ba53b3d6</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/27/1/806a2af9e7c8fc57859fd27123c5eec8</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Note that exact date is not known in all surveys. Some dates only have the year or month-year. If the csv is imported into excel it may interpret the date inaccurately as the first of the month in records with only month-year.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Staff/Consultant</attributeName>
+          <attributeLabel>Staff/Consultant</attributeLabel>
+          <attributeDefinition>Staff members conducting the survey. Dale Herter (consultant), Bill Richards (SPU Wildlife Biologsit), Sally Nickelson (SPU Wildlife Biologist).</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Notes</attributeName>
+          <attributeLabel>Notes</attributeLabel>
+          <attributeDefinition>Notes/data for the survey</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>13</numberOfRecords>
+    </dataTable>
+    <otherEntity id="95b4428d3f84e0d6d0c2ad10421d7674" scope="document" system="https://pasta.edirepository.org">
+      <entityName>SpottedOwlSurveyReport_CRW2005</entityName>
+      <entityDescription>Annual report for first year (2005) of HCP-related surveys for Northern Spotted Owl in the Cedar River Municipal Watershed. Includes historic survey information from 1981-1997 in Appendix B.</entityDescription>
+      <physical>
+        <objectName>SpottedOwlSurveyReport_CRW2005.pdf</objectName>
+        <size unit="byte">9709608</size>
+        <authentication method="MD5">8034246144519194974e352df854a273</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/27/1/95b4428d3f84e0d6d0c2ad10421d7674</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>Report</entityType>
+    </otherEntity>
+    <otherEntity id="3beceb6ee14cc3161080dde7d5a7c80c" scope="document" system="https://pasta.edirepository.org">
+      <entityName>SpottedOwlSurveyReport_CRW2005_Fig1</entityName>
+      <entityDescription>Full image that is cut-off in 2005 pdf report. Figure 1. Overall view all patches.</entityDescription>
+      <physical>
+        <objectName>SpottedOwlSurveyReport_CRW2005_Fig1.jpg</objectName>
+        <size unit="byte">1100954</size>
+        <authentication method="MD5">91387798c065924c36e3ca521f980a85</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>image/jpeg</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/27/1/3beceb6ee14cc3161080dde7d5a7c80c</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>map</entityType>
+    </otherEntity>
+    <otherEntity id="82cadd64a55c379e4540a85e40238f92" scope="document" system="https://pasta.edirepository.org">
+      <entityName>SpottedOwlSurveyReport_CRW2005_Fig4</entityName>
+      <entityDescription>Full image that is cut-off in 2005 pdf report. Figure 4. Survey Locations Patch #6</entityDescription>
+      <physical>
+        <objectName>SpottedOwlSurveyReport_CRW2005_Fig4.jpg</objectName>
+        <size unit="byte">980336</size>
+        <authentication method="MD5">e8d66ee2521ffb31b0c130b2155a936d</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>image/jpeg</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/27/1/82cadd64a55c379e4540a85e40238f92</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>map</entityType>
+    </otherEntity>
+    <otherEntity id="dbef8b00efd54a79dd1b184856dc3207" scope="document" system="https://pasta.edirepository.org">
+      <entityName>SpottedOwlSurveyReport_CRW2005_Fig8</entityName>
+      <entityDescription>Full image that is cut-off in 2005 pdf report. Figure 8. Owl locations 2005.</entityDescription>
+      <physical>
+        <objectName>SpottedOwlSurveyReport_CRW2005_Fig8.jpg</objectName>
+        <size unit="byte">968855</size>
+        <authentication method="MD5">c4b59e587d3de423da93371bae3ba3a7</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>image/jpeg</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/27/1/dbef8b00efd54a79dd1b184856dc3207</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>map</entityType>
+    </otherEntity>
+    <otherEntity id="ab981608c0d211e493fa1c47fff78306" scope="document" system="https://pasta.edirepository.org">
+      <entityName>SpottedOwlSurveyReport_CRW2005_Fig10</entityName>
+      <entityDescription>Full image that is cut-off in 2005 pdf report. Figure 10. Historical SPOW Sightings.</entityDescription>
+      <physical>
+        <objectName>SpottedOwlSurveyReport_CRW2005_Fig10.jpg</objectName>
+        <size unit="byte">779829</size>
+        <authentication method="MD5">04dcd71d76ed3a85e3c4162f6adac749</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>image/jpeg</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/27/1/ab981608c0d211e493fa1c47fff78306</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>map</entityType>
+    </otherEntity>
+    <otherEntity id="40f59168632e11690acb005f3265075f" scope="document" system="https://pasta.edirepository.org">
+      <entityName>BarredOwlSurveyReport_CRW2006</entityName>
+      <entityDescription>Annual report for 2006 surveys for Barred Owl in the Cedar River Municipal Watershed.</entityDescription>
+      <physical>
+        <objectName>BarredOwlSurveyReport_CRW2006.pdf</objectName>
+        <size unit="byte">1223377</size>
+        <authentication method="MD5">fb3b0fb0e029e1c162283d2f7513c060</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/27/1/40f59168632e11690acb005f3265075f</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>Report</entityType>
+    </otherEntity>
+    <otherEntity id="738b9a501588053a4a6cd0e08f82aa41" scope="document" system="https://pasta.edirepository.org">
+      <entityName>SpottedOwlSurveyReport_CRW2008</entityName>
+      <entityDescription>Annual report for last year (2008) of HCP-related surveys for Northern Spotted Owl in the Cedar River Municipal Watershed.</entityDescription>
+      <physical>
+        <objectName>SpottedOwlSurveyReport_CRW2008.pdf</objectName>
+        <size unit="byte">4862654</size>
+        <authentication method="MD5">09658ec664203d561e3a519a2055324e</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/27/1/738b9a501588053a4a6cd0e08f82aa41</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>Report</entityType>
+    </otherEntity>
+    <otherEntity id="dfef261043b34ef1e3a138b2e0c30a51" scope="document" system="https://pasta.edirepository.org">
+      <entityName>STOC_habitat</entityName>
+      <entityDescription>Classified map of potential Northern Spotted Owl Habitat in the Cedar River Municipal Watershed. Old growth stands were classified into nesting, foraging, or non-habitats via an unknown method.</entityDescription>
+      <physical>
+        <objectName>STOC_habitat.jpg</objectName>
+        <size unit="byte">3799577</size>
+        <authentication method="MD5">fbbdfc75a7253838e4c3c97ae5c941c7</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>image/jpeg</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/27/1/dfef261043b34ef1e3a138b2e0c30a51</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>map</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList>
+        <stmml:unit id="unknown units" name="unknown units">
+          <stmml:description/>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <emlEditor app="ezEML" release="2025.02.19"/>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

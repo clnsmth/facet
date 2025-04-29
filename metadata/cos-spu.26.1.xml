@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="cos-spu.26.1" system="https://pasta.edirepository.org" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>SPU_EDI_Data_Author</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>euPumgS_OFVR7WhsPalFZYTbYYevIqcBo6a4WNmvLvU</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.0311/FK2/d42c2f6ba8e01cbd8441c15d3f0db4a7</alternateIdentifier>
+    <title>City of Seattle, Seattle Public Utilities, Marbled Murrelet Surveys 2005-2007, Cedar River Municipal Watershed, King County, WA</title>
+    <creator>
+      <individualName>
+        <givenName>Alexander</givenName>
+        <surName>May</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-0013-1954</userId>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Alexander</givenName>
+        <surName>May</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-0013-1954</userId>
+    </metadataProvider>
+    <pubDate>2025-04-09</pubDate>
+    <abstract>
+      <para>From 2005 to 2007, we employed ornithological radar and standard audio-visual (AV) surveys to establish baseline information on the distribution and abundance of Marbled Murrelets (Brachyramphus marmoratus) in the Cedar River Municipal Watershed (CRMW), Washington. In 2007—our final year of this three-year study—we gathered radar data on 23 mornings at four long-term monitoring sites and conducted 54 mornings of AV surveys in areas of suitable nesting habitat or past murrelet detections. We recorded 25 pre-sunrise murrelet targets on radar, with mean daily landward counts ranging between 0 and 1 per morning. Counts did not differ significantly across the three years of study (2005–2007). Although overall radar counts were low, high day-to-day variability was observed (coefficients of variation from 130% to 173%). Monte Carlo simulations showed that with repeated surveys using the same methods, the monitoring program could detect an annual increase of 2–3% in Marbled Murrelet abundance over approximately 25–50 years. Audio-visual surveys in 2007 detected no murrelets, but combined three-year efforts confirmed murrelet use at two sites: Rex River and the confluence of the North Fork and South Fork of the Cedar River. Radar data further suggested low-level murrelet presence at a few other sub-basins. The findings indicate that Marbled Murrelets occur at low densities in the CRMW, likely limited by both high inland distance and relatively sparse old-growth forest structure suitable for nesting. The four radar stations established during this study provide a foundation for long-term monitoring, offering sufficient power to detect gradual changes in murrelet activity as ongoing forest restoration efforts in the CRMW progress.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>avian radar</keyword>
+      <keyword>marbled murrelet</keyword>
+      <keyword>Habitat Conservation Plan</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Cedar River Municipal Watershed (CRMW)</keyword>
+      <keywordThesaurus>City of Seattle Remote Watershed</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Watershed Research and Monitoring</keyword>
+      <keywordThesaurus>HCP Category</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Watershed Terrestrial Monitoring and Research</keyword>
+      <keywordThesaurus>HCP Group</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>birds</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>City of Seattle</keyword>
+      <keyword>King County</keyword>
+      <keyword>Seattle Public Utilities</keyword>
+      <keyword>SPU</keyword>
+      <keyword>Washington</keyword>
+      <keywordThesaurus>SPU</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</para>
+    </intellectualRights>
+    <licensed>
+      <licenseName>Creative Commons Attribution 4.0 International</licenseName>
+      <url>https://spdx.org/licenses/CC-BY-4.0</url>
+      <identifier>CC-BY-4.0</identifier>
+    </licensed>
+    <distribution id="10.0311/FK2/d42c2f6ba8e01cbd8441c15d3f0db4a7" scope="system" system="https://pasta.edirepository.org">
+      <online>
+        <url function="information">https://doi.org/10.0311/FK2/d42c2f6ba8e01cbd8441c15d3f0db4a7</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Within Cedar River Municipal Watershed in King County Washington USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.903946803638</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.511359868309</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.4358007736683</northBoundingCoordinate>
+          <southBoundingCoordinate>47.2981378645005</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2005</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2007</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Domain</taxonRankName>
+          <taxonRankValue>Eukaryota</taxonRankValue>
+          <commonName>eucaryotes</commonName>
+          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">2759</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>Kingdom</taxonRankName>
+            <taxonRankValue>Metazoa</taxonRankValue>
+            <commonName>metazoans</commonName>
+            <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">33208</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>Phylum</taxonRankName>
+              <taxonRankValue>Chordata</taxonRankValue>
+              <commonName>chordates</commonName>
+              <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">7711</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>Subphylum</taxonRankName>
+                <taxonRankValue>Craniata</taxonRankValue>
+                <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">89593</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>Superclass</taxonRankName>
+                  <taxonRankValue>Sarcopterygii</taxonRankValue>
+                  <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">8287</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>Class</taxonRankName>
+                    <taxonRankValue>Aves</taxonRankValue>
+                    <commonName>birds</commonName>
+                    <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">8782</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>Infraclass</taxonRankName>
+                      <taxonRankValue>Neognathae</taxonRankValue>
+                      <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">8825</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>Order</taxonRankName>
+                        <taxonRankValue>Charadriiformes</taxonRankValue>
+                        <commonName>shorebirds &amp; allies</commonName>
+                        <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">8906</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>Family</taxonRankName>
+                          <taxonRankValue>Alcidae</taxonRankValue>
+                          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">28683</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>Genus</taxonRankName>
+                            <taxonRankValue>Brachyramphus</taxonRankValue>
+                            <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">28692</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>Species</taxonRankName>
+                              <taxonRankValue>Brachyramphus marmoratus</taxonRankValue>
+                              <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">28694</taxonId>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <contact>
+      <individualName>
+        <givenName>Alexander</givenName>
+        <surName>May</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-0013-1954</userId>
+    </contact>
+    <contact>
+      <organizationName>Seattle Public Utilities</organizationName>
+      <address>
+        <city>Seattle</city>
+        <administrativeArea>WA</administrativeArea>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/</onlineUrl>
+      <userId directory="https://ror.org/">https://ror.org/05wkbzn97</userId>
+    </contact>
+    <publisher>
+      <organizationName>Environmental Data Initiative</organizationName>
+      <electronicMailAddress>info@edirepository.org</electronicMailAddress>
+      <onlineUrl>https://edirepository.org</onlineUrl>
+      <userId directory="https://ror.org">0330j0z60</userId>
+    </publisher>
+    <pubPlace>Environmental Data Initiative</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Four primary radar sites were established where topography and forest openings allowed sufficient coverage (including a broad powerline corridor and Chester Morse Lake). Additional short-term and follow-up audio-visual (AV) sites were selected based on the presence of suitable Marbled Murrelet habitat or earlier radar detections. Radar was chosen for its ability to detect murrelets in all light conditions and across broader airspace than can be covered visually. Audio-Visual Surveys validated radar findings in specific sub-basins or stands, focusing on habitat patches with structurally suitable nest platforms.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Radar:</para>
+          <para>A marine surveillance radar (Furuno Model FR–1510, 9,410 MHz, 12-kW peak power) was mounted on a van. The antenna was elevated to ~15° so that ground clutter in the center of the display was minimized. Four 6-V batteries linked in series powered the equipment. Radar was operated at a 1.5-km range, with a 0.07-µsec pulse length.</para>
+          <para>Surveys ran from 105 minutes before sunrise to 75 minutes after sunrise, spanning the known peak activity for Marbled Murrelets arriving inland. A single trained observer operated the radar and recorded data. A video camera or digital recorder captured the radar display, and the observer narrated visual observations into the recording. For each radar target, the observer recorded: time, flight direction, approximate flight path on a transparency overlay of the radar screen, target ground speed (miles/hour), flight behavior (straight-line, circling, etc.), species identification if confirmed visually or aurally, number of birds represented by the single radar echo (when discernible).</para>
+          <para>Radar detections after sunrise were largely excluded from murrelet-specific counts to avoid misidentification of Band-tailed Pigeons and other species that typically begin flying after sunrise.</para>
+          <para>Any target traveling faster than 40 mi/h (64 km/h) before sunrise was provisionally classified as Marbled Murrelet unless audio-visual confirmation suggested otherwise.</para>
+          <para>The observer simultaneously scanned the skies and listened for calls to match radar targets with actual birds whenever possible.</para>
+          <para>Targets were classified as “landward” if flying within 60° of the main valley axis inbound, “seaward” if flying within 60° of the main valley axis outbound, or “other” if flying in other directions.</para>
+          <para>Daily “landward” counts per site served as the index of Marbled Murrelet abundance. Higher or lower counts in consecutive years gave insight into annual variation and helped guide AV survey priorities.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Audio-Visual: </para>
+          <para>Ground-based audio-visual (AV) surveys were used to determine site-level nesting or occupancy. Nine AV survey sites were chosen based on radar detections from prior years (or earlier in the same season) indicating “hot spots” of murrelet activity (places where inbound flight paths converged or where murrelet-like targets deviated from the main valley axis), or stand characteristics that suggested high-quality murrelet nesting habitat (large diameter trees, old-growth canopy structure, abundant potential platform limbs, etc.). Additional or “follow-up” AV surveys were initiated in areas where radar detected flight paths indicative of potential inland nesting but where no structured surveys had been done. </para>
+          <para> Each site was surveyed at dawn, coinciding with known Marbled Murrelet inland flight periods. Observers arrived before first light and surveyed the dawn activity window (roughly 2 hours, following standard Inland Forest Survey Protocol (IFSP) guidelines) at vantage points with clear views of the canopy and flight corridors.  Each site was visited multiple times (commonly five visits) through late June and July. If unsuitable conditions (e.g., low visibility, heavy rain) were encountered, that survey was either repeated or supplemented by additional visits per protocol guidelines. For each detection, observers noted: Visual sightings-- number of birds, flight direction, altitude, behavior. Aural detections-- type of call, approximate location, and any subsequent visual confirmation. Weather conditions-- cloud cover, wind, precipitation. </para>
+          <para>Any site with multiple credible visual or aural detections was classified as “occupied” or “potentially occupied.” Sites with five consecutive “no-detections” visits were treated as “no occupancy detected” for that season.</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Marbled Murrelet Monitoring</title>
+      <personnel>
+        <individualName>
+          <givenName>Alex</givenName>
+          <surName>May</surName>
+        </individualName>
+        <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+        <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+        <role>Project Manager</role>
+      </personnel>
+      <abstract>
+        <para>If marbled murrelets have not been detected by HCP year 25 within second-growth forest in the watershed, the City will develop a prioritized sampling plan and conduct appropriate surveys in selected mature and late-successional forests within the watershed.</para>
+      </abstract>
+      <award>
+        <funderName>City of Seattle</funderName>
+        <awardNumber>N781307</awardNumber>
+        <title>Marbled Murrelet Monitoring</title>
+      </award>
+      <award>
+        <funderName>City of Seattle</funderName>
+        <awardNumber>N000741</awardNumber>
+        <title>Marbled Murrelet Monitoring</title>
+      </award>
+    </project>
+    <dataTable id="c012f9b3b5d4601568fd51339ff42486" scope="document" system="https://pasta.edirepository.org">
+      <entityName>Radar_MAMU_Sites</entityName>
+      <entityDescription>See pdf reports in "Other Entities" for complete records. Partial and incomplete data with unknown provenance. Ex. many sites described in 2007 report are missing from the table despite the table ostensibly containing some data from 2007. Describes names and locations of mobile van-mounted avian radar and standard audio-visual survey sampling locations to detect marbled murrelets. Also includes some summary data associated with each location. Detailed information and data are included in the pdf reports included in the data package.</entityDescription>
+      <physical>
+        <objectName>Radar_MAMU_Sites.csv</objectName>
+        <size unit="byte">2758</size>
+        <authentication method="MD5">e6aba5ae738ad0e9de128e4600af59d0</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/26/1/c012f9b3b5d4601568fd51339ff42486</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>SITE_NAME</attributeName>
+          <attributeLabel>SITE_NAME</attributeLabel>
+          <attributeDefinition>Site name of the sampling location</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SITE_NUMBE</attributeName>
+          <attributeLabel>SITE_NUMBE</attributeLabel>
+          <attributeDefinition>Site number</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>unitless</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>X_NAD83</attributeName>
+          <attributeLabel>X_NAD83</attributeLabel>
+          <attributeDefinition>X geographic coordinate in UTM/NAD83</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Y_NAD83</attributeName>
+          <attributeLabel>Y_NAD83</attributeLabel>
+          <attributeDefinition>Y geographic coordinate in UTM/NAD83</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ELEVATION</attributeName>
+          <attributeLabel>ELEVATION</attributeLabel>
+          <attributeDefinition>Elevation of survey site above sea level</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>mean_num</attributeName>
+          <attributeLabel>mean_num</attributeLabel>
+          <attributeDefinition>Mean number of landward murrelet targets/day observed at the radar site. Unknown whether this is the mean number for one of the survey years or averaged across all survey years, but appears to correspond to 2005 survey year only.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>mean_dir</attributeName>
+          <attributeLabel>mean_dir</attributeLabel>
+          <attributeDefinition>Mean direction of murrelet targets observed at each survey site. Unknown whether this is the mean direction for one of the survey years or averaged across all survey years.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Survey_Typ</attributeName>
+          <attributeLabel>Survey_Typ</attributeLabel>
+          <attributeDefinition>Survey type, either audio-visual or mobile avian radar-based</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>AV</code>
+                    <definition>audio visual surveys akin to those described in "Methods for surveying marbled murrelets in forests: a revised protocol for land management and research" Pacific Seabird Group 2003.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Radar</code>
+                    <definition>Van-mounted avian radar. See pdf report in data package for details.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Term</attributeName>
+          <attributeLabel>Term</attributeLabel>
+          <attributeDefinition>Term of the site in the study-whether it is intended to be a long term or short term survey location</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>1-yr</code>
+                    <definition>Site that was only surveyed for one year</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2-yr</code>
+                    <definition>Site that was surveyed for two of the three year study</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AV</code>
+                    <definition>Audio-visual survey site. not avian radar.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Long</code>
+                    <definition>Potential for long-term monitoring according to report results and associated statistical power analysis</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Survey_Yrs</attributeName>
+          <attributeLabel>Survey_Yrs</attributeLabel>
+          <attributeDefinition>Whether site was surveyed in 2005 2006 or both 2005 and 2006. Appears to be missing 2007 survey information.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>05</code>
+                    <definition>site surveyed in 2005 and not 2006</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>05 06</code>
+                    <definition>site surveyed in 2005 and 2006</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Detections</attributeName>
+          <attributeLabel>Detections</attributeLabel>
+          <attributeDefinition>Unknown. Might be total murrelet targets for the site, but not clear whether for one survey year or multiple survey years.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Survey_Vis</attributeName>
+          <attributeLabel>Survey_Vis</attributeLabel>
+          <attributeDefinition>Unknown</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>unknown</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>unknown</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>unknown</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>x</attributeName>
+          <attributeLabel>x</attributeLabel>
+          <attributeDefinition>longitude location of survey site in decimal degrees</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>y</attributeName>
+          <attributeLabel>y</attributeLabel>
+          <attributeDefinition>latitude location of survey site in decimal degrees</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Surveyed07</attributeName>
+          <attributeLabel>Surveyed07</attributeLabel>
+          <attributeDefinition>Whether site was surveyed in 2007</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>FALSE</code>
+                    <definition>Site was not surveyed in 2007</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TRUE</code>
+                    <definition>Site was surveyed in 2007</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NOTES</attributeName>
+          <attributeLabel>NOTES</attributeLabel>
+          <attributeDefinition>Notes associated with data. Not able to interpret meaning.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>no notes associated with record in data file</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>2006_no</attributeName>
+          <attributeLabel>2006_no</attributeLabel>
+          <attributeDefinition>Presumed to be mean number of landward murrelet targets/day observed at the radar site in 2006. Unknown why there are no values for several sites that were surveyed in 2006. Appears to only have data for sites that were also surveyed in 2007.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>average number of landward detections</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>May indicate that site was not surveyed in 2007 as well as 2006</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>2006_dir</attributeName>
+          <attributeLabel>2006_dir</attributeLabel>
+          <attributeDefinition>Mean flight direction for 2006. Note that this column only contains data for sites that were also surveyed in 2007.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>May indicate that site was not surveyed in 2007</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>2007_no</attributeName>
+          <attributeLabel>2007_no</attributeLabel>
+          <attributeDefinition>Presumed to be the average landward murrelet detections for sites surveyed in 2007.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>average number of landward detections</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>May indicate that site was not surveyed in 2007</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>2007_dir</attributeName>
+          <attributeLabel>2007_dir</attributeLabel>
+          <attributeDefinition>Mean flight direction for 2007</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Site not surveyed in 2007</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>20</numberOfRecords>
+    </dataTable>
+    <otherEntity id="76f0f40c95034f184bac8cf11615c1fd" scope="document" system="https://pasta.edirepository.org">
+      <entityName>Radar_MAMU_Tracks</entityName>
+      <entityDescription>Flight paths of probable marbled murrelets measured by van-mounted avian radar. Column metadata: jdate is julian date of the survey and detection, time is detection time and presumed to be in HMM format though this is unknown, site is the site number, and year is year of the survey radar detection.</entityDescription>
+      <physical>
+        <objectName>Radar_MAMU_Tracks.zip</objectName>
+        <size unit="byte">12303</size>
+        <authentication method="MD5">765b5c62e4cd7c1e2a47e6e16877132b</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/26/1/76f0f40c95034f184bac8cf11615c1fd</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>zipped shapefile</entityType>
+    </otherEntity>
+    <otherEntity id="979afee9019d087673172028f7b0e283" scope="document" system="https://pasta.edirepository.org">
+      <entityName>2005-2007 Marbled Murrelet Study FINAL w-attachments</entityName>
+      <entityDescription>Project report presented by consultant for three years of radar surveys and ground based audiovisual surveys. Report contains detailed information and results not stored in flat files in the data package. Unable to locate/retrieve digital versions of paper data sheets. Scanned copies of those paper data sheets from 2007 are appended in the report. 2005 and 2006 data sheets are included in the respective report for that year.</entityDescription>
+      <physical>
+        <objectName>2005-2007 Marbled Murrelet Study FINAL w-attachments.pdf</objectName>
+        <size unit="byte">12695479</size>
+        <authentication method="MD5">cab19cd9aed6f6733d1d25b94e04adac</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/26/1/979afee9019d087673172028f7b0e283</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>project report pdf</entityType>
+    </otherEntity>
+    <otherEntity id="324f69f9ceedf1e60bd7330ab44e7d43" scope="document" system="https://pasta.edirepository.org">
+      <entityName>Final Report 2006 Cedar River Murrelet Surveys</entityName>
+      <entityDescription>Project report presented by consultant for three years of radar surveys and ground based audiovisual surveys. Report contains detailed information and results not stored in flat files in the data package. Unable to locate/retrieve digital versions of paper data sheets. Scanned copies of those paper data sheets from 2006 are appended in the report. 2005 and 2007 data sheets are included in the respective report for that year.</entityDescription>
+      <physical>
+        <objectName>Final Report 2006 Cedar River Murrelet Surveys.pdf</objectName>
+        <size unit="byte">37305274</size>
+        <authentication method="MD5">ca6e8d3c609caea2e10e60fb4f7575bd</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/26/1/324f69f9ceedf1e60bd7330ab44e7d43</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>Report</entityType>
+    </otherEntity>
+    <otherEntity id="7bfcbd97e9806b68897f16f32e4fbedd" scope="document" system="https://pasta.edirepository.org">
+      <entityName>Final 2005 CRMW MAMU Report - High Res</entityName>
+      <entityDescription>Project report presented by consultant for the first of three years of radar surveys and ground based audiovisual surveys. Report contains detailed information and results not stored in flat files in the data package. Unable to locate/retrieve digital versions of paper data sheets. Scanned copies of those paper data sheets from 2005 are appended in the report. 2006 and 2007 data sheets are included in the respective report for that year.</entityDescription>
+      <physical>
+        <objectName>Final 2005 CRMW MAMU Report - High Res.pdf</objectName>
+        <size unit="byte">12532146</size>
+        <authentication method="MD5">33d90d09854cabc7aa217ceb83e2b631</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/26/1/7bfcbd97e9806b68897f16f32e4fbedd</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>Report</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList>
+        <stmml:unit id="unitless" name="unitless">
+          <stmml:description/>
+        </stmml:unit>
+        <stmml:unit id="average number of landward detections" name="average number of landward detections">
+          <stmml:description/>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <emlEditor app="ezEML" release="2025.02.19"/>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

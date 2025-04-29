@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="cos-spu.107.1" system="https://pasta.edirepository.org" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>corinna.gries@gmail.com</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.0311/FK2/cca5d8ff6dcd411a224d13381a325cc6</alternateIdentifier>
+    <title>City of Seattle Remote Watersheds GIS: Special Habitats Mapping and Classification Watershed Characterization Habitat Conservation Plan</title>
+    <creator>
+      <individualName>
+        <givenName>Tom</givenName>
+        <surName>Van Buren</surName>
+      </individualName>
+      <organizationName>Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Rd SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">206 386 4212</phone>
+      <electronicMailAddress>tom.vanburen@seattle.gov</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0002-8251-4771</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Sally</givenName>
+        <surName>Nickelson</surName>
+      </individualName>
+      <organizationName>City of Seattle</organizationName>
+      <positionName>Fish and Wildlife</positionName>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Tom</givenName>
+        <surName>Van Buren</surName>
+      </individualName>
+      <organizationName>Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Rd SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">206 386 4212</phone>
+      <electronicMailAddress>tom.vanburen@seattle.gov</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0002-8251-4771</userId>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Bill</givenName>
+        <surName>Richards</surName>
+      </individualName>
+      <organizationName>City of Seattle</organizationName>
+      <role>Fish and Wildlife</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Heidy</givenName>
+        <surName>Barnett</surName>
+      </individualName>
+      <organizationName>City of Seattle</organizationName>
+      <role>Fish and Wildlife</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Jennifer</givenName>
+        <surName>French</surName>
+      </individualName>
+      <organizationName>City of Seattle</organizationName>
+      <role>Planning</role>
+    </associatedParty>
+    <pubDate>2024-03-12</pubDate>
+    <abstract>
+      <para>The current special habitats classification project started in 1994 as a non-forested habitat mapping and classification project. Fish and Wildlife staff developed a non-forest habitat classification and coding system as an adjunct to a forest classification and growth model system developed by Jim Arnie (at a time when commercial logging was expected to continue in the CRMW). The Arnie classification system used a nine-digit code, with the first four digits used to classify forested areas (called Species I codes) and the next five used for non-forested areas (Species II codes). Of the five non-forested classification digits, four described the area within the non-forested polygon, while the final digit identified the source of the species II code (photo interpretation, field checked, etc.).</para>
+    </abstract>
+    <keywordSet>
+      <keyword>Special Habitats Mapping and Classification</keyword>
+      <keyword>Photo Interpretation</keyword>
+      <keyword>Mapping</keyword>
+      <keyword>Field Verification</keyword>
+      <keywordThesaurus>HCP</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Watershed Research and Monitoring</keyword>
+      <keywordThesaurus>HCP Category</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Watershed Terrestrial Monitoring and Research</keyword>
+      <keywordThesaurus>HCP Group</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Watershed Characterization</keyword>
+      <keywordThesaurus>HCP Project Name</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>spatial methods</keyword>
+      <keyword>species lists</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Aerial Orthophotography</keyword>
+      <keyword keywordType="theme">Cedar River Municipal Watershed</keyword>
+      <keyword keywordType="theme">City of Seattle</keyword>
+      <keyword keywordType="theme">Seattle Public Utilities</keyword>
+      <keywordThesaurus>None</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</para>
+    </intellectualRights>
+    <distribution id="10.0311/FK2/cca5d8ff6dcd411a224d13381a325cc6" scope="system" system="https://pasta.edirepository.org">
+      <online>
+        <url function="information">https://doi.org/10.0311/FK2/cca5d8ff6dcd411a224d13381a325cc6</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Cedar River Municipal Watershed, City of Seattle, King County, Washington, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.027553</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.387922</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.49052</northBoundingCoordinate>
+          <southBoundingCoordinate>47.201953</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2001</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2002</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>Project completed in 2002.  Ongoing data collection is not planned.</para>
+      </description>
+      <maintenanceUpdateFrequency>notPlanned</maintenanceUpdateFrequency>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Tom</givenName>
+        <surName>Van Buren</surName>
+      </individualName>
+      <organizationName>Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Rd SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">206 386 4212</phone>
+      <electronicMailAddress>tom.vanburen@seattle.gov</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0002-8251-4771</userId>
+    </contact>
+    <publisher>
+      <organizationName>Environmental Data Initiative</organizationName>
+      <electronicMailAddress>info@edirepository.org</electronicMailAddress>
+      <onlineUrl>https://edirepository.org</onlineUrl>
+      <userId directory="https://ror.org">0330j0z60</userId>
+    </publisher>
+    <pubPlace>Environmental Data Initiative</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <para>The current special habitats classification project started in 1994 as a non-forested habitat mapping and classification project. Fish and Wildlife staff developed a non-forest habitat classification and coding system as an adjunct to a forest classification and growth model system developed by Jim Arnie (at a time when commercial logging was expected to continue in the CRMW). The Arnie classification system used a nine-digit code, with the first four digits used to classify forested areas (called Species I codes) and the next five used for non-forested areas (Species II codes). Of the five non-forested classification digits, four described the area within the non-forested polygon, while the final digit identified the source of the species II code (photo interpretation, field checked, etc.).</para>
+          <para/>
+          <para>The goal was to estimate the total amount of acres of all non-forested habitat types in the CRMW by making the shape of non-forested polygons correspond to boundaries seen on aerial photographs, and conducting a limited amount of field verification. In addition, a one-mile buffer around the CRMW was also classified, but not field verified. From 1994-2000 the GIS tbs99_a layer (a product of the Mason, Bruce and Girard classification of Landsat data) was modified by several CRMW Fish and Wildlife staff, as they interpreted aerial photographs and classified non-forested polygons using the species II codes. Results from this initial project were used in the development of the HCP.</para>
+          <para>The current project was renamed Special Habitats because it included some forested areas (e.g., forested wetlands, riparian areas).  Because the Forest Ecology group was no longer using the Arnie classification system, a new classification and coding system, no longer limited to four digits, was developed (see excel file ‘special habitat codes’ described in data description section).  It utilized a “key letter” approach, in which the habitat association was identified by the starting letter, with the second letter identifying the subtype (e.g., the key letter for meadows was M, with the upland meadow code = MU, alpine meadow = MA, and wet meadow = MW).  All codes had two digits, and included association types plus individual species codes.  A combination of the two digit codes was used to describe all special habitat polygons, with association type listed first and individual species codes (if any) listed in order of dominance.  So the number of digits varied between polygons, depending on the number of dominant vegetation species present.  A separate column in the attribute table identified whether the polygon was classified using photo interpretation or had been field verified (in which case the person was identified).  Most polygons within the CRMW were field verified, while those within one mile of the watershed were classified using photo interpretation based on the field verification done within the CRMW.   </para>
+          <para> </para>
+          <para>The 1998 orthophoto of the CRMW was overlain with the GIS layer developed by earlier Fish and Wildlife staff, and existing GIS layers of roads, rivers, contours, and previously mapped wetlands were added and used for reference.  Special habitat polygon boundaries were modified to match boundaries seen on the 1998 orthophoto, many polygons were split and more detailed boundaries drawn (e.g., areas of bare talus were separated from areas of shrub-covered talus), some polygons were deleted, and other added.  During field verification, many small patches of special habitat (e.g., rock outcrops) were seen that had not been included from the photo interpretation.  These were subsequently added and classified.  All classification codes were changed from the Species II 4-digit system to the new coding system. </para>
+        </description>
+        <instrumentation>fixed wing aircraft - 1998 orthophotography</instrumentation>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Assessment of Expanded Forest Attribute Data</title>
+      <personnel>
+        <individualName>
+          <givenName>Rolf</givenName>
+          <givenName>F</givenName>
+          <surName>Gersonde</surName>
+        </individualName>
+        <organizationName>Seattle Public Utilities</organizationName>
+        <electronicMailAddress>rolf.gersonde@seattle.gov</electronicMailAddress>
+        <userId directory="https://orcid.org">https://orcid.org/0000-0002-5044-4203</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <award>
+        <funderName>Seattle Public Utilities</funderName>
+        <awardNumber>N781302</awardNumber>
+        <title>Assessment of Expanded Forest Attribute Data</title>
+      </award>
+    </project>
+    <dataTable id="0ab4f7fe9d615fd60565dbe889b5c12e" scope="document" system="https://pasta.edirepository.org">
+      <entityName>cos-special-habitat-codes</entityName>
+      <entityDescription>This project was designed to review, update, and modify previous special habitats mapping and classification efforts in the Cedar River Municipal Watershed (CRMW). Objectives included developing a new classification and coding system, having a single person do a photo interpretation and classification of all special habitats in the CRMW using the 1998 orthophoto, and conducting extensive field verification of the photo interpretation and classification.</entityDescription>
+      <physical>
+        <objectName>cos-special-habitat-codes.csv</objectName>
+        <size unit="byte">13299</size>
+        <authentication method="MD5">859080fa4f9788eea1e00497db5cd672</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/107/1/0ab4f7fe9d615fd60565dbe889b5c12e</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Code</attributeName>
+          <attributeLabel>Code</attributeLabel>
+          <attributeDefinition>It utilized a “key letter” approach, in which the habitat association was identified by the starting letter, with the second letter identifying the subtype (e.g., the key letter for meadows was M, with the upland meadow code = MU, alpine meadow = MA, and wet meadow = MW). All codes had two digits, and included association types plus individual species codes. A combination of the two digit codes was used to describe all special habitat polygons, with association type listed first and individual species codes (if any) listed in order of dominance. So the number of digits varied between polygons, depending on the number of dominant vegetation species present. A separate column in the attribute table identified whether the polygon was classified using photo interpretation or had been field verified (in which case the person was identified). Most polygons within the CRMW were field verified, while those within one mile of the watershed were classified using photo interpretation based on the field verification done within the CRMW.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Description</attributeName>
+          <attributeLabel>Description</attributeLabel>
+          <attributeDefinition>the code spelled out and described</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Application Notes</attributeName>
+          <attributeLabel>Application Notes</attributeLabel>
+          <attributeDefinition>a more detailed description of Code helpful for applying classification</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Association</attributeName>
+          <attributeLabel>Association</attributeLabel>
+          <attributeDefinition>child parent relationship associated to code</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Individual Species Code</attributeName>
+          <attributeLabel>Individual Species Code</attributeLabel>
+          <attributeDefinition>yes/no if code represents an individual species</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>a flag for elements that are individual species</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Method</attributeName>
+          <attributeLabel>Method</attributeLabel>
+          <attributeDefinition>how code is created</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>90</numberOfRecords>
+    </dataTable>
+    <otherEntity id="f86862d0f9deaebecbc95a20795e9e94" scope="document" system="https://pasta.edirepository.org">
+      <entityName>Special-Habitats-GIS-metadata</entityName>
+      <entityDescription>ArcCatalog 10.8 out of the box metadata export using xml translator ArcGIS\Desktop10.8\Metadata\Translator\ArcGIS2FGDC.xml</entityDescription>
+      <physical>
+        <objectName>Special-Habitats-xslttransfo1.xml</objectName>
+        <size unit="byte">12697</size>
+        <authentication method="MD5">77d35c6906c5b79fa632e1945f07c05d</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/xml</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/107/1/f86862d0f9deaebecbc95a20795e9e94</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/xml</entityType>
+    </otherEntity>
+    <otherEntity id="72b09016faa09130b4e868937cbf9c31" scope="document" system="https://pasta.edirepository.org">
+      <entityName>Special Habitats Mapping Project Data Acquisition Description Document (DADD)</entityName>
+      <entityDescription>This project was designed to review, update, and modify previous special habitats mapping and classification efforts in the Cedar River Municipal Watershed (CRMW). Objectives included developing a new classification and coding system, having a single person do a photo interpretation and classification of all special habitats in the CRMW using the 1998 orthophoto, and conducting extensive field verification of the photo interpretation and classification.</entityDescription>
+      <physical>
+        <objectName>Special Habitats Mapping Project DADD.pdf</objectName>
+        <size unit="byte">152323</size>
+        <authentication method="MD5">c7ad6ec4d106d37fad93851b2ba8d1f7</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/107/1/72b09016faa09130b4e868937cbf9c31</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+    <otherEntity id="0eaf43eb3cdd26b73bacf6ed9394e368" scope="document" system="https://pasta.edirepository.org">
+      <entityName>Special-habitats-shapefile-zip</entityName>
+      <entityDescription>ESRI Shapefile. Arcview GIS layer with associated attribute tables (J\wshed\Fish and Wildlife \Special Habitats\‘special habitats’ – .dbf, .sbn, .sbx, .shp, and .shx files; and .mxd file: ‘special habitats’). The attributes (in the Arcview table of attributes) associated with each special habitat polygon include the area and perimeter of the special habitat polygon, a standard (unique) ID number, the vegetation code (veg_cd2001) and a ‘checked’ column.</entityDescription>
+      <physical>
+        <objectName>crw-special-habitats-shp.zip</objectName>
+        <size unit="byte">1267954</size>
+        <authentication method="MD5">f0b1c22ac77963fa4bb240ecde226b14</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/107/1/0eaf43eb3cdd26b73bacf6ed9394e368</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity id="c87d759e1407667ed1fba2e190cf4ff9" scope="document" system="https://pasta.edirepository.org">
+      <entityName>Special-habitats-geojson-zip</entityName>
+      <entityDescription>ESRI feature class exported to Geojson format and bundled with ESRI FGDC compatible xml metadata</entityDescription>
+      <physical>
+        <objectName>crw-special-habitats-geojson.zip</objectName>
+        <size unit="byte">1823277</size>
+        <authentication method="MD5">77bff43f8b4172598e286355b8fc1368</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/107/1/c87d759e1407667ed1fba2e190cf4ff9</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <importedFromXML dateImported="2024-02-19" filename="cos-spu-VanBuren-template.1.1.xml" taxonomicCoverageExempt="True"/>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <emlEditor app="ezEML" release="2024.02.21"/>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

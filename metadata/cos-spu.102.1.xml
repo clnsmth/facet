@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="cos-spu.102.1" system="https://pasta.edirepository.org" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=seattlewatersheds,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.0311/FK2/f0829b7a6c5e226cfe4b139484fd6996</alternateIdentifier>
+    <title>City of Seattle Remote Watersheds GIS ORTHOPHOTOGRAPHY 1930</title>
+    <creator>
+      <individualName>
+        <givenName>Tom</givenName>
+        <surName>Van Buren</surName>
+      </individualName>
+      <organizationName>Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Rd SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">206 386 4212</phone>
+      <electronicMailAddress>tom.vanburen@seattle.gov</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0002-8251-4771</userId>
+    </creator>
+    <pubDate>2024-03-11</pubDate>
+    <abstract>This poster measures 3' x 6' (~1:24,000 scale). It was on display in the Thompson House at the City of Seattle, Seattle Public Utilities, Cedar River Municipal Watershed headquarters from 1990 to 2018. Seattle Public Utilities scanned the poster in high resolution in three color bands at 400 dpi and georeferenced using Wasnimgton State Public Land Survey System section lines snapped to section lines on source document. The poster is now preserved in the archival collection located at the City of Seattle Watershed Education Center Gale Archives located at Cedar Falls.</abstract>
+    <keywordSet>
+      <keyword>Watershed Research and Monitoring</keyword>
+      <keywordThesaurus>HCP Category</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Watershed Terrestrial Monitoring and Research</keyword>
+      <keywordThesaurus>HCP Group</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>GIS Data Compatibility Study</keyword>
+      <keywordThesaurus>HCP Project Name</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Cedar River Municipal Watershed</keyword>
+      <keyword keywordType="theme">Aerial Orthophotography</keyword>
+      <keyword keywordType="theme">City of Seattle</keyword>
+      <keyword keywordType="theme">Seattle Public Utilities</keyword>
+      <keyword keywordType="theme">historic</keyword>
+      <keyword keywordType="theme">1930</keyword>
+      <keyword keywordType="theme">raster</keyword>
+      <keywordThesaurus>None</keywordThesaurus>
+    </keywordSet>
+    <additionalInfo>Data presentation form - raster digital data.</additionalInfo>
+    <intellectualRights>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</intellectualRights>
+    <distribution id="10.0311/FK2/f0829b7a6c5e226cfe4b139484fd6996" scope="system" system="https://pasta.edirepository.org">
+      <online>
+        <url function="information">https://doi.org/10.0311/FK2/f0829b7a6c5e226cfe4b139484fd6996</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Cedar River Municipal Watershed, City of Seattle, Washington, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.027553</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.387922</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.49052</northBoundingCoordinate>
+          <southBoundingCoordinate>47.201953</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1930-10-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>1930-10-01</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <purpose>Aerial orthophotography of Cedar River Municipal Watershed October 1930</purpose>
+    <maintenance>
+      <description>Progress - Complete. Update - None planned.</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Tom</givenName>
+        <surName>Van Buren</surName>
+      </individualName>
+      <organizationName>Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Rd SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">206 386 4212</phone>
+      <electronicMailAddress>tom.vanburen@seattle.gov</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0002-8251-4771</userId>
+    </contact>
+    <publisher>
+      <organizationName>Environmental Data Initiative</organizationName>
+      <electronicMailAddress>info@edirepository.org</electronicMailAddress>
+      <onlineUrl>https://edirepository.org</onlineUrl>
+      <userId directory="https://ror.org">0330j0z60</userId>
+    </publisher>
+    <pubPlace>Environmental Data Initiative</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Scanned source - a 3' x6' poster and created 400dots per inch,  three color bands georeferenced and uploaded into ESRI raster feature class.</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>GIS Data Compatibility Study</title>
+      <personnel>
+        <individualName>
+          <givenName>Tom</givenName>
+          <surName>Van Buren</surName>
+        </individualName>
+        <organizationName>City of Seattle</organizationName>
+        <address>
+          <deliveryPoint>19901 Cedar Falls Rd SE</deliveryPoint>
+          <city>North Bend</city>
+          <administrativeArea>WA</administrativeArea>
+          <postalCode>98045</postalCode>
+          <country>US</country>
+        </address>
+        <phone phonetype="voice">206 386 4212</phone>
+        <electronicMailAddress>tom.vanburen@seattle.gov</electronicMailAddress>
+        <userId directory="https://orcid.org">0000-0002-8251-4771</userId>
+        <role/>
+      </personnel>
+      <award>
+        <funderName>City of Seattle</funderName>
+        <awardNumber>N781312</awardNumber>
+        <title>GIS Data Compatibility Study</title>
+      </award>
+    </project>
+    <otherEntity id="53f230ce9b2fec8558e3d912f8900b3a" scope="document" system="https://pasta.edirepository.org">
+      <entityName>1930-Orthophotography_argis2fgdc</entityName>
+      <entityDescription>1930 orthophotography converted from ESRI raster stored in SDEIMG to geotiff and ESRI metadata transformed using arcgis2fgdc translator to xml</entityDescription>
+      <physical>
+        <objectName>1930-Orthophotography_argis2fgdc.zip</objectName>
+        <size unit="byte">334297771</size>
+        <authentication method="MD5">856f4bd03b399a3b5798bc9ca0eb4abf</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/102/1/53f230ce9b2fec8558e3d912f8900b3a</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity id="2598a70048378311416369af69377bf1" scope="document" system="https://pasta.edirepository.org">
+      <entityName>CRW-Oct1930-Color400dpi-RRD</entityName>
+      <entityDescription>1930 Orthophotography color 400 dpi RRD format. A reduced resolution dataset (.rrd) file is one method of storing the pyramid layers for a raster dataset.</entityDescription>
+      <physical>
+        <objectName>CRW-Oct1930-Color400dpi-RRD.zip</objectName>
+        <size unit="byte">123437243</size>
+        <authentication method="MD5">4c526f38780073174baddde52eb0db51</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/102/1/2598a70048378311416369af69377bf1</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity id="9a3dc915f4c9e22bf8eeb8e4e1579c12" scope="document" system="https://pasta.edirepository.org">
+      <entityName>CRW_Oct1930_Color200dpi_high_res_composite</entityName>
+      <entityDescription>color tiff 200 dpi high "composite" TIF 235MB-see other</entityDescription>
+      <physical>
+        <objectName>CRW_Oct1930_Color200dpi_high_res_composite.zip</objectName>
+        <size unit="byte">165017809</size>
+        <authentication method="MD5">60c437d8546aaa8af71214bff71db5c3</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/102/1/9a3dc915f4c9e22bf8eeb8e4e1579c12</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <importedFromXML dateImported="2024-03-04" filename="orthophotography_raw.xml" taxonomicCoverageExempt="True"/>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <emlEditor app="ezEML" release="2024.02.21"/>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

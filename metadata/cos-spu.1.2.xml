@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="cos-spu.1.2" system="https://pasta.edirepository.org" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>SPU_EDI_Data_Author</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>uid=seattlewatersheds,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.0311/FK2/0beb90677f2a041a8d25aaaa929e30b1</alternateIdentifier>
+    <title>Final Cedar River Watershed Habitat Conservation Plan For the Issuance of a Permit to Allow Incidental Take of Threatened and Endangered Species, City of Seattle, April 2000</title>
+    <creator>
+      <individualName>
+        <givenName>Jim</givenName>
+        <surName>Erckmann</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Suzy</givenName>
+        <surName>Flagor</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Tom</givenName>
+        <surName>Van Buren</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov?</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-8251-4771</userId>
+    </metadataProvider>
+    <pubDate>2024-08-14</pubDate>
+    <abstract>
+      <para>The City of Seattle (City) has prepared a multi-species Habitat Conservation Plan (HCP)
+        to comply with the federal Endangered Species Act (ESA: 16 U.S.C. 1531 et seq.) and to
+        address a variety of related natural resource issues. The plan will cover the City’s
+        90,545-acre Cedar River Municipal Watershed and the City’s water supply and hydroelectric
+        operations on the Cedar River, which discharges into Lake Washington. In general, the City’s
+        HCP is not an HCP for planned development, but rather it is a set of mitigation and
+        conservation commitments related to ongoing water supply, hydroelectric power supply, and
+        watershed management activities.</para>
+      <para>The HCP is based on a decade of studies and the results of over 5 years of analysis and
+        negotiations with five state and federal agencies as documented in an Agreement in
+        Principle, dated March 14, 1997. The Agreement in Principle addresses not only issues under
+        the Endangered Species Act (ESA) but also related issues under state law and tribal
+        treaties, and issues with the U.S. Army Corps of Engineers (ACOE). The ACOE manages lake
+        levels in Lake Washington, and navigational traffic between Lake Washington and Puget Sound,
+        through operation of the Hiram Chittenden Locks (Ballard Locks) and Lake Washington Ship
+        Canal.</para>
+      <para>The City’s commitments regarding these related issues are included in and are part of
+        this HCP and associated Implementation Agreement (Appendix 1), and the agreements with other
+        agencies are represented in the related draft Instream Flow Agreement and draft Landsburg
+        Mitigation Agreement, which are Appendices 27 and 28 of this HCP, respectively. The Instream
+        Flow Agreement covers minimum and supplemental instream flows, operation of an instream flow
+        commission, supplementation of minimum flows, and water conservation improvements at the
+        Ballard Locks. The Landsburg Mitigation Agreement covers mitigation for the blockage to
+        anadromous fish posed by the Landsburg Diversion Dam, where the City diverts water for
+        municipal and industrial supply, as well as the effects of the intake structure.</para>
+      <para>The Instream Flow Agreement and the Landsburg Mitigation Agreement are intended to
+        resolve issues about river flows and fish passage at Landsburg related to a variety of
+        interests of the different signatory parties in addition to the ESA.</para>
+      <para>Although the Muckleshoot Indian Tribe (the Tribe) has not signed any of the agreements
+        related to the HCP, the City attempted to address many of the issues raised by the Tribe
+        during negotiations, and the Tribe participated in the development of the proposed instream
+        flows and mitigation for the Landsburg blockage to fish. The City and Services continue to
+        seek the Tribe’s agreement on issues related to instream flows and the blockage to fish
+        passage posed by the City’s Landsburg Diversion Dam.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>Cedar River Municipal Watershed (CRMW)</keyword>
+      <keywordThesaurus>City of Seattle Remote Watershed</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Watershed Management</keyword>
+      <keyword>Watershed Research and Monitoring</keyword>
+      <keywordThesaurus>HCP Category</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Upland Reserve Forest Restoration</keyword>
+      <keyword>Watershed Terrestrial Monitoring and Research</keyword>
+      <keyword>Cedar Permanent Dead Storage Project Evaluation</keyword>
+      <keyword>Stream and Riparian Restoration</keyword>
+      <keyword>Watershed Aquatic Monitoring and Research</keyword>
+      <keywordThesaurus>HCP Group</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>City of Seattle</keyword>
+      <keyword>Seattle Public Utilities</keyword>
+      <keyword>SPU</keyword>
+      <keyword>King County</keyword>
+      <keyword>Washington</keyword>
+      <keyword>Watershed Management Division</keyword>
+      <keyword>WMD</keyword>
+      <keyword>Natural Resources Section</keyword>
+      <keyword>Hydrology Progam</keyword>
+      <keyword>Wildlife Program</keyword>
+      <keyword>Fish Program</keyword>
+      <keyword>Forest Ecology Program</keyword>
+      <keyword>GIS Program</keyword>
+      <keyword>GIS</keyword>
+      <keyword>Spatial vector</keyword>
+      <keyword>Spatial raster</keyword>
+      <keyword>Image</keyword>
+      <keyword>reference library</keyword>
+      <keywordThesaurus>SPU</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This data package is released to the "public domain" under Creative Commons CC0 1.0 "No
+        Rights Reserved" (see: https://creativecommons.org/publicdomain/zero/1.0/). It is considered
+        professional etiquette to provide attribution of the original work if this data package is
+        shared in whole or by individual components. A generic citation is provided for this data
+        package on the website https://portal.edirepository.org (herein "website") in the summary
+        metadata page. Communication (and collaboration) with the creators of this data package is
+        recommended to prevent duplicate research or publication. This data package (and its
+        components) is made available "as is" and with no warranty of accuracy or fitness for use.
+        The creators of this data package and the website shall not be liable for any damages
+        resulting from misinterpretation or misuse of the data package or its components. Periodic
+        updates of this data package may be available from the website. Thank you.</para>
+    </intellectualRights>
+    <distribution id="10.0311/FK2/0beb90677f2a041a8d25aaaa929e30b1" scope="system" system="https://pasta.edirepository.org">
+      <online>
+        <url function="information">https://doi.org/10.0311/FK2/0beb90677f2a041a8d25aaaa929e30b1</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>City of Seattle Remote Watersheds</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.2123175</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.3132675</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.81485074</northBoundingCoordinate>
+          <southBoundingCoordinate>47.24425491</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Cedar River Municipal Watershed</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.0334104</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.3631524</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.49192463</northBoundingCoordinate>
+          <southBoundingCoordinate>47.24097306</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2000-04-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2050-05-01</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>The Final Cedar River Watershed Habitat Conservation Plan was finalized in
+          2020.</para>
+      </description>
+      <maintenanceUpdateFrequency>notPlanned</maintenanceUpdateFrequency>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Tom</givenName>
+        <surName>Van Buren</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-8251-4771</userId>
+    </contact>
+    <contact>
+      <organizationName>Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>700 5th Avenue</deliveryPoint>
+        <city>Seattle</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98104</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <userId directory="https://ror.org/">https://ror.org/05wkbzn97://ror.org/05wkbzn97</userId>
+    </contact>
+    <publisher>
+      <organizationName>Environmental Data Initiative</organizationName>
+      <electronicMailAddress>info@edirepository.org</electronicMailAddress>
+      <onlineUrl>https://edirepository.org</onlineUrl>
+      <userId directory="https://ror.org">0330j0z60</userId>
+    </publisher>
+    <pubPlace>Environmental Data Initiative</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Covered activities for the HCP include activities carried out or authorized by the
+            City on Covered Lands (Section 1.2) and on any additional lands and waters to which the
+            conservation and mitigation measures in the HCP apply. Covered activities include all
+            City operations on the Cedar River in conjunction with its water supply, hydroelectric
+            power generation, and land management activities, including all attendant facilities at
+            the Landsburg Diversion Dam and within the municipal watershed, but not facilities
+            outside the municipal watershed. Seattle Public Utilities manages the water supply, with
+            its attendant facilities, as well as the land in the municipal watershed. Seattle City
+            Light manages the hydroelectric plant, with its attendant facilities, in conjunction
+            with water supply operations. Supply activities include management of the reservoir
+            complex, including the Overflow Dike, which impounds Chester Morse Lake, and the Masonry
+            Dam, which impounds the Masonry Pool to the west of the lake (Map 2; Figure 1.2-2).
+            Water is withdrawn from the Cedar River for municipal and industrial supply, including
+            aquifer recharge, just upstream of the Landsburg Diversion Dam at the water intake
+            operated by Seattle Public Utilities. The intake for the City’s hydroelectric power
+            plant is located at the Masonry Dam, and the plant is located downstream at Cedar Falls,
+            within the municipal watershed. The Masonry Dam, Overflow Dike, and Landsburg Dam are
+            operated conjunctively for water supply, hydroelectric power generation, flood
+            control,and instream flow maintenance. Water supply activities include operation and
+            maintenance of water diversion, water treatment, and fish handling and artificial
+            propagation facilities located at Landsburg.</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>GIS Data Compatibility Study</title>
+      <personnel>
+        <individualName>
+          <givenName>Tom</givenName>
+          <surName>VanBuren</surName>
+        </individualName>
+        <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+        <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+        <role>Project Manager</role>
+      </personnel>
+      <abstract>GIS data compatibility [N54515] For all monitoring and research programs indicated above, the City will integrate data collection formats to make them compatible with watershed GIS systems and provide for mapping and analysis capability. All data collected and incorporated into the GIS system that could support refinement and operation of the modeling efforts proposed below will be collected in a format appropriate for that purpose and compatible with all integrated processing systems to the greatest extent possible. The objective of this program is to provide a systematic and efficient means by which data collection formats, incorporation of data in databases, database management, and integration with modeling efforts can be designed and maintained to maximize the system’s ability to support HCP related management activities. In addition, databases should be updated with the most current and best available information whenever possible from both departmental and appropriate external sources.The cost of this linkage will be up to $50,000 in HCP years 18 and then up to $25,000 in each HCP year interval 915, 1625, 2635, 3650, for a total cost of $150,000.</abstract>
+      <award>
+        <funderName>City of Seattle</funderName>
+        <awardNumber>N781312</awardNumber>
+        <title>GIS Data Compatibility Study</title>
+      </award>
+    </project>
+    <otherEntity id="87bf532345b27ada6411416d881fc059" scope="document" system="https://pasta.edirepository.org">
+      <entityName>Final Cedar River Watershed Habitat Conservation Plan For the Issuance of a Permit to Allow Incidental Take of Threatened and Endangered Species, City of Seattle, April 2000</entityName>
+      <entityDescription>The City of Seattle (City) has prepared a multi-species Habitat Conservation Plan (HCP) to comply with the federal Endangered Species Act (ESA: 16 U.S.C. 1531 et seq.) and to address a variety of related natural resource issues. The plan will cover the City’s 90,545-acre Cedar River Municipal Watershed and the City’s water supply and hydroelectric operations on the Cedar River, which discharges into Lake Washington. In general, the City’s HCP is not an HCP for planned development, but rather it is a set of mitigation and conservation commitments related to ongoing water supply, hydroelectric power supply, and watershed management activities. The HCP is based on a decade of studies and the results of over 5 years of analysis and negotiations with five state and federal agencies as documented in an Agreement in Principle, dated March 14, 1997. The Agreement in Principle addresses not only issues under the Endangered Species Act (ESA) but also related issues under state law and tribal treaties, and issues with the U.S. Army Corps of Engineers (ACOE). The ACOE manages lake levels in Lake Washington, and navigational traffic between Lake Washington and Puget Sound, through operation of the Hiram Chittenden Locks (Ballard Locks) and Lake Washington Ship Canal.</entityDescription>
+      <physical>
+        <objectName>1HCP - Entire Document.pdf</objectName>
+        <size unit="byte">99117438</size>
+        <authentication method="MD5">4e377ccef2b27da769a62245b146b858</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/1/2/87bf532345b27ada6411416d881fc059</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+    <otherEntity id="376d8f5833aa7a8f51ae17e0e90fb861" scope="document" system="https://pasta.edirepository.org">
+      <entityName>Resource Maps for the Final Cedar River Watershed Habitat Conservation Plan</entityName>
+      <entityDescription>RESOURCE MAPS FOR THE CEDAR RIVER WATERSHED HABITAT CONSERVATION PLAN AND THE ENVIRONMENTAL ASSESSMENT/ ENVIRONMENTAL IMPACT STATEMENT FOR THE PROPOSED ISSUANCE OF A PERMIT TO ALLOW INCIDENTAL TAKE OF THREATENED AND ENDANGERED SPECIES All of the maps for the Cedar River Watershed Habitat Conservation Plan and the Environmental Assessment/Environmental Impact Statement are contained in this document. Including a list of data sources used to generate maps from the Cedar River Watershed Geographic Information System. The numbering scheme/order is arranged by map category and does not necessarily reflect the order in which they are discussed in the particular documents.</entityDescription>
+      <physical>
+        <objectName>Resource_Maps_for_the_Final_Cedar_River_Municipal_Watershed_Habitat_Conservation_Plan.pdf</objectName>
+        <size unit="byte">36061606</size>
+        <authentication method="MD5">57bd96584368ff062388f6a1a811f711</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/1/2/376d8f5833aa7a8f51ae17e0e90fb861</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+    <otherEntity id="1176a2393d646e087de58d3c3c8489a5" scope="document" system="https://pasta.edirepository.org">
+      <entityName>Resource_Maps_Final_HCP_EPS</entityName>
+      <entityDescription>Final resource maps for Cedar River Habitat Conservation Plan in encapsulated postscript format</entityDescription>
+      <physical>
+        <objectName>Final_Resource_Maps_HCP_Encapsulated_Postscript.zip</objectName>
+        <size unit="byte">13376842</size>
+        <authentication method="MD5">f5a2096aa01bbd44f5b89ed6fafcf5a6</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/1/2/1176a2393d646e087de58d3c3c8489a5</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>encapsulated postscript</entityType>
+    </otherEntity>
+    <otherEntity id="6bcb1a0a652eed9c973ab689d595be0a" scope="document" system="https://pasta.edirepository.org">
+      <entityName>Resource_Maps_Final_HCP_JPEG</entityName>
+      <entityDescription>Final resource maps for Cedar River Habitat Conservation Plan in JPEG format</entityDescription>
+      <physical>
+        <objectName>Resource_Maps_Final_HCP_JPEG.zip</objectName>
+        <size unit="byte">33392190</size>
+        <authentication method="MD5">825739615f6b40319488eca55c140d15</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/1/2/6bcb1a0a652eed9c973ab689d595be0a</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity id="178a3bdf875182326e32ba7efe3d4fe8" scope="document" system="https://pasta.edirepository.org">
+      <entityName>Resource_Maps_Final_HCP_EPS_and_JPEG_Inventory</entityName>
+      <entityDescription>All of the maps for the Cedar River Watershed Habitat Conservation Plan and the Environmental Assessment/Environmental Impact Statement are available in eps or jpeg data format. The numbering scheme/order is arranged by map category and are described here.</entityDescription>
+      <physical>
+        <objectName>Map_Resources_Final_HCP_Inventory.csv</objectName>
+        <size unit="byte">1048</size>
+        <authentication method="MD5">f9286a6f141ced1f325a5f73264b2778</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text/csv</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/1/2/178a3bdf875182326e32ba7efe3d4fe8</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>text/csv</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <importedFromXML dateImported="2024-03-28" filename="cos-spu-all_people_template.1.1.xml" taxonomicCoverageExempt="True"/>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <emlEditor app="ezEML" release="2024.08.06"/>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

@@ -1,0 +1,2794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="cos-spu.18.2" system="https://pasta.edirepository.org" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>SPU_EDI_Data_Author</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>uid=cgries,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.0311/FK2/e6c3be4bbbe70efa1f7843e34222e2e4</alternateIdentifier>
+    <title>City of Seattle, Cedar River Municipal Watershed permanent vegetation sampling plots, 2006 - current</title>
+    <creator>
+      <individualName>
+        <givenName>Duncan</givenName>
+        <surName>Munro</surName>
+      </individualName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Sally</givenName>
+        <surName>Nickelson</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov?</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>David</givenName>
+        <surName>Chapin</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Mark</givenName>
+        <surName>Joselyn</surName>
+      </individualName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Brent</givenName>
+        <surName>Lackey</surName>
+      </individualName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Dwayne</givenName>
+        <surName>Paige</surName>
+      </individualName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Dave</givenName>
+        <surName>Beedle</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Lee</givenName>
+        <surName>Boeksteigel</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Wendy</givenName>
+        <surName>Sammarco</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov?</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Chris</givenName>
+        <surName>Anderson</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Rolf</givenName>
+        <surName>Gersonde</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov</onlineUrl>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-5044-4203</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Jacob</givenName>
+        <surName>Oberlander</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+    </creator>
+    <pubDate>2025-04-15</pubDate>
+    <abstract>
+      <para>The current system of permanent sample plots (PSP) in the Cedar River Watershed (CRMW) was established to monitor the development of forest vegetation communities under the Habitat Conservation Plan. The sample was designed to represent the distribution of forest types in the watershed, to provide guidance for forest restoration, and to assess the effectiveness of restoration management.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>understory</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Cedar River Municipal Watershed (CRMW)</keyword>
+      <keywordThesaurus>City of Seattle Remote Watershed</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Watershed Management</keyword>
+      <keywordThesaurus>HCP Category</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Watershed Terrestrial Monitoring and Research</keyword>
+      <keywordThesaurus>HCP Group</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>community composition</keyword>
+      <keyword>species composition</keyword>
+      <keyword>forests</keyword>
+      <keyword>trees</keyword>
+      <keyword>permanent plots</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>City of Seattle</keyword>
+      <keyword>Forest Ecology Program</keyword>
+      <keyword>Seattle Public Utilities</keyword>
+      <keyword>SPU</keyword>
+      <keyword>Washington</keyword>
+      <keywordThesaurus>SPU</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This data package is released to the "public domain" under Creative Commons CC0 1.0 "No Rights Reserved" (see: https://creativecommons.org/publicdomain/zero/1.0/). It is considered professional etiquette to provide attribution of the original work if this data package is shared in whole or by individual components. A generic citation is provided for this data package on the website https://portal.edirepository.org (herein "website") in the summary metadata page. Communication (and collaboration) with the creators of this data package is recommended to prevent duplicate research or publication. This data package (and its components) is made available "as is" and with no warranty of accuracy or fitness for use. The creators of this data package and the website shall not be liable for any damages resulting from misinterpretation or misuse of the data package or its components. Periodic updates of this data package may be available from the website. Thank you.</para>
+    </intellectualRights>
+    <licensed>
+      <licenseName>Creative Commons Zero v1.0 Universal</licenseName>
+      <url>https://spdx.org/licenses/CC0-1.0</url>
+      <identifier>CC0-1.0</identifier>
+    </licensed>
+    <distribution id="10.0311/FK2/e6c3be4bbbe70efa1f7843e34222e2e4" scope="system" system="https://pasta.edirepository.org">
+      <online>
+        <url function="information">https://doi.org/10.0311/FK2/e6c3be4bbbe70efa1f7843e34222e2e4</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Cedar River Municipal Watershed</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.0334104</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.3631524</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.49192463</northBoundingCoordinate>
+          <southBoundingCoordinate>47.24097306</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2003</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2024</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>ongoing</description>
+    </maintenance>
+    <contact>
+      <organizationName>Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>700 5th Avenue</deliveryPoint>
+        <city>Seattle</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98104</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/</onlineUrl>
+      <userId directory="https://ror.org/">https://ror.org/05wkbzn97</userId>
+    </contact>
+    <publisher>
+      <organizationName>Environmental Data Initiative</organizationName>
+      <electronicMailAddress>info@edirepository.org</electronicMailAddress>
+      <onlineUrl>https://edirepository.org</onlineUrl>
+      <userId directory="https://ror.org">0330j0z60</userId>
+    </publisher>
+    <pubPlace>Environmental Data Initiative</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <para>See pdf protocol and revised protocols in package</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Long-Term Forest Monitoring</title>
+      <personnel>
+        <individualName>
+          <givenName>Rolf</givenName>
+          <surName>Gersonde</surName>
+        </individualName>
+        <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+        <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+        <role>Project Manager</role>
+      </personnel>
+      <abstract>Longterm forest inventory [N54504] Based on the evaluations of standard forest inventory and secondary forest attribute data, and augmentation of the forest and habitat inventory described in the elements above, the City will design and conduct a longterm program of sampling and monitoring to update the forest and habitat inventory periodically over the full term of the HCP. The cost of this program will be up to $18,750 for design in HCP years 15, up to $62,600 in HCP years 610, up to $42,500 in HCP years 1115, up to $37,500 in HCP year interval 1620, up to $75,000 in each HCP year intervals 2130 and 3140, and up to $82,500 in HCP year interval 4150, for a total cost of $393,850.Field verification [N54504: note that this gets tracked with “Longterm forest inventory”] The City will complete field verification of habitat classifications of forested and nonforested polygons in the watershed GIS that is not accomplished as part of the four program elements above. The cost of this program will be up to $56,220 in HCP years 15.</abstract>
+      <award>
+        <funderName>City of Seattle</funderName>
+        <awardNumber>N781303</awardNumber>
+        <title>Long-Term Forest Monitoring</title>
+      </award>
+    </project>
+    <dataTable id="065dc19702c01a8d0ab40a90ba8d8d9d" scope="document" system="https://pasta.edirepository.org">
+      <entityName>CRW_PSP_CanopyData_20250129</entityName>
+      <entityDescription>Canopy coverage data</entityDescription>
+      <physical>
+        <objectName>CRW_PSP_CanopyData_20250129.csv</objectName>
+        <size unit="byte">110837</size>
+        <authentication method="MD5">1cf3144a8d86aa951ce3afcbed68803f</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/18/2/065dc19702c01a8d0ab40a90ba8d8d9d</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Location of monitoring site. Attributed to which municipal watershed the monitoring data is being collected from</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>CRW</code>
+                    <definition>Cedar River Watershed</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Plot_num</attributeName>
+          <attributeLabel>Plot_num</attributeLabel>
+          <attributeDefinition>Identification of the plot correlated to the locations of established PSPs</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Timestamp of when field data was collected on the plot</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Transect</attributeName>
+          <attributeLabel>Transect</attributeLabel>
+          <attributeDefinition>Direction of transect based off cardinal directions North, East, South, and West recorded as N, E, S, or W</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>East</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>North</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>South</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W</code>
+                    <definition>West</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Direction</attributeName>
+          <attributeLabel>Direction</attributeLabel>
+          <attributeDefinition>Facing of cardinal direction to capture canopy cover using densiometer</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>East</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>North</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>South</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W</code>
+                    <definition>West</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Canopy_open</attributeName>
+          <attributeLabel>Canopy_open</attributeLabel>
+          <attributeDefinition>Measure of amount of light penetrating the ground using spherical densiometer. Estimated number of spaces not covered out a total of 96.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Canopy_cover_closed_all</attributeName>
+          <attributeLabel>Canopy_cover_closed_all</attributeLabel>
+          <attributeDefinition>Measure of amount of light being captured in the canopy using spherical densiometer. Estimated number of spaces covred out of 96</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>comments</attributeName>
+          <attributeLabel>comments</attributeLabel>
+          <attributeDefinition>any observations related to canopy cover noted in this field</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>HemiPhoto</code>
+                    <definition>Hemispherical photo</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>2972</numberOfRecords>
+    </dataTable>
+    <dataTable id="a8171c2aaac8715447899985044981eb" scope="document" system="https://pasta.edirepository.org">
+      <entityName>CRW_PSP_CWDData_20250129</entityName>
+      <entityDescription>Cover data for coarse woody debris</entityDescription>
+      <physical>
+        <objectName>CRW_PSP_CWDData_20250129.csv</objectName>
+        <size unit="byte">188329</size>
+        <authentication method="MD5">954a8dad899da2912b50371e6adf808d</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/18/2/a8171c2aaac8715447899985044981eb</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Location of monitoring site. Attributed to which municipal watershed the monitoring data is being collected from</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>CRW</code>
+                    <definition>Cedar River Watershed</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Plot_num</attributeName>
+          <attributeLabel>Plot_num</attributeLabel>
+          <attributeDefinition>Identification of the plot correlated to the locations of established PSPs</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Timestamp of when field data was collected on the plot</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Direction</attributeName>
+          <attributeLabel>Direction</attributeLabel>
+          <attributeDefinition>Direction of transect based off cardinal directions North, East, South, and West recorded as N, E, S, or W</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>East</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>North</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>South</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>South</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W</code>
+                    <definition>West</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Diameter_in</attributeName>
+          <attributeLabel>Diameter_in</attributeLabel>
+          <attributeDefinition>Diameter where transect crosses CWD piece, measuring perpendicular to the bole to the nearest inch</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>inch</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Estimated_Length_ft</attributeName>
+          <attributeLabel>Estimated_Length_ft</attributeLabel>
+          <attributeDefinition>Area above surface organic layer of soil or base of log to point of abrupt physical change or discontinuity or to a point where the outside diameter is &lt; 5inches (to nearest foot). Breakage, advanced decomposition, branching, or buried by soil or organic layer defined the limits of a piece</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Decay_Class</attributeName>
+          <attributeLabel>Decay_Class</attributeLabel>
+          <attributeDefinition>Recorded into one of the 5 decay classes. Refer to Appendix, Table 1. CWD Decay Class</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Suspended</attributeName>
+          <attributeLabel>Suspended</attributeLabel>
+          <attributeDefinition>Recorded into one of 2 categories: 1) &gt;50% of log suspended above ground; 2) &gt;50% of log in contact with the ground</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>No</code>
+                    <definition>no</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Yes</code>
+                    <definition>yes</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeLabel>Species</attributeLabel>
+          <attributeDefinition>Recorded to standard genus and species classifications, if possible. Recorded as 0 or UNK if species wasn't determined</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>perc_Suspended</attributeName>
+          <attributeLabel>perc_Suspended</attributeLabel>
+          <attributeDefinition>Estimate percentage of CWD piece above ground</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Notes</attributeName>
+          <attributeLabel>Notes</attributeLabel>
+          <attributeDefinition>Field to document other things of importance or characteristics about CWD piece</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Downwood_Transect_Length_ft</attributeName>
+          <attributeLabel>Downwood_Transect_Length_ft</attributeLabel>
+          <attributeDefinition>Length of CWD transect, almost always 82ft in length unless otherwise specified</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Downwood_Transect_Count</attributeName>
+          <attributeLabel>Downwood_Transect_Count</attributeLabel>
+          <attributeDefinition>Number of CWD transects measured in the PSP. Almost always 4 unless otherwise specified.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>3657</numberOfRecords>
+    </dataTable>
+    <dataTable id="6eaa2279c665ff8045923daeae3bedcd" scope="document" system="https://pasta.edirepository.org">
+      <entityName>CRW_PSP_HerbData_20250129</entityName>
+      <entityDescription>herb cover data</entityDescription>
+      <physical>
+        <objectName>CRW_PSP_HerbData_20250129.csv</objectName>
+        <size unit="byte">709723</size>
+        <authentication method="MD5">5a300cc73d1cbcd3553ef1d0f7fe9b0e</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/18/2/6eaa2279c665ff8045923daeae3bedcd</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Location of monitoring site. Attributed to which municipal watershed the monitoring data is being collected from</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>CRW</code>
+                    <definition>Cedar River Watershed</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Plot_num</attributeName>
+          <attributeLabel>Plot_num</attributeLabel>
+          <attributeDefinition>Identification of the plot correlated to the locations of established PSPs</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Timestamp of when field data was collected on the plot</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Direction_Distance</attributeName>
+          <attributeLabel>Direction_Distance</attributeLabel>
+          <attributeDefinition>Direction based off cardinal directions North, East, South, and West and distance in feet away from plot center that a 1mx1m herb plot is located. Ex: N20 is a 1mx1m herb plot located 20ft north of plot center</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeLabel>Species</attributeLabel>
+          <attributeDefinition>Standard genus and species classification of herb identified by our letter species code</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>perc_Cover</attributeName>
+          <attributeLabel>perc_Cover</attributeLabel>
+          <attributeDefinition>Percent cover categories using ocular estimate of percent cover to species, genus or life form, cumulative cover of shrub vegetation (VEG) and/or sapling, seedlings, moss, litter, coarse woody debris (&gt;5in and must be in contact with the surface), bole of tree (if present), bare soil, and rock. Cover categories: &lt;1%, 1-5%, 5-25%, 25-50%, 50-75%. 75-95%, 95-100%</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>perc_Seedlings</attributeName>
+          <attributeLabel>this is actually number of seedlings</attributeLabel>
+          <attributeDefinition>Species and number of species present in the herb plot (recorded in first and second round measurements).</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>17070</numberOfRecords>
+    </dataTable>
+    <dataTable id="65ae7b34a45efa066f9795407158128b" scope="document" system="https://pasta.edirepository.org">
+      <entityName>CRW_PSP_PlotData_20250129</entityName>
+      <entityDescription>summary of data for each plot</entityDescription>
+      <physical>
+        <objectName>CRW_PSP_PlotData_20250129.csv</objectName>
+        <size unit="byte">22342</size>
+        <authentication method="MD5">70d552693cb11c7b7628ad9de3140e77</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/18/2/65ae7b34a45efa066f9795407158128b</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>PlotID</attributeName>
+          <attributeLabel>PlotID</attributeLabel>
+          <attributeDefinition>Plot identifyer number</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Date1</attributeName>
+          <attributeLabel>Date1</attributeLabel>
+          <attributeDefinition>Date of first sampling period</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Date2</attributeName>
+          <attributeLabel>Date2</attributeLabel>
+          <attributeDefinition>Date of second sampling period</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Date3</attributeName>
+          <attributeLabel>Date3</attributeLabel>
+          <attributeDefinition>Date of third sampling period</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Plot</attributeName>
+          <attributeLabel>Plot</attributeLabel>
+          <attributeDefinition>Number of plot information recorded</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Trees</attributeName>
+          <attributeLabel>Trees</attributeLabel>
+          <attributeDefinition>Number of overstory tree data sampled</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>CanopyDensity</attributeName>
+          <attributeLabel>CanopyDensity</attributeLabel>
+          <attributeDefinition>Number of canopy density measurement</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>HemisphericalPhoto</attributeName>
+          <attributeLabel>HemisphericalPhoto</attributeLabel>
+          <attributeDefinition>Number of hemispherical photos sets</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Saplings</attributeName>
+          <attributeLabel>Saplings</attributeLabel>
+          <attributeDefinition>Number of sapling data measurements</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Shrubs</attributeName>
+          <attributeLabel>Shrubs</attributeLabel>
+          <attributeDefinition>Number of shrub stratum measurements</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Herbs</attributeName>
+          <attributeLabel>Herbs</attributeLabel>
+          <attributeDefinition>Number of herb stratum measurements</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DwnWood</attributeName>
+          <attributeLabel>DwnWood</attributeLabel>
+          <attributeDefinition>Number of down wood measurements</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TallShrb</attributeName>
+          <attributeLabel>TallShrb</attributeLabel>
+          <attributeDefinition>Number og tall shrub measurements</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Photos</attributeName>
+          <attributeLabel>Photos</attributeLabel>
+          <attributeDefinition>Number of times monitoring photos taken</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>IAVP</attributeName>
+          <attributeLabel>IAVP</attributeLabel>
+          <attributeDefinition>Inter-annual variability measurements collected</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SlopePct</attributeName>
+          <attributeLabel>SlopePct</attributeLabel>
+          <attributeDefinition>Avreage slope percent in aspect direction</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SlopeDegr</attributeName>
+          <attributeLabel>SlopeDegr</attributeLabel>
+          <attributeDefinition>Average slope degree in aspect direction</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Aspect</attributeName>
+          <attributeLabel>Aspect</attributeLabel>
+          <attributeDefinition>Aspect direction of plot</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TopoPos</attributeName>
+          <attributeLabel>TopoPos</attributeLabel>
+          <attributeDefinition>Topographic position of plot</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Habitat</attributeName>
+          <attributeLabel>Habitat</attributeLabel>
+          <attributeDefinition>Habitat type</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SlopeCorr</attributeName>
+          <attributeLabel>SlopeCorr</attributeLabel>
+          <attributeDefinition>Slope correction of tree plot</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TreePlotRad</attributeName>
+          <attributeLabel>TreePlotRad</attributeLabel>
+          <attributeDefinition>Radius of tree plot in feet</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TreePlotAcre</attributeName>
+          <attributeLabel>TreePlotAcre</attributeLabel>
+          <attributeDefinition>Size of tree plot in first sampling period in acres</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>acre</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>CorPlotArea</attributeName>
+          <attributeLabel>CorPlotArea</attributeLabel>
+          <attributeDefinition>slope corrected area of tree plot in square feet</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>footSquared</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ShrubTransLn</attributeName>
+          <attributeLabel>ShrubTransLn</attributeLabel>
+          <attributeDefinition>Length of shrub transect in feet</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>ND</code>
+            <codeExplanation>not determined</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>HerbPlots</attributeName>
+          <attributeLabel>HerbPlots</attributeLabel>
+          <attributeDefinition>Herb stratum plots taken in first sampling period.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Elevation</attributeName>
+          <attributeLabel>Elevation</attributeLabel>
+          <attributeDefinition>Plot center elevation in feet</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>PlotLongitude</attributeName>
+          <attributeLabel>PlotLongitude</attributeLabel>
+          <attributeDefinition>Plot location longitude</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>PlotLatitude</attributeName>
+          <attributeLabel>PlotLatitude</attributeLabel>
+          <attributeDefinition>Plot location latitude</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Comments</attributeName>
+          <attributeLabel>Comments</attributeLabel>
+          <attributeDefinition>Comments</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>115</numberOfRecords>
+    </dataTable>
+    <dataTable id="f308c0be699e8365ded07b0697be2fe2" scope="document" system="https://pasta.edirepository.org">
+      <entityName>CRW_PSP_SaplingData_20250129</entityName>
+      <entityDescription>sapling cover data</entityDescription>
+      <physical>
+        <objectName>CRW_PSP_SaplingData_20250129.csv</objectName>
+        <size unit="byte">91429</size>
+        <authentication method="MD5">44bf25c457776d5830469fa6dd5e40d5</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/18/2/f308c0be699e8365ded07b0697be2fe2</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Location of monitoring site. Attributed to which municipal watershed the monitoring data is being collected from</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>CRW</code>
+                    <definition>Cedar River Watershed</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Plot_num</attributeName>
+          <attributeLabel>Plot_num</attributeLabel>
+          <attributeDefinition>Identification of the plot correlated to the locations of established PSPs</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Timestamp of when field data was collected on the plot</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TransLength_ft</attributeName>
+          <attributeLabel>TransLength_ft</attributeLabel>
+          <attributeDefinition>Total horizontal distance of 2m wide belt transect</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Direction</attributeName>
+          <attributeLabel>Direction</attributeLabel>
+          <attributeDefinition>Cardinal direction of belt transect</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>All</code>
+                    <definition>all</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>East</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>North</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>South</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W</code>
+                    <definition>West</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeLabel>Species</attributeLabel>
+          <attributeDefinition>Standard genus and species classification of tall woody shrub over 6 inches or presence of vine maple identified by our letter species code. If no tree species intersects the belt transect (1m on either side of the transect, cumulating to 2m wide), 0 is recorded in species with 0s marked for both Count and Estimated Ht (ft) by Stratafields.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Class</attributeName>
+          <attributeLabel>Class</attributeLabel>
+          <attributeDefinition>Sapling strata based off of the following classifications: 1) 6" - 4.5' in height, 2) 4.5' in height, 0-3" DBH, and 3) &gt;4.5', 3-5" DBH</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>none</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>6" - 4.5' in height</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>4.5' in height, 0-3" DBH</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>&gt;4.5', 3-5" DBH</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NA</code>
+                    <definition>not available</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Count</attributeName>
+          <attributeLabel>Count</attributeLabel>
+          <attributeDefinition>Number of live trees by species and sapling strata</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Estimated_Ht_ft_by_Strata</attributeName>
+          <attributeLabel>Estimated_Ht_ft_by_Strata</attributeLabel>
+          <attributeDefinition>Ocular estimation of the average height of each species of live tree in each sapling strata</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>comments</attributeName>
+          <attributeLabel>comments</attributeLabel>
+          <attributeDefinition>field for other notable observations</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>1932</numberOfRecords>
+    </dataTable>
+    <dataTable id="529529719c17a221ea5a548153abb192" scope="document" system="https://pasta.edirepository.org">
+      <entityName>CRW_PSP_ShrubsData_20250129</entityName>
+      <entityDescription>shrub cover data</entityDescription>
+      <physical>
+        <objectName>CRW_PSP_ShrubsData_20250129.csv</objectName>
+        <size unit="byte">1043855</size>
+        <authentication method="MD5">10da0e98611d11448490de7ee5a40cba</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/18/2/529529719c17a221ea5a548153abb192</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Location of monitoring site. Attributed to which municipal watershed the monitoring data is being collected from</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>999</code>
+                    <definition>unknown</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CRW</code>
+                    <definition>Cedar River Watershed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CWR</code>
+                    <definition>Cedar River Watershed</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Plot_num</attributeName>
+          <attributeLabel>Plot_num</attributeLabel>
+          <attributeDefinition>Identification of the plot correlated to the locations of established PSPs</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Timestamp of when field data was collected on the plot</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Direction</attributeName>
+          <attributeLabel>Direction</attributeLabel>
+          <attributeDefinition>Direction of transect based off cardinal directions north, east, south, and west recorded as N, E, S, and W</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>East</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>North</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>South</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W</code>
+                    <definition>West</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TransEnd</attributeName>
+          <attributeLabel>TransEnd</attributeLabel>
+          <attributeDefinition>Total distance of the entire length of the transect in centimeters</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeLabel>Species</attributeLabel>
+          <attributeDefinition>Standard genus and species classification of shrub or fern identified by our letter species code. If no species intersected the transect, also called a gap between vegetation, species code is recorded as 0</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Start_cm</attributeName>
+          <attributeLabel>Start_cm</attributeLabel>
+          <attributeDefinition>Starting measurement of an intersecting individual or group of shrub and/or fern species, or gap between vegetation along the length of the transect</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Stop_cm</attributeName>
+          <attributeLabel>Stop_cm</attributeLabel>
+          <attributeDefinition>Ending measurement of cover of an intersecting individual or group of shrubs and/or fern species, or end of gap between vegetation along the length of the transect</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>distance_cm</attributeName>
+          <attributeLabel>distance_cm</attributeLabel>
+          <attributeDefinition>Distance of continuous cover a shrub and/or fern species, or gap between vegetation along the transect. Distance (cm) = Absolute value [Start(cm) - Stop(cm)]</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>perc_cover</attributeName>
+          <attributeLabel>perc_cover</attributeLabel>
+          <attributeDefinition>Percentage of continuous cover of a shrub and/or fern species, or gap between vegetation along the length of the transect at the point of intersection. %cover = [distance(cm) / TransEnd]*100</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>19543</numberOfRecords>
+    </dataTable>
+    <dataTable id="6c9821e09385b32120f75e6387e1ae7f" scope="document" system="https://pasta.edirepository.org">
+      <entityName>CRW_PSP_TallShrubData_20250129</entityName>
+      <entityDescription>Tall shrub cover data</entityDescription>
+      <physical>
+        <objectName>CRW_PSP_TallShrubData_20250129.csv</objectName>
+        <size unit="byte">43142</size>
+        <authentication method="MD5">46b403e21fb21de80723f703be637838</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/18/2/6c9821e09385b32120f75e6387e1ae7f</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Location of monitoring site. Attributed to which municipal watershed the monitoring data is being collected from</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>CRW</code>
+                    <definition>Cedar River Watershed</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Plot_num</attributeName>
+          <attributeLabel>Plot_num</attributeLabel>
+          <attributeDefinition>Identification of the plot correlated to the locations of established PSPs</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Timestamp of when field data was collected on the plot</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Direction</attributeName>
+          <attributeLabel>Direction</attributeLabel>
+          <attributeDefinition>Direction of transect based off cardinal directions North, East, South, and West recorded as N, E, S, or W</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>East</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>North</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>South</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W</code>
+                    <definition>West</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeLabel>Species</attributeLabel>
+          <attributeDefinition>Standard genus and species classification of tall woody shrub over 6ft or presence of vine maple identified by our letter species code. If no species intersects the belt transect (1m to each side of the transect, cumulating to 2m wide), ACCI is recorded with 0s marked for both % Cover and Estimated Ht (ft) fields.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>perc_Cover</attributeName>
+          <attributeLabel>perc_Cover</attributeLabel>
+          <attributeDefinition>Ocular estimation of percent cover to the nearest in the nearest 5% along the entire belt transect.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Estimated_Ht_ft</attributeName>
+          <attributeLabel>Estimated_Ht_ft</attributeLabel>
+          <attributeDefinition>Ocular estimation of the average height of ACCI and/or other tall shrub along the belt transect to the nearest ft.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Transect_Length</attributeName>
+          <attributeLabel>Transect_Length</attributeLabel>
+          <attributeDefinition>Length of belt transect along a cardinal direction in horizontal distance.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>comments</attributeName>
+          <attributeLabel>comments</attributeLabel>
+          <attributeDefinition>notes, observations made in the field, and explanation for missing portions of data</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>1017</numberOfRecords>
+    </dataTable>
+    <dataTable id="ea27bc8d3891688c6ce105e02415a2e1" scope="document" system="https://pasta.edirepository.org">
+      <entityName>CRW_PSP_TreeData_20250129</entityName>
+      <entityDescription>Tree cover data</entityDescription>
+      <physical>
+        <objectName>CRW_PSP_TreeData_20250129.csv</objectName>
+        <size unit="byte">1068983</size>
+        <authentication method="MD5">2ce1fdcb34d08fb1a06cde71a593c11d</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/18/2/ea27bc8d3891688c6ce105e02415a2e1</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Location of monitoring site. Attributed to which municipal watershed the monitoring data is being collected from</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>CRW</code>
+                    <definition>Cedar River Watershed</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Plot_num</attributeName>
+          <attributeLabel>Plot_num</attributeLabel>
+          <attributeDefinition>Identification of the plot correlated to projected locations</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Time stamp of when field data was collected on the plot</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Plot_Size_ac</attributeName>
+          <attributeLabel>Plot_Size_ac</attributeLabel>
+          <attributeDefinition>Size of the radial tree plot used to calculate tree density. Units are in 0.1 of an acre which is derived from radius in ft i.e. 74.5ft = 0.4ac, 52.7ft = 0.2ac, 37.2ft = 0.1ac, 26.3ft = 0.05ac.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>acre</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Alive</attributeName>
+          <attributeLabel>Alive</attributeLabel>
+          <attributeDefinition>Identifier for mortality state for a tagged tree. "Y" = yes - tree is alive, "N" = no - tree is dead</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>0</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>no</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>n</code>
+                    <definition>no</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Y</code>
+                    <definition>yes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>y</code>
+                    <definition>yes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Y</code>
+                    <definition>yes</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Tag_num</attributeName>
+          <attributeLabel>Tag_num</attributeLabel>
+          <attributeDefinition>Numerical identifier for a trees that are alive and are equal to or greater than 5 inches at diameter breast height, or snags that are greater than 10 inches at diameter breast height</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeLabel>Species</attributeLabel>
+          <attributeDefinition>Standard genus and species classification of tree identified by our letter species code. Species and Codes provided in Appendix Table 1.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DBH</attributeName>
+          <attributeLabel>DBH</attributeLabel>
+          <attributeDefinition>Diameter outside the bark (to nearest 0.1 inch) at 4.5 feet above the ground on the uphill side.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>inch</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Measured_Height_ft</attributeName>
+          <attributeLabel>Measured_Height_ft</attributeLabel>
+          <attributeDefinition>Ground level at base of tree to its highest point (to the nearest 0.1ft).</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Ht_to_Live_Crown_ft</attributeName>
+          <attributeLabel>Ht_to_Live_Crown_ft</attributeLabel>
+          <attributeDefinition>Height to Live Crown - Ground level on the uphill side of the base of the tree to the lowest live branch (not counting epicormic branching) (to nearest 0.1ft). Must measure tree height in same tree.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Decay_Class_snags_only</attributeName>
+          <attributeLabel>Decay_Class_snags_only</attributeLabel>
+          <attributeDefinition>One of the five categories for decay classes. See Appendix Table 2. for snag decay classifications</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Estimated_Ht_ft_snags_only</attributeName>
+          <attributeLabel>Estimated_Ht_ft_snags_only</attributeLabel>
+          <attributeDefinition>Measurement from ground level at base of snag to its highest point ( to nearest foot).</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Stratum</attributeName>
+          <attributeLabel>Stratum</attributeLabel>
+          <attributeDefinition>Measured tree's "social" position in the stand. Uses following classifications: 1) A-stratum (emergents) - trees above the highest continuous canopy, 2) B-stratum - upper continuous canopy, 3) C-stratum, D-stratum, etc… - progressivley lower strata beneath the B-stratum; these stratum may not be present</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>0</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>trees above the highest continuous canopy</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>upper continuous canopy</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>C</code>
+                    <definition>progressively lower</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>D</code>
+                    <definition>progressively lower</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>progressively lower</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Crown_Class</attributeName>
+          <attributeLabel>Crown_Class</attributeLabel>
+          <attributeDefinition>Description of measured tree's crown condition from status in the stand. 1) ISO = Isolated - tree crownss receive full light from above and all sides, 2) DOM = Dominant - trees with crwons that extend above the general level of the trees immediately around the measured trees, 3) CO = Codominant - trees with crowns forming the general level of the trees immediately around the measured trees, 4) INT = Intermediate - trees with crowns below, but extending into, the general level of the trees immediatley around the measured trees, and 5) OT = Overtopped - trees with crowns entirely below the general level of the trees around the measured trees, receiving no direct light rom either above or form the sides.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>0</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>C</code>
+                    <definition>codominant</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CO</code>
+                    <definition>codominant</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>D</code>
+                    <definition>dominant</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DOM</code>
+                    <definition>dominant</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>INT</code>
+                    <definition>intermediate</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ISO</code>
+                    <definition>isolated</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>O</code>
+                    <definition>overtopped</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>OT</code>
+                    <definition>overtopped</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Estimated_perc_Live_Crown</attributeName>
+          <attributeLabel>Estimated_perc_Live_Crown</attributeLabel>
+          <attributeDefinition>Length of live crown divided by total measured tree height multiplied by 100. Length of live crown = Total height - Height to crown. % Live Crown = (Length of live crown/Total height) x 100</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Damage</attributeName>
+          <attributeLabel>Damage</attributeLabel>
+          <attributeDefinition>Refer to Appendix, Table 1. for Damage codes and descriptions for live trees &gt;5.0 inches DBH</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Mistletoe</attributeName>
+          <attributeLabel>Mistletoe</attributeLabel>
+          <attributeDefinition>Presence/Absence in measured trees. 1) None; 2) Light (&lt; 50% of branches infected) 3) Heavy (&gt; 50% of branches infected)</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>0</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>no</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Y</code>
+                    <definition>yes</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Epicormic</attributeName>
+          <attributeLabel>Epicormic</attributeLabel>
+          <attributeDefinition>Presence/Absence in measured trees. Y = present, (blank) = absent</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>0</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>no</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Y</code>
+                    <definition>yes</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Ht_to_Epicormic</attributeName>
+          <attributeLabel>Ht_to_Epicormic</attributeLabel>
+          <attributeDefinition>Height to Epicormic - measurement of from ground level at the base of the tree to the lowest epicormic branch (to nearest foot), if epicormic branches are present.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>10_Yr_Growth_Increment_05_in</attributeName>
+          <attributeLabel>10_Yr_Growth_Increment_05_in</attributeLabel>
+          <attributeDefinition>Amount of growth in inches (to the nearest 0.05in) in the last 10 years after boring and counting the first 10 rings, then measuring the cumulative distance covered</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>inch</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>20_Yr_Growth_Increment_05_in</attributeName>
+          <attributeLabel>20_Yr_Growth_Increment_05_in</attributeLabel>
+          <attributeDefinition>Amount of growth in inches (to the nearest 0.05in) in the last 20 years after boring and counting the first 20 rings, then measuring the cumulative distance covered</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>inch</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Age_at_dbh</attributeName>
+          <attributeLabel>Age_at_dbh</attributeLabel>
+          <attributeDefinition>Age determined from counting rings from increment cored trees.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Age_Uncertainty_yr</attributeName>
+          <attributeLabel>Age_Uncertainty_yr</attributeLabel>
+          <attributeDefinition>Estimation in the amount of uncertainty in age if unable to bore to the center and obtain and actual estimation of the age of the tree</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>comments</attributeName>
+          <attributeLabel>comments</attributeLabel>
+          <attributeDefinition>remarks and other noteworthy description about tree</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>15537</numberOfRecords>
+    </dataTable>
+    <dataTable id="2fd8006cb4dbc934830078920cb5b62d" scope="document" system="https://pasta.edirepository.org">
+      <entityName>Species Codes</entityName>
+      <entityDescription>species names, codes, and growth forms</entityDescription>
+      <physical>
+        <objectName>Species Codes.csv</objectName>
+        <size unit="byte">9978</size>
+        <authentication method="MD5">33ba901af9d1428a0fdb216fef3d37e6</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/18/2/2fd8006cb4dbc934830078920cb5b62d</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>ID</attributeName>
+          <attributeLabel>ID</attributeLabel>
+          <attributeDefinition>id number</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Code</attributeName>
+          <attributeLabel>Code</attributeLabel>
+          <attributeDefinition>species abbreviation</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Common_Name</attributeName>
+          <attributeLabel>Common_Name</attributeLabel>
+          <attributeDefinition>common name</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Genus</attributeName>
+          <attributeLabel>Genus</attributeLabel>
+          <attributeDefinition>Genus</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeLabel>Species</attributeLabel>
+          <attributeDefinition>Species</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Subspecies_Variety</attributeName>
+          <attributeLabel>Subspecies_Variety</attributeLabel>
+          <attributeDefinition>subspecies or variety</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Growth_Form</attributeName>
+          <attributeLabel>Growth_Form</attributeLabel>
+          <attributeDefinition>growth form</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>217</numberOfRecords>
+    </dataTable>
+    <otherEntity id="13b93009d29c792cf167ddacfd09e354" scope="document" system="https://pasta.edirepository.org">
+      <entityName>PSP Plan Final 01.22.03</entityName>
+      <entityDescription>Original project proposal</entityDescription>
+      <physical>
+        <objectName>PSP Plan Final 01.22.03.pdf</objectName>
+        <size unit="byte">478985</size>
+        <authentication method="MD5">8a7a51a061a68582d38c06cb3d6b7e08</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/18/2/13b93009d29c792cf167ddacfd09e354</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+    <otherEntity id="d197fa689804f9ad10eb8ac614c79c60" scope="document" system="https://pasta.edirepository.org">
+      <entityName>Protocol Hemispherical Photographs 2011</entityName>
+      <entityDescription>Protocol for collecting hemispherical photographs on PSPs</entityDescription>
+      <physical>
+        <objectName>Protocol Hemispherical Photographs 2011.pdf</objectName>
+        <size unit="byte">775067</size>
+        <authentication method="MD5">92e179a8019dde197a2345fe5ccffba6</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/18/2/d197fa689804f9ad10eb8ac614c79c60</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+    <otherEntity id="4b251998ec03fb2831537fee5c299218" scope="document" system="https://pasta.edirepository.org">
+      <entityName>PSP Protocol_2012 Revision_v2</entityName>
+      <entityDescription>PSP PROTOCOLS (RESAMPLE - 2012)</entityDescription>
+      <physical>
+        <objectName>PSP Protocol_2012 Revision_v2.pdf</objectName>
+        <size unit="byte">177060</size>
+        <authentication method="MD5">6731b564b205c6489ca9415a02fb1999</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/18/2/4b251998ec03fb2831537fee5c299218</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+    <otherEntity id="6a136f4b605a7355d6b0b95f00d84e9a" scope="document" system="https://pasta.edirepository.org">
+      <entityName>PSP Variables and Methods 2022</entityName>
+      <entityDescription>Variables lookup tables, methods, and justifications</entityDescription>
+      <physical>
+        <objectName>PSP Variables and Methods 2022.pdf</objectName>
+        <size unit="byte">148131</size>
+        <authentication method="MD5">110d52d359c16f0d7e4ef73973868827</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/18/2/6a136f4b605a7355d6b0b95f00d84e9a</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+    <otherEntity id="e583e37cf6777eac8e087635e4fc7188" scope="document" system="https://pasta.edirepository.org">
+      <entityName>PSP Sampling Protocols 2022 Revision</entityName>
+      <entityDescription>PSP PROTOCOLS (RESAMPLE - 2022)</entityDescription>
+      <physical>
+        <objectName>PSP Sampling Protocols 2022 Revision.pdf</objectName>
+        <size unit="byte">258226</size>
+        <authentication method="MD5">2f9315c7dfb988b65c27b1f8c7505ab6</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/18/2/e583e37cf6777eac8e087635e4fc7188</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <emlEditor app="ezEML" release="2025.04.10"/>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

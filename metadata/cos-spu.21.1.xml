@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="cos-spu.21.1" system="https://pasta.edirepository.org" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>SPU_EDI_Data_Author</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>uid=jamotomo,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.0311/FK2/4074a116be15f920d9fabf6d3b1b0dc6</alternateIdentifier>
+    <title>City of Seattle Bull trout fry emergence trapping in tributaries to Chester Morse Lake in the Cedar River Municipal Watershed, Washington, U.S.A., 2023 through current</title>
+    <creator>
+      <individualName>
+        <givenName>Jamie</givenName>
+        <surName>Thompson</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <userId directory="https://orcid.org">https://orcid.org/0009-0005-8831-8973</userId>
+    </creator>
+    <pubDate>2025-04-03</pubDate>
+    <abstract>
+      <para>These data were collected during daily emergence trap surveys conducted in the Cedar River Municipal Watershed (CRMW) 2023 - current. In 2023, the less viable redd produced only 6 fry whereas the more viable redd produced 114. Fry began to emerge at 526 ATU, in the more viable redd peaked at 702 ATU, and the last fry were captured at 815 ATU. These data improve SPU's understanding of frequency and magnitude of operational impacts to bull trout embryos that continue to develop in the streambed of the reservoir inundation zone by enabling more accurate estimates of numbers of fry that remain in the streambed when it is inundated during the reservoir refill operational period. </para>
+    </abstract>
+    <keywordSet>
+      <keyword>Bull trout</keyword>
+      <keyword>Reservoir management</keyword>
+      <keyword>Cedar River Municipal Watershed (CRMW)</keyword>
+      <keyword>Fish Program</keyword>
+      <keyword>Habitat Conservation Plan</keyword>
+      <keyword>Natural Resources Section</keyword>
+      <keyword>Seattle Public Utilities</keyword>
+      <keyword>SPU</keyword>
+      <keyword>Watershed Management Division</keyword>
+      <keyword>WMD</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Watershed Research and Monitoring</keyword>
+      <keywordThesaurus>HCP Category</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Watershed Aquatic Monitoring and Research</keyword>
+      <keywordThesaurus>HCP Group</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>fishes</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</para>
+    </intellectualRights>
+    <licensed>
+      <licenseName>Creative Commons Attribution 4.0 International</licenseName>
+      <url>https://spdx.org/licenses/CC-BY-4.0</url>
+      <identifier>CC-BY-4.0</identifier>
+    </licensed>
+    <distribution id="10.0311/FK2/4074a116be15f920d9fabf6d3b1b0dc6" scope="system" system="https://pasta.edirepository.org">
+      <online>
+        <url function="information">https://doi.org/10.0311/FK2/4074a116be15f920d9fabf6d3b1b0dc6</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Chester Morse Lake basin, Cedar River Mu</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.727</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.539001</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.392982</northBoundingCoordinate>
+          <southBoundingCoordinate>47.327951</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Cedar River Municipal Watershed</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.0334104</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.3631524</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.49192463</northBoundingCoordinate>
+          <southBoundingCoordinate>47.24097306</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Chester Morse Lake Basin</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.7603572</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.6156137</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.43056403</northBoundingCoordinate>
+          <southBoundingCoordinate>47.36396029</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Upper Cedar River Basin</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.6573918</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.4866462</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.38283032</northBoundingCoordinate>
+          <southBoundingCoordinate>47.2842542</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2023-12-03</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2024-05-14</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Salvelinus confluentus</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>Ongoing</description>
+      <maintenanceUpdateFrequency>annually</maintenanceUpdateFrequency>
+    </maintenance>
+    <contact>
+      <organizationName>Seattle Public Utilities</organizationName>
+      <address>
+        <city>Seattle</city>
+        <administrativeArea>WA</administrativeArea>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/</onlineUrl>
+      <userId directory="https://ror.org/">https://ror.org/05wkbzn97</userId>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Jamie</givenName>
+        <surName>Thompson</surName>
+      </individualName>
+      <electronicMailAddress>jamie.thompson@seattle.gov</electronicMailAddress>
+      <userId directory="https://orcid.org">0009-0005-8831-8973</userId>
+    </contact>
+    <publisher>
+      <organizationName>Environmental Data Initiative</organizationName>
+      <electronicMailAddress>info@edirepository.org</electronicMailAddress>
+      <onlineUrl>https://edirepository.org</onlineUrl>
+      <userId directory="https://ror.org">0330j0z60</userId>
+    </publisher>
+    <pubPlace>Environmental Data Initiative</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Between October and December each year, SPU conducts weekly, foot-based bull trout redd surveys throughout the most heavily used habitats termed the “Core Zone”, and as able throughout the complete known distribution of bull trout in the CRW (non-Core Zone, Figure 1). Redd surveys provide GPS coordinates, and thus the horizontal location of each redd or redd cluster. Coordinates are superimposed over 0.5-foot vertical precision, 3-foot topobathy grid. Each redd is assigned the corresponding elevation and can be monitored throughout incubation using a hydraulic model (currently 1-D, but 2-D being developed) that incorporates impacts of hydraulic modification and sedimentation (with 2-D model) on embryo development and survival. Data on the temporal distributions of fry emergence will provide empirical information for reservoir operators and watershed stewards on the potential impacts of reservoir refill. For example, if estimators indicate many embryos remain in the gravel upon the initiation of spring reservoir refill, the refill process could be delayed or slowed to reduce potential terminal impacts on those embryos. However, fry emergence trapping in the inundation zone has shown to be very high risk of total loss of data, so pilot work on fry emergence trapping and water quality monitoring in egg pockets will be initiated in areas where risk of data loss is low, i.e., upstream of the inundation zone.    </para>
+        </description>
+        <instrumentation>Onset HOBO U26-001 temperature and dissolved oxygen data logger</instrumentation>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Two (2) traps will be deployed in a side channel upstream of the inundation zone that is influenced by floodplain and wetland hydrology and responds minimally to flow events and ambient conditions in mainstem channels (Eagle Ridge Side Channel, Figure 1). Currently, SPU has nearly four (4) years of continuous surface water temperature data from Eagle Ridge Side Channel, and using linear regression, these data have been related to real-time surface water temperatures recorded at USGS 12115000 about 1 river mile downstream in the Cedar River (Figure 2). This regression will be used in-office to estimate ATU in Eagle Ridge Side Channel so SPU can anticipate when fry might begin to emerge and therefore when traps should be deployed. Traps will be deployed upon the regression estimating an accumulation of 500 ATU. </para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Identification of candidate redds for fry emergence trapping</para>
+          <para/>
+          <para>While the main concern over operational impacts is for redds located in areas subjected to reservoir inundation, sampling of embryos in these areas is extremely difficult and probability of complete data and trap loss is elevated (SPU 2019). Instead of initiating the fry trapping program in an area where loss of data and traps is possible, SPU has identified an area where bull trout spawn in reliable abundance each year, where weekly access throughout fall and winter is feasible, and where flow events will not affect traps and data collection (Eagle Ridge Side Channel). During the 2023 spawning period, a total of two (2) redds, one observed earlier (Nov 12-Nov 18), and another observed later (Nov 26-Dec 16), will be trapped (capped) in Eagle Ridge Creek Side Channel. This will enable assessment of ATU requirements for emergence of bull trout fry across two distinct thermal regimes (early and late spawning; Table 1). Fry emergence trap dimensions (2.5’ x 3.5’) will limit the size of redd that can be effectively trapped.</para>
+          <para/>
+          <para>Procedure for sampling water quality variables and fry emergence timing distributions </para>
+          <para/>
+          <para>Water quality variables–To sample environmental conditions in egg pockets and to calculate ATU requirements across fry emergence distributions, the egg pocket area of each trapped redd must be sampled for water temperature and dissolved oxygen (DO). As redds are observed in Eagle Ridge Side Channel, those of appropriate size (length and width) will be marked with GPS coordinates. The SPU lead biologist will select a single redd from the candidates for each period (early and late), and a water quality sensor will be deployed near the egg pocket in the redd. The lead fish biologist will carefully remove substrate from the probable egg pocket area (center of the tailspill) until the top and edges of the egg pocket are located (egg pocket: space in gravel containing 5 or more eggs separated by no more than a few egg diameters, DeVries 1997; Crisp and Carling 1989; Weeber et al. 2010). Once the perimeter of the egg pocket is determined, substrate will be replaced over the egg pocket and a 2” diameter perforated steel housing unit that contains a DO/temperature sensor (Onset HOBO U26) will be inserted into the streambed outside the perimeter of the egg pocket (Figure 3). The steel housing will then be zip tied to rebar that is driven deeper into the streambed as an anchor. The sensor in the housing will continuously record temperature and DO at egg pocket depth in the redd and will be accessible for weekly downloads and maintenance through a removable lid in the housing. After housing deployment, the redd will be fenced off using mesh fencing and fence posts around the perimeter to prohibit subsequent spawning or superimposition over the redd. A temperature sensor will also be deployed on the rebar in the water column at each redd to determine spatial differences in groundwater influences at egg pocket depths across different habitats used by spawners.   </para>
+          <para/>
+          <para>Based on previous use of the methodology and referencing the designs of other fry traps in the scientific literature, two fry traps were designed by SPU Watershed Management Division’s senior fish biologist and constructed by SPU’s equipment and facilities shop and a seamstress contractor (Figure 4). Monitoring of real-time surface water temperature at a stream gage (USGS 12115000) and periodic downloads of the egg pocket DO and temperature sensor prior to trap deployment will provide approximation of embryo development stage, which is the information needed to determine when the trap will be deployed, i.e., when the redd will be capped and emergent fry will be sampled. Based on information SPU has on file from previous fry emergence trapping efforts, the earliest date the trap would be deployed is after 500 ATU and no later than 600 ATU (Bowerman et al. 2014). </para>
+          <para/>
+          <para>Fry emergence timing distribution–Fry will be sampled at each trap by collecting them from a cod end, fine mesh-lined, 6” diameter by 12” long PVC housing and by dip netting inside the trap (cap) itself through a small zipper opening in the trap mesh. First, the trap’s outlet 4” hose will be clamped using a hose clamp to prohibit additional fry from moving into the hose, and the cod end will be carefully lifted from the streambed. The cod end will be submerged in a bucket of fresh stream water and the cap removed to allow fry to swim out of the cod end and into the bucket. Fry will then be counted and released to stream margins immediately using an aquarium net. Next, the zipper in the trap mesh will be opened so the biologist can fit a larger aquarium net and ensure any emerged fry that did not move into the cod end but located in the trap are captured. Once captured, these fry will be placed in a bucket of fresh stream water, counted, and returned to the stream margin. Finally, the hose clamp will be removed, the cod end will be lifted from the streambed again, and fry will be removed as in step one to ensure all fry in the trap, hose, and cod end have been counted for the sample date. </para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Data analysis</para>
+          <para/>
+          <para>The temporal resolution of fry emergence timing will be at a scale of one week because SPU conducts reservoir operations, and therefore evaluates potential impacts to bull trout embryos, at this scale. However, redd surveys in Eagle Ridge Side Channel are planned to occur twice weekly and sampling of fry traps for emergence will occur three times weekly after emergence trap deployment. Weekly temporal fry emergence distribution histograms will be created. </para>
+          <para/>
+          <para>This pilot study is part of the larger bull trout monitoring program. Stream surface water temperature is being intensively monitored across habitats in the CRW within bull trout distribution at over 40 locations. Stream habitats used by bull trout consist of a few thermally mediated habitats that can be grouped based on the annual thermal regime. Several habitat units used by bull trout have a surface water thermal regime like that in Eagle Ridge Side Channel. Thus, ATU requirements observed in Eagle Ridge Side Channel can be applied to redds located in thermally similar habitats to estimate emergence in those habitats. </para>
+          <para/>
+          <para>Fry emergence trapping and water quality sampling described here is planned to occur each year for at least the next five years or until the SPU WMD lead fish biologist, HCP Oversight Committee, and regulators are satisfied SPU understands the diversity of embryo incubation and fry emergence timing that exists in this population. This long-term approach will also enable evaluation of how climate change alters temperature regimes across habitats used by spawning bull trout. While habitats not impacted by reservoir inundation are targeted for the initial years of fry emergence sampling to reduce risk of data and trap loss, as SPU constructs a fry emergence distribution database, sampling locations will move downstream and into mainstem channels affected by reservoir inundation. At that time, SPU will have constructed several customized fry emergence traps of different size, which will allow for deployment and more reliable sampling in higher risk areas.  </para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>N000794 - FISH &amp; WILDLIFE PROGRAM</title>
+      <personnel>
+        <individualName>
+          <givenName>Jamie</givenName>
+          <surName>Thompson</surName>
+        </individualName>
+        <electronicMailAddress>jamie.thompson@seattle.gov</electronicMailAddress>
+        <userId directory="https://orcid.org">0009-0005-8831-8973</userId>
+        <role>Project manager</role>
+      </personnel>
+      <abstract>
+        <para>The purpose of this project is to implement a long-term bull trout fry emergence trapping program initiated in 2023. Year one was a pilot study that provided proof of concept and lessons learned for future bull trout fry emergence trapping data collection. The overarching goals for year-two of this program are to, </para>
+        <para/>
+        <para>1)	sample the variability in incubation rates (i.e., fry emergence distributions) that exist across the diversity of spawning habitats and locations used by bull trout in the CRMW, </para>
+        <para>2)	sample the variability in incubation rates that exist across the diversity of spawn timing that occurs in the CRMW, </para>
+        <para>3)	develop a series of spawn timing- and location dependent estimators for bull trout fry emergence distributions. </para>
+        <para/>
+        <para>Along with other future studies, results from this effort will help SPU understand, 1) if and to what degree reservoir inundation of redds affects embryo development and fry emergence timing, and 2) how many bull trout redds and embryos are affected by impacts of reservoir inundation each year.  </para>
+      </abstract>
+    </project>
+    <dataTable id="6909efed9b2bb7303f160b20794262a3" scope="document" system="https://pasta.edirepository.org">
+      <entityName>Bull trout fry emergence trapping Cedar River Municipal Watershed</entityName>
+      <entityDescription>Daily bull trout fry emergence observations in the Cedar River Municipal Watershed, WA</entityDescription>
+      <physical>
+        <objectName>Bull trout fry emergence trapping Cedar River Municipal Watershed.csv</objectName>
+        <size unit="byte">36610</size>
+        <authentication method="MD5">25c0f08e41fbf2760fdf588bd80bd575</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/21/1/6909efed9b2bb7303f160b20794262a3</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Trap</attributeName>
+          <attributeLabel>Trap</attributeLabel>
+          <attributeDefinition>Trap number assigned each year of sampling</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Reach</attributeName>
+          <attributeLabel>Reach</attributeLabel>
+          <attributeDefinition>Reach within which sampling occurred (Reaches_2023.csv)</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Lat</attributeName>
+          <attributeLabel>Lat</attributeLabel>
+          <attributeDefinition>Latitude at which trap was deployed</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Long</attributeName>
+          <attributeLabel>Long</attributeLabel>
+          <attributeDefinition>Longitude at which trap was deployed</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ATU</attributeName>
+          <attributeLabel>ATU</attributeLabel>
+          <attributeDefinition>Accumulated temperature units (in Celsius), daily mean egg pocket temperature</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date of sample</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>MeanTempC</attributeName>
+          <attributeLabel>MeanTempC</attributeLabel>
+          <attributeDefinition>Mean daily egg pocket water temperature in Celsius calculated using hourly, continuously collected data at approximately 13 centimeters (5-6 inches) under streambed near primary egg pocket</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>MinTempC</attributeName>
+          <attributeLabel>MinTempC</attributeLabel>
+          <attributeDefinition>Minimum daily egg pocket water temperature in Celsius calculated using hourly, continuously collected data at approximately 13 centimeters (5-6 inches) under streambed near primary egg pocket</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>MaxTempC</attributeName>
+          <attributeLabel>MaxTempC</attributeLabel>
+          <attributeDefinition>Maximum daily egg pocket water temperature in Celsius calculated using hourly, continuously collected data at approximately 13 centimeters (5-6 inches) under streambed near primary egg pocket</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>MeanDOmg.L</attributeName>
+          <attributeLabel>MeanDOmg.L</attributeLabel>
+          <attributeDefinition>Mean daily egg pocket dissolved oxygen in milligrams per liter calculated using hourly, continuously collected data at approximately 13 centimeters (5-6 inches) under streambed near primary egg pocket</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>MinDOmg.L</attributeName>
+          <attributeLabel>MinDOmg.L</attributeLabel>
+          <attributeDefinition>Minimum daily egg pocket dissolved oxygen in milligrams per liter calculated using hourly, continuously collected data at approximately 13 centimeters (5-6 inches) under streambed near primary egg pocket</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>MaxDOmg.L</attributeName>
+          <attributeLabel>MaxDOmg.L</attributeLabel>
+          <attributeDefinition>Maximum daily egg pocket dissolved oxygen in milligrams per liter calculated using hourly, continuously collected data at approximately 13 centimeters (5-6 inches) under streambed near primary egg pocket</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Fry</attributeName>
+          <attributeLabel>Fry</attributeLabel>
+          <attributeDefinition>Number of bull trout alevins or fry counted swimming out of fry trap or captured in cod end</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Mortality</attributeName>
+          <attributeLabel>Mortality</attributeLabel>
+          <attributeDefinition>Number of bull trout alevins or fry mortalities counted captured in trap or cod end</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Comment</attributeName>
+          <attributeLabel>Comment</attributeLabel>
+          <attributeDefinition>Qualitative information about trap deployment or sampling</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>328</numberOfRecords>
+    </dataTable>
+    <otherEntity id="4afe699ded28cccc06c2bcd613101c58" scope="document" system="https://pasta.edirepository.org">
+      <entityName>Collection Permit Plan_SPUBullTroutCedarRiver2024-2025</entityName>
+      <entityDescription>Washington State Department of Fish and Wildlife - Scientific collection permit</entityDescription>
+      <physical>
+        <objectName>Collection Permit Plan_SPUBullTroutCedarRiver2024-2025.pdf</objectName>
+        <size unit="byte">2882124</size>
+        <authentication method="MD5">9a3ff8b9e227a22798b0d03a103b79c6</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/21/1/4afe699ded28cccc06c2bcd613101c58</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <emlEditor app="ezEML" release="2025.02.19"/>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

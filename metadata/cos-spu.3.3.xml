@@ -1,0 +1,2182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="cos-spu.3.3" system="https://pasta.edirepository.org" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>SPU_EDI_Data_Author</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>uid=cgries,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.0311/FK2/3249ec50fb21cfa8b48a02f4bb4717fd</alternateIdentifier>
+    <title>Chester Morse Lake bull trout, rainbow trout, and pygmy whitefish acoustic telemetry study, 2005 – 2012, Seattle Public Utilities, Cedar River Municipal Watershed, King County, WA</title>
+    <creator>
+      <individualName>
+        <givenName>Heidy</givenName>
+        <surName>Barnett</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov?</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+    </creator>
+    <pubDate>2025-04-20</pubDate>
+    <abstract>
+      <para>This study evaluated habitat use of each species in relation to thermal conditions in the reservoir</para>
+      <para>complex, and described how annual reservoir elevation patterns influenced the spatial distribution of</para>
+      <para>fish. Specifically, the study a) documented seasonal habitat use by fish in four macrohabitat types of the</para>
+      <para>CML reservoir complex - Masonry Pool (MP), the main basin, delta, and the reservoir/river transition</para>
+      <para>zone; b) documented the seasonal and diel depth of bull trout and rainbow trout in the main basin of</para>
+      <para>CML, and c) described thermal conditions for bull trout and rainbow trout.</para>
+      <para/>
+      <para>The adult fish tagging study was part of a larger effort to better understand distribution of adult bull trout,</para>
+      <para>rainbow trout and pygmy whitefish in the reservoir complex. Results corroborated bioenergetics</para>
+      <para>simulations, indicating that bull trout in CML occupy thermally suitable habitats during stratification such</para>
+      <para>that they do not experience prolonged stress or weight loss. Adult bull trout occurred throughout CML</para>
+      <para>but exhibited seasonal changes in depth and lateral distribution. Masonry Pool, on the west side of the</para>
+      <para>complex, was the least utilized habitat, and most tagged fish remained distributed at the eastern end of</para>
+      <para>CML where the Cedar and Rex rivers flow into CML. Bull trout use of the Cedar and Rex deltas was high</para>
+      <para>from winter through spring, and in summer bull trout moved to deeper and presumably cooler habitats</para>
+      <para>in the main CML basin. Concurrent detections of pygmy whitefish and bull trout in deltas during winter</para>
+      <para>and spring, along with increased proportion of pygmy whitefish in bull trout diets during these seasons,</para>
+      <para>suggested that delta habitats may be important foraging habitat for bull trout in spring.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>Cedar River Municipal Watershed (CRMW)</keyword>
+      <keywordThesaurus>City of Seattle Remote Watershed</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Watershed Research and Monitoring</keyword>
+      <keywordThesaurus>HCP Category</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Watershed Aquatic Monitoring and Research</keyword>
+      <keywordThesaurus>HCP Group</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>fishes</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>City of Seattle</keyword>
+      <keyword>Fish Program</keyword>
+      <keyword>Seattle Public Utilities</keyword>
+      <keyword>Sound</keyword>
+      <keywordThesaurus>SPU</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This data package is released to the "public domain" under Creative Commons CC0 1.0 "No Rights Reserved" (see: https://creativecommons.org/publicdomain/zero/1.0/). It is considered professional etiquette to provide attribution of the original work if this data package is shared in whole or by individual components. A generic citation is provided for this data package on the website https://portal.edirepository.org (herein "website") in the summary metadata page. Communication (and collaboration) with the creators of this data package is recommended to prevent duplicate research or publication. This data package (and its components) is made available "as is" and with no warranty of accuracy or fitness for use. The creators of this data package and the website shall not be liable for any damages resulting from misinterpretation or misuse of the data package or its components. Periodic updates of this data package may be available from the website. Thank you.</para>
+    </intellectualRights>
+    <distribution id="10.0311/FK2/3249ec50fb21cfa8b48a02f4bb4717fd" scope="system" system="https://pasta.edirepository.org">
+      <online>
+        <url function="information">https://doi.org/10.0311/FK2/3249ec50fb21cfa8b48a02f4bb4717fd</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Chester Morse Lake</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.7566602</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.5936456</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.4164889</northBoundingCoordinate>
+          <southBoundingCoordinate>47.35408119</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2005</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2012</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <generalTaxonomicCoverage>Bull Trout, Rainbow Trout, Pygmy Whitefish</generalTaxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Kingdom</taxonRankName>
+          <taxonRankValue>Metazoa</taxonRankValue>
+          <commonName>metazoans</commonName>
+          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">33208</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>Phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <commonName>chordates</commonName>
+            <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">7711</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>Subphylum</taxonRankName>
+              <taxonRankValue>Craniata</taxonRankValue>
+              <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">89593</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>Superclass</taxonRankName>
+                <taxonRankValue>Actinopterygii</taxonRankValue>
+                <commonName>ray-finned fishes</commonName>
+                <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">7898</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>Class</taxonRankName>
+                  <taxonRankValue>Actinopteri</taxonRankValue>
+                  <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">186623</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>Subclass</taxonRankName>
+                    <taxonRankValue>Neopterygii</taxonRankValue>
+                    <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">41665</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>Infraclass</taxonRankName>
+                      <taxonRankValue>Teleostei</taxonRankValue>
+                      <commonName>teleost fishes</commonName>
+                      <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">32443</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>Order</taxonRankName>
+                        <taxonRankValue>Salmoniformes</taxonRankValue>
+                        <commonName>salmons and trouts</commonName>
+                        <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">8006</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>Family</taxonRankName>
+                          <taxonRankValue>Salmonidae</taxonRankValue>
+                          <commonName>salmonids</commonName>
+                          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">8015</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>Subfamily</taxonRankName>
+                            <taxonRankValue>Salmoninae</taxonRankValue>
+                            <commonName>trouts, salmons &amp; chars</commonName>
+                            <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">504568</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>Genus</taxonRankName>
+                              <taxonRankValue>Salvelinus</taxonRankValue>
+                              <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">8033</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>Species</taxonRankName>
+                                <taxonRankValue>Salvelinus confluentus</taxonRankValue>
+                                <commonName>bull trout</commonName>
+                                <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">8037</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Kingdom</taxonRankName>
+          <taxonRankValue>Metazoa</taxonRankValue>
+          <commonName>metazoans</commonName>
+          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">33208</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>Phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <commonName>chordates</commonName>
+            <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">7711</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>Subphylum</taxonRankName>
+              <taxonRankValue>Craniata</taxonRankValue>
+              <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">89593</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>Superclass</taxonRankName>
+                <taxonRankValue>Actinopterygii</taxonRankValue>
+                <commonName>ray-finned fishes</commonName>
+                <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">7898</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>Class</taxonRankName>
+                  <taxonRankValue>Actinopteri</taxonRankValue>
+                  <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">186623</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>Subclass</taxonRankName>
+                    <taxonRankValue>Neopterygii</taxonRankValue>
+                    <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">41665</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>Infraclass</taxonRankName>
+                      <taxonRankValue>Teleostei</taxonRankValue>
+                      <commonName>teleost fishes</commonName>
+                      <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">32443</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>Order</taxonRankName>
+                        <taxonRankValue>Salmoniformes</taxonRankValue>
+                        <commonName>salmons and trouts</commonName>
+                        <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">8006</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>Family</taxonRankName>
+                          <taxonRankValue>Salmonidae</taxonRankValue>
+                          <commonName>salmonids</commonName>
+                          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">8015</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>Subfamily</taxonRankName>
+                            <taxonRankValue>Salmoninae</taxonRankValue>
+                            <commonName>trouts, salmons &amp; chars</commonName>
+                            <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">504568</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>Genus</taxonRankName>
+                              <taxonRankValue>Oncorhynchus</taxonRankValue>
+                              <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">8016</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>Species</taxonRankName>
+                                <taxonRankValue>Oncorhynchus mykiss</taxonRankValue>
+                                <commonName>rainbow trout</commonName>
+                                <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">8022</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Kingdom</taxonRankName>
+          <taxonRankValue>Metazoa</taxonRankValue>
+          <commonName>metazoans</commonName>
+          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">33208</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>Phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <commonName>chordates</commonName>
+            <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">7711</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>Subphylum</taxonRankName>
+              <taxonRankValue>Craniata</taxonRankValue>
+              <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">89593</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>Superclass</taxonRankName>
+                <taxonRankValue>Actinopterygii</taxonRankValue>
+                <commonName>ray-finned fishes</commonName>
+                <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">7898</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>Class</taxonRankName>
+                  <taxonRankValue>Actinopteri</taxonRankValue>
+                  <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">186623</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>Subclass</taxonRankName>
+                    <taxonRankValue>Neopterygii</taxonRankValue>
+                    <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">41665</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>Infraclass</taxonRankName>
+                      <taxonRankValue>Teleostei</taxonRankValue>
+                      <commonName>teleost fishes</commonName>
+                      <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">32443</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>Order</taxonRankName>
+                        <taxonRankValue>Salmoniformes</taxonRankValue>
+                        <commonName>salmons and trouts</commonName>
+                        <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">8006</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>Family</taxonRankName>
+                          <taxonRankValue>Salmonidae</taxonRankValue>
+                          <commonName>salmonids</commonName>
+                          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">8015</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>Subfamily</taxonRankName>
+                            <taxonRankValue>Coregoninae</taxonRankValue>
+                            <commonName>whitefishes</commonName>
+                            <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">504567</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>Genus</taxonRankName>
+                              <taxonRankValue>Prosopium</taxonRankValue>
+                              <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">36182</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>Species</taxonRankName>
+                                <taxonRankValue>Prosopium coulterii</taxonRankValue>
+                                <commonName>pygmy whitefish</commonName>
+                                <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">141825</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>completed<para>completed</para>
+         </description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Heidy</givenName>
+        <surName>Barnett</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov?</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Jamie</givenName>
+        <surName>Thompson</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov?</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <userId directory="https://orcid.org">https://orcid.org/0009-0005-8831-8973</userId>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Tom</givenName>
+        <surName>Van Buren</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov?</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-8251-4771</userId>
+    </contact>
+    <publisher>
+      <organizationName>Environmental Data Initiative</organizationName>
+      <electronicMailAddress>info@edirepository.org</electronicMailAddress>
+      <onlineUrl>https://edirepository.org</onlineUrl>
+      <userId directory="https://ror.org">0330j0z60</userId>
+    </publisher>
+    <pubPlace>Environmental Data Initiative</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Acoustic telemetry equipment (Vemco, Inc., Shad Bay, Nova Scotia, Canada) was used to continuously monitor the location of adult bull trout, rainbow trout, and pygmy whitefish in the reservoir complex, and provided depth and temperature at fish locations for some tagged fish. These data confirmed fish were within a general detection area of a receiver, and were useful in describing macrohabitat scale distribution patterns.</para>
+          <para/>
+          <para>Hydrophone receivers (VR2 and VR2W receivers) mounted to buoys (n = 22) were positioned in the reservoir complex (Figure 7-2). The receiver array provided only partial coverage in MP, the main basin, deltas, and the reservoir/river transition zone. Additional receivers were installed upstream of the reservoir/river transition zone in the Cedar (n = 7) and Rex (n = 6) rivers, and in Rack Creek (n = 1) to document movements within stream habitats. The detection range of acoustic tags was about 300 m at full pool elevation. Data were downloaded quarterly at which time receivers were replaced with a new unit.</para>
+          <para/>
+          <para>Data from receivers were combined on two levels to describe an individual's horizontal position in the reservoir complex; a) habitat zones, and b) macrohabitat types. Habitat zones were composed of a grouping of receivers within a localized area. This provided a useful partitioning of data to support project planning (e.g., Morse Lake Pump Plant project), and enabled finer-scale evaluation of habitat use within discrete portions of the reservoir. Summary of data by macrohabitat types provided a coarser description of habitat use, and included a) MP, b) main basin, c) delta, and d) river/reservoir transition habitat.</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Bull Trout Lake Telemetry Studies</title>
+      <personnel>
+        <individualName>
+          <givenName>Jamie</givenName>
+          <surName>Thompson</surName>
+        </individualName>
+        <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+        <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+        <role>Project Manager</role>
+      </personnel>
+      <abstract>Bull trout lake telemetry [N541808] The City may tag and acoustically track adult bull trout in the Chester Morse Lake to learn if they might be spawning at selected locations in the reservoir. The cost of this study may be up to $70,000 and may be initiated within HCP years 39.</abstract>
+      <award>
+        <funderName>City of Seattle</funderName>
+        <awardNumber>C105068</awardNumber>
+        <title>Bull Trout Lake Telemetry Studies</title>
+      </award>
+    </project>
+    <dataTable id="0f84f9e08705b37353a51a6af91a55a1" scope="document" system="https://pasta.edirepository.org">
+      <entityName>Acoustic_Study_Tagging_Data</entityName>
+      <entityDescription>Characteristics of tagged fish - size distribution, growth, and age</entityDescription>
+      <physical>
+        <objectName>Acoustic_Study_Tagging_Data.csv</objectName>
+        <size unit="byte">33089</size>
+        <authentication method="MD5">ab4032c1c6343d263777b19662a50bf5</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/3/3/0f84f9e08705b37353a51a6af91a55a1</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Tag_ID_Code</attributeName>
+          <attributeLabel>Tag_ID_Code</attributeLabel>
+          <attributeDefinition>tag ID used for detecting fish movement</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Tag_Type</attributeName>
+          <attributeLabel>Tag_Type</attributeLabel>
+          <attributeDefinition>Model V7, V9, and V13 tags transmitted only the date and time. Model V9P tags transmitted fish depth below the water surface, model V9T and V13T tags transmitted temperature, and model V9TP tags transmitted fish depth below water surface and temperature</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Serial_Number</attributeName>
+          <attributeLabel>Serial_Number</attributeLabel>
+          <attributeDefinition>tag serial number</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Freq</attributeName>
+          <attributeLabel>Freq</attributeLabel>
+          <attributeDefinition>frequency of signal</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>second</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Range_m</attributeName>
+          <attributeLabel>Range_m</attributeLabel>
+          <attributeDefinition>range of signal</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Slope_m_s</attributeName>
+          <attributeLabel>Slope_m_s</attributeLabel>
+          <attributeDefinition>slope</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meterPerSecond</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Intercept_m</attributeName>
+          <attributeLabel>Intercept_m</attributeLabel>
+          <attributeDefinition>intercept</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Repeat_Interval_sec</attributeName>
+          <attributeLabel>Repeat_Interval_sec</attributeLabel>
+          <attributeDefinition>repeat interval of signal</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Length_mm</attributeName>
+          <attributeLabel>Length_mm</attributeLabel>
+          <attributeDefinition>length</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Battery_life_days</attributeName>
+          <attributeLabel>Battery_life_days</attributeLabel>
+          <attributeDefinition>battery life in days</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Battery_life_years</attributeName>
+          <attributeLabel>Battery_life_years</attributeLabel>
+          <attributeDefinition>battery life in years</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeLabel>Species</attributeLabel>
+          <attributeDefinition>species</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>BLT</code>
+                    <definition>bull trout</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PWF</code>
+                    <definition>pygmy whitefish</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RBT</code>
+                    <definition>rainbow trout</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Deployment_Date</attributeName>
+          <attributeLabel>Deployment_Date</attributeLabel>
+          <attributeDefinition>deployment date</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Spawning_Condition_When_Tagged_Y_N</attributeName>
+          <attributeLabel>Spawning_Condition_When_Tagged_Y_N</attributeLabel>
+          <attributeDefinition>spawning conditions when tagged</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>no</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Y</code>
+                    <definition>yes</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Sex</attributeName>
+          <attributeLabel>Sex</attributeLabel>
+          <attributeDefinition>sex</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>?</code>
+                    <definition>undetermined</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>F</code>
+                    <definition>femal</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>male</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Weight_g</attributeName>
+          <attributeLabel>Weight_g</attributeLabel>
+          <attributeDefinition>weight of individual fish</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Fork_Length_mm</attributeName>
+          <attributeLabel>Fork_Length_mm</attributeLabel>
+          <attributeDefinition>fork length of individual fish</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Total_Length_mm</attributeName>
+          <attributeLabel>Total_Length_mm</attributeLabel>
+          <attributeDefinition>total length of individual fish</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Floy_Tag_Code</attributeName>
+          <attributeLabel>Floy_Tag_Code</attributeLabel>
+          <attributeDefinition>floy tag Code</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>n/a</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>PIT_tag</attributeName>
+          <attributeLabel>PIT_tag</attributeLabel>
+          <attributeDefinition>pit tag</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>n/a</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Sample_ID_R2</attributeName>
+          <attributeLabel>Sample_ID_R2</attributeLabel>
+          <attributeDefinition>sample id _t R2</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Expected_Battery_End_Date</attributeName>
+          <attributeLabel>Expected_Battery_End_Date</attributeLabel>
+          <attributeDefinition>expected battery end date</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Notes</attributeName>
+          <attributeLabel>Notes</attributeLabel>
+          <attributeDefinition>notes</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>272</numberOfRecords>
+    </dataTable>
+    <dataTable id="0344179fcd6260f8a73d85f958477620" scope="document" system="https://pasta.edirepository.org">
+      <entityName>2005_2006_Raw_Data</entityName>
+      <entityDescription>fish tag detection events in 2005 and 2006</entityDescription>
+      <physical>
+        <objectName>2005_2006_Raw_Data.csv</objectName>
+        <size unit="byte">50269095</size>
+        <authentication method="MD5">75b26d35a258cc24db889d5000a6af12</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/3/3/0344179fcd6260f8a73d85f958477620</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>downdate</attributeName>
+          <attributeLabel>downdate</attributeLabel>
+          <attributeDefinition>don't know</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>hydrophone</attributeName>
+          <attributeLabel>hydrophone</attributeLabel>
+          <attributeDefinition>hydrophone ID</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>buoy</attributeName>
+          <attributeLabel>buoy</attributeLabel>
+          <attributeDefinition>buoy ID</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>tag</attributeName>
+          <attributeLabel>tag</attributeLabel>
+          <attributeDefinition>tag ID code identifying fish detected</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>detection date</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>time</attributeName>
+          <attributeLabel>time</attributeLabel>
+          <attributeDefinition>detection time of day</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeLabel>depth</attributeLabel>
+          <attributeDefinition>depth of fish detected</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>temperature</attributeName>
+          <attributeLabel>temperature</attributeLabel>
+          <attributeDefinition>water temperature</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>zone</attributeName>
+          <attributeLabel>zone</attributeLabel>
+          <attributeDefinition>study zone in and around Chester Morse Lake</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Cedar</code>
+                    <definition>Cedar River Delta</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Cedar River</code>
+                    <definition>Cedar River Reservoir transition</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Pool</code>
+                    <definition>Masonry Pool pool area</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Rack</code>
+                    <definition>Rack River Reservoir transition</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Rex</code>
+                    <definition>Rex River Delta</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Rex River</code>
+                    <definition>Rex River Reservoir transition</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>1048575</numberOfRecords>
+    </dataTable>
+    <dataTable id="513bfc96cf70347c04e71226f074c4ba" scope="document" system="https://pasta.edirepository.org">
+      <entityName>2007_raw_data</entityName>
+      <entityDescription>2007 acoustic fish detections</entityDescription>
+      <physical>
+        <objectName>2007_raw_data.csv</objectName>
+        <size unit="byte">1067851</size>
+        <authentication method="MD5">92be22a53c7e764667901979ff93cdfb</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/3/3/513bfc96cf70347c04e71226f074c4ba</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>downdate</attributeName>
+          <attributeLabel>downdate</attributeLabel>
+          <attributeDefinition>don't know</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>hydrophone</attributeName>
+          <attributeLabel>hydrophone</attributeLabel>
+          <attributeDefinition>hydrophone ID</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>buoy</attributeName>
+          <attributeLabel>buoy</attributeLabel>
+          <attributeDefinition>buoy ID</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>tag</attributeName>
+          <attributeLabel>tag</attributeLabel>
+          <attributeDefinition>tag ID code identifying fish detected</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>detection date</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>time</attributeName>
+          <attributeLabel>time</attributeLabel>
+          <attributeDefinition>detection time of day</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeLabel>depth</attributeLabel>
+          <attributeDefinition>depth of fish detected</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>temperature</attributeName>
+          <attributeLabel>temperature</attributeLabel>
+          <attributeDefinition>water temperature</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>zone</attributeName>
+          <attributeLabel>zone</attributeLabel>
+          <attributeDefinition>study zone in and around Chester Morse Lake</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Cedar</code>
+                    <definition>Cedar River Delta</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Cedar River</code>
+                    <definition>Cedar River Reservoir transition</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Pool</code>
+                    <definition>Masonry Pool pool area</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Rack</code>
+                    <definition>Rack River Reservoir transition</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Rex</code>
+                    <definition>Rex River Delta</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Rex River</code>
+                    <definition>Rex River Reservoir transition</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>16803</numberOfRecords>
+    </dataTable>
+    <dataTable id="a068e5649035ed498a2f2d20313523b7" scope="document" system="https://pasta.edirepository.org">
+      <entityName>2008_Raw_Data</entityName>
+      <entityDescription>fish tag detection events in 2008</entityDescription>
+      <physical>
+        <objectName>2008_Raw_Data.csv</objectName>
+        <size unit="byte">402632272</size>
+        <authentication method="MD5">c2c9734d0a9eb91d6bd3cbb1e093f876</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/3/3/a068e5649035ed498a2f2d20313523b7</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>downdate</attributeName>
+          <attributeLabel>downdate</attributeLabel>
+          <attributeDefinition>don't know</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>hydrophone</attributeName>
+          <attributeLabel>hydrophone</attributeLabel>
+          <attributeDefinition>hydrophone ID</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>buoy</attributeName>
+          <attributeLabel>buoy</attributeLabel>
+          <attributeDefinition>buoy ID</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>tag</attributeName>
+          <attributeLabel>tag</attributeLabel>
+          <attributeDefinition>tag ID code identifying fish detected</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>detection date</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>time</attributeName>
+          <attributeLabel>time</attributeLabel>
+          <attributeDefinition>detection time of day</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeLabel>depth</attributeLabel>
+          <attributeDefinition>depth of fish detected</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>temperature</attributeName>
+          <attributeLabel>temperature</attributeLabel>
+          <attributeDefinition>water temperature</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>zone</attributeName>
+          <attributeLabel>zone</attributeLabel>
+          <attributeDefinition>study zone in and around Chester Morse Lake</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Cedar</code>
+                    <definition>Cedar River Delta</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Cedar River</code>
+                    <definition>Cedar River Reservoir transition</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Pool</code>
+                    <definition>Masonry Pool pool area</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Rack</code>
+                    <definition>Rack River Reservoir transition</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Rex</code>
+                    <definition>Rex River Delta</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Rex River</code>
+                    <definition>Rex River Reservoir transition</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>6598970</numberOfRecords>
+    </dataTable>
+    <dataTable id="114e677bafee695730a828316d537d7d" scope="document" system="https://pasta.edirepository.org">
+      <entityName>2009_Raw_Data</entityName>
+      <entityDescription>fish tag detection events in 2009</entityDescription>
+      <physical>
+        <objectName>2009_Raw_Data.csv</objectName>
+        <size unit="byte">243084598</size>
+        <authentication method="MD5">62b55657390103188d960122799bf275</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/3/3/114e677bafee695730a828316d537d7d</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>downdate</attributeName>
+          <attributeLabel>downdate</attributeLabel>
+          <attributeDefinition>don't know</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>hydrophone</attributeName>
+          <attributeLabel>hydrophone</attributeLabel>
+          <attributeDefinition>hydrophone ID</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>buoy</attributeName>
+          <attributeLabel>buoy</attributeLabel>
+          <attributeDefinition>buoy ID</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>tag</attributeName>
+          <attributeLabel>tag</attributeLabel>
+          <attributeDefinition>tag ID code identifying fish detected</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>detection date</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>time</attributeName>
+          <attributeLabel>time</attributeLabel>
+          <attributeDefinition>detection time of day</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeLabel>depth</attributeLabel>
+          <attributeDefinition>depth of fish detected</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>temperature</attributeName>
+          <attributeLabel>temperature</attributeLabel>
+          <attributeDefinition>water temperature</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>zone</attributeName>
+          <attributeLabel>zone</attributeLabel>
+          <attributeDefinition>study zone in and around Chester Morse Lake</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Cedar</code>
+                    <definition>Cedar River Delta</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Cedar River</code>
+                    <definition>Cedar River Reservoir transition</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Pool</code>
+                    <definition>Masonry Pool pool area</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Rack</code>
+                    <definition>Rack River Reservoir transition</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Rex</code>
+                    <definition>Rex River Delta</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Rex River</code>
+                    <definition>Rex River Reservoir transition</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>4161452</numberOfRecords>
+    </dataTable>
+    <dataTable id="0f191bb6488caab305f6a684de031cd2" scope="document" system="https://pasta.edirepository.org">
+      <entityName>2010_Raw_Data</entityName>
+      <entityDescription>fish tag detection events in 2010</entityDescription>
+      <physical>
+        <objectName>2010_Raw_Data.csv</objectName>
+        <size unit="byte">136182739</size>
+        <authentication method="MD5">fb08e13551e1ef85abae8cdfcb83d6d4</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/3/3/0f191bb6488caab305f6a684de031cd2</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>downdate</attributeName>
+          <attributeLabel>downdate</attributeLabel>
+          <attributeDefinition>don't know</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>hydrophone</attributeName>
+          <attributeLabel>hydrophone</attributeLabel>
+          <attributeDefinition>hydrophone ID</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>buoy</attributeName>
+          <attributeLabel>buoy</attributeLabel>
+          <attributeDefinition>buoy ID</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>tag</attributeName>
+          <attributeLabel>tag</attributeLabel>
+          <attributeDefinition>tag ID code identifying fish detected</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>detection date</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>time</attributeName>
+          <attributeLabel>time</attributeLabel>
+          <attributeDefinition>detection time of day</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeLabel>depth</attributeLabel>
+          <attributeDefinition>depth of fish detected</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>temperature</attributeName>
+          <attributeLabel>temperature</attributeLabel>
+          <attributeDefinition>water temperature</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>zone</attributeName>
+          <attributeLabel>zone</attributeLabel>
+          <attributeDefinition>study zone in and around Chester Morse Lake</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Cedar</code>
+                    <definition>Cedar River Delta</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Cedar River</code>
+                    <definition>Cedar River Reservoir transition</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Channel</code>
+                    <definition>Channel</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>McClellan</code>
+                    <definition>McClellan</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Middle</code>
+                    <definition>Middle</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Pool</code>
+                    <definition>Masonry Pool pool area</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Rack</code>
+                    <definition>Rack River Reservoir transition</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Rex</code>
+                    <definition>Rex River Delta</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Rex River</code>
+                    <definition>Rex River Reservoir transition</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Young's Cove</code>
+                    <definition>Young's Cove</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>2354751</numberOfRecords>
+    </dataTable>
+    <dataTable id="895f1b43af9d78e6f1e9b059d20f8c9a" scope="document" system="https://pasta.edirepository.org">
+      <entityName>2011_Raw_Data</entityName>
+      <entityDescription>fish tag detection events in 2011</entityDescription>
+      <physical>
+        <objectName>2011_Raw_Data.csv</objectName>
+        <size unit="byte">129173846</size>
+        <authentication method="MD5">324e05266c9ab1c910de9e60d45123c2</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/3/3/895f1b43af9d78e6f1e9b059d20f8c9a</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>downdate</attributeName>
+          <attributeLabel>downdate</attributeLabel>
+          <attributeDefinition>don't know</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>hydrophone</attributeName>
+          <attributeLabel>hydrophone</attributeLabel>
+          <attributeDefinition>hydrophone ID</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>buoy</attributeName>
+          <attributeLabel>buoy</attributeLabel>
+          <attributeDefinition>buoy ID</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>tag</attributeName>
+          <attributeLabel>tag</attributeLabel>
+          <attributeDefinition>tag ID code identifying fish detected</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>detection date</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>time</attributeName>
+          <attributeLabel>time</attributeLabel>
+          <attributeDefinition>detection time of day</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeLabel>depth</attributeLabel>
+          <attributeDefinition>depth of fish detected</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>temperature</attributeName>
+          <attributeLabel>temperature</attributeLabel>
+          <attributeDefinition>water temperature</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>zone</attributeName>
+          <attributeLabel>zone</attributeLabel>
+          <attributeDefinition>study zone in and around Chester Morse Lake</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Cedar</code>
+                    <definition>Cedar River Delta</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Cedar</code>
+                    <definition>Cedar River</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Cedar River</code>
+                    <definition>Cedar River Reservoir transition</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Channel</code>
+                    <definition>Channel</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>McClellan</code>
+                    <definition>McClellan</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Middle</code>
+                    <definition>Middle</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Pool</code>
+                    <definition>Masonry Pool pool area</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Rack</code>
+                    <definition>Rack River Reservoir transition</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Rex</code>
+                    <definition>Rex River Delta</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Rex River</code>
+                    <definition>Rex River Reservoir transition</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Young's Cove</code>
+                    <definition>Young's Cove</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>2180510</numberOfRecords>
+    </dataTable>
+    <dataTable id="ceae1f270d7b984d7ea16edc5219491f" scope="document" system="https://pasta.edirepository.org">
+      <entityName>2012_Raw_Data</entityName>
+      <entityDescription>fish tag detection events in 2012</entityDescription>
+      <physical>
+        <objectName>2012_Raw_Data.csv</objectName>
+        <size unit="byte">136430499</size>
+        <authentication method="MD5">03c57fc9540a7285cba2581b3dcab569</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/3/3/ceae1f270d7b984d7ea16edc5219491f</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>downdate</attributeName>
+          <attributeLabel>downdate</attributeLabel>
+          <attributeDefinition>don't know</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>hydrophone</attributeName>
+          <attributeLabel>hydrophone</attributeLabel>
+          <attributeDefinition>hydrophone ID</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>buoy</attributeName>
+          <attributeLabel>buoy</attributeLabel>
+          <attributeDefinition>buoy ID</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>tag</attributeName>
+          <attributeLabel>tag</attributeLabel>
+          <attributeDefinition>tag ID code identifying fish detected</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>detection date</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>time</attributeName>
+          <attributeLabel>time</attributeLabel>
+          <attributeDefinition>detection time of day</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeLabel>depth</attributeLabel>
+          <attributeDefinition>depth of fish detected</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>temperature</attributeName>
+          <attributeLabel>temperature</attributeLabel>
+          <attributeDefinition>water temperature</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>zone</attributeName>
+          <attributeLabel>zone</attributeLabel>
+          <attributeDefinition>study zone in and around Chester Morse Lake</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Cedar</code>
+                    <definition>Cedar River Delta</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Cedar River</code>
+                    <definition>Cedar River Reservoir transition</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Pool</code>
+                    <definition>Masonry Pool pool area</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Rack</code>
+                    <definition>Rack River Reservoir transition</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Rex</code>
+                    <definition>Rex River Delta</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Rex River</code>
+                    <definition>Rex River Reservoir transition</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>2117264</numberOfRecords>
+    </dataTable>
+    <otherEntity id="a317a5eae1057bea6a2db739ce4146c8" scope="document" system="https://pasta.edirepository.org">
+      <entityName>CRW Bull Trout Monitoring and HCP Summary 2000 to 2012</entityName>
+      <entityDescription>Summary of several project pertaining to Bull Trout Monitoring. Chapter 7 provides a detailed description and analysis of data contained in the data publication</entityDescription>
+      <physical>
+        <objectName>CRW Bull Trout Monitoring and HCP Summary 2000 to 2012.pdf</objectName>
+        <size unit="byte">67753127</size>
+        <authentication method="MD5">9fe7b067bb790c9ef684d628e2eebe33</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/3/3/a317a5eae1057bea6a2db739ce4146c8</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <emlEditor app="ezEML" release="2025.04.16"/>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

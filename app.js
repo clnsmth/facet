@@ -1,3 +1,4 @@
+
 const conceptMap = {};
 vocabulary.concepts.forEach(c => {
   conceptMap[c.id] = c;
@@ -71,41 +72,29 @@ topLevelConcepts.forEach(concept => {
 form.appendChild(ul);
 
 const selectedTiles = document.getElementById('selected-tiles');
+const resultList = document.getElementById('result-list');
 
-function filterRecords(selectedConcepts) {
-  return data.records.filter(record =>
-    selectedConcepts.some(concept => record.concepts.includes(concept))
-  );
-}
-
-const data = {
-  "records": [
-    { "id": "a1", "title": "Golden Retriever", "concepts": ["http://example.org/concept/dog"] },
-    { "id": "a2", "title": "Bald Eagle", "concepts": ["http://example.org/concept/bird"] },
-    { "id": "a3", "title": "Elephant", "concepts": ["http://example.org/concept/mammal"] }
-  ]
-};
+let dynamicRecords = [];
 
 function updateResults() {
   const selectedCheckboxes = Array.from(document.querySelectorAll('#concept-form input[type="checkbox"]:checked'));
   const selected = selectedCheckboxes.map(cb => cb.value);
 
-  const filtered = filterRecords(selected);
+  const filtered = dynamicRecords.filter(record =>
+    record.concepts.some(concept => selected.includes(concept))
+  );
 
-  const resultList = document.getElementById('result-list');
   resultList.innerHTML = '';
-
   if (filtered.length === 0) {
     resultList.innerHTML = '<li>No matching records.</li>';
   } else {
     filtered.forEach(record => {
       const li = document.createElement('li');
-      li.textContent = record.title;
+      li.textContent = record.filename;
       resultList.appendChild(li);
     });
   }
 
-  // Update tiles
   selectedTiles.innerHTML = '';
   selectedCheckboxes.forEach(cb => {
     const tile = document.createElement('div');
@@ -124,13 +113,11 @@ function updateResults() {
   });
 }
 
-// Concept search input logic
 searchInput.addEventListener('input', () => {
   const term = searchInput.value.trim().toLowerCase();
   const items = ul.querySelectorAll('li');
 
   if (term === '') {
-    // Collapse everything when input is empty
     items.forEach(item => {
       const narrower = item.querySelector('ul.narrower');
       if (narrower) {
@@ -162,3 +149,35 @@ searchInput.addEventListener('input', () => {
     });
   }
 });
+
+// Load all metadata files listed in a static file
+fetch('metadata/index.json')
+  .then(res => res.json())
+  .then(fileList => {
+    const parser = new DOMParser();
+
+    Promise.all(fileList.map(filename =>
+      fetch('metadata/' + filename)
+        .then(r => r.text())
+        .then(xmlStr => {
+          const xml = parser.parseFromString(xmlStr, "application/xml");
+          const titles = xml.getElementsByTagNameNS("*", "title");
+          const matchedConcepts = [];
+
+          Array.from(titles).forEach(t => {
+            const label = t.textContent.trim();
+            const match = Object.values(conceptMap).find(c => c.label === label);
+            if (match) matchedConcepts.push(match.id);
+          });
+
+          if (matchedConcepts.length > 0) {
+            dynamicRecords.push({
+              filename,
+              concepts: matchedConcepts
+            });
+          }
+        })
+    )).then(() => {
+      updateResults();
+    });
+  });

@@ -1,0 +1,1693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="cos-spu.117.3" system="https://pasta.edirepository.org" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>SPU_EDI_Data_Author</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>uid=reichea,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.0311/FK2/3bcd51a3b5cebc1d31b1df0a5a37af3c</alternateIdentifier>
+    <title>City of Seattle, Seattle Public Utilities, Long Term Aquatic Monitoring Program (LTAM) LWD Zones, 2006-2017, Cedar River Municipal Watershed, King County, WA</title>
+    <creator>
+      <individualName>
+        <givenName>Amy</givenName>
+        <surName>Reichenbach</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Erin</givenName>
+        <surName>Meehan</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Ann</givenName>
+        <surName>McCauley</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Amy</givenName>
+        <surName>Reichenbach</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+    </metadataProvider>
+    <metadataProvider>
+      <individualName>
+        <givenName>Erin</givenName>
+        <surName>Meehan</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Steve</givenName>
+        <surName>Ralph</surName>
+      </individualName>
+      <organizationName>Stillwater Sciences, Inc.</organizationName>
+      <address>
+        <deliveryPoint>1314 NE 43rd Street</deliveryPoint>
+        <city>Seattle</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98105</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>Ralph@stillwatersci.com</electronicMailAddress>
+      <role>Consultant Planner</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Tamre</givenName>
+        <surName>Cardoso</surName>
+      </individualName>
+      <organizationName>TerraStat Consulting Group</organizationName>
+      <address>
+        <deliveryPoint>6322 14th Ave. NE</deliveryPoint>
+        <city>Seattle</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98115</postalCode>
+        <country>USA</country>
+      </address>
+      <role>Consultant Planner</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Amy</givenName>
+        <surName>Reichenbach</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Lead surveyor</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Erin</givenName>
+        <surName>Meehan</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Crew Lead</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Ann</givenName>
+        <surName>McCauley</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Field observer</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Sarah</givenName>
+        <surName>Heyne</surName>
+      </individualName>
+      <organizationName>West Fork Environmental, Inc.</organizationName>
+      <address>
+        <deliveryPoint>2350 Mottman Rd SW</deliveryPoint>
+        <city>Tumwater</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98512</postalCode>
+        <country>USA</country>
+      </address>
+      <onlineUrl>http://www.westforkenv.com/</onlineUrl>
+      <role>Consultant Field observer</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Todd</givenName>
+        <surName>Bohle</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Planner</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Wendy</givenName>
+        <surName>Sammarco</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Field observer</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Heidy</givenName>
+        <surName>Barnett</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Field observer</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>David</givenName>
+        <surName>Chapin</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Field observer</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Bill</givenName>
+        <surName>Richards</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Field observer</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Dave</givenName>
+        <surName>Beedle</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Planner</role>
+    </associatedParty>
+    <pubDate>2025-04-17</pubDate>
+    <abstract>
+      <para>This package contains Large Woody Debris (LWD) Zone data for data collection years 2006-2017 for the Long Term Aquatic Monitoring (LTAM) program in Seattle Public Utilities Cedar River Watershed Habitat Conservation Plan in North Bend, Washington. Four zones were classified in and adjacent to the stream channel, and woody debris length was measured in each of the four zones. Small end and large end diameter was also measured.
+
+For more detailed information on the LTAM program and methods, refer to the LTAM Methods and Reports data package.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>City of Seattle</keyword>
+      <keyword>Seattle Public Utilities</keyword>
+      <keyword>SPU</keyword>
+      <keyword>King County</keyword>
+      <keyword>Washington</keyword>
+      <keyword>Cedar River Municipal Watershed (CRMW)</keyword>
+      <keyword>Habitat Conservation Plan</keyword>
+      <keyword>hydro</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Watershed Research and Monitoring</keyword>
+      <keywordThesaurus>HCP Category</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Watershed Aquatic Monitoring and Research</keyword>
+      <keywordThesaurus>HCP Group</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>hydrology</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</para>
+    </intellectualRights>
+    <licensed>
+      <licenseName>Creative Commons Attribution 4.0 International</licenseName>
+      <url>https://spdx.org/licenses/CC-BY-4.0</url>
+      <identifier>CC-BY-4.0</identifier>
+    </licensed>
+    <distribution id="10.0311/FK2/3bcd51a3b5cebc1d31b1df0a5a37af3c" scope="system" system="https://pasta.edirepository.org">
+      <online>
+        <url function="information">https://doi.org/10.0311/FK2/3bcd51a3b5cebc1d31b1df0a5a37af3c</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Cedar River Municipal Watershed</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.0334104</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.3631524</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.24097306</northBoundingCoordinate>
+          <southBoundingCoordinate>47.49192463</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 1, North Fork Cedar, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.4778031</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.4778031</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.32216306</northBoundingCoordinate>
+          <southBoundingCoordinate>47.32216306</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 2, Rock, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.887347</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.887347</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.41493339</northBoundingCoordinate>
+          <southBoundingCoordinate>47.41493339</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 3, South Fork Taylor, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.7982566</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.7982566</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.35088959</northBoundingCoordinate>
+          <southBoundingCoordinate>47.35088959</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 4, Hotel, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.919718</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.919718</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.41094901</northBoundingCoordinate>
+          <southBoundingCoordinate>47.41094901</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 5, Upper Cedar R, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.5602029</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.5602029</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.34854688</northBoundingCoordinate>
+          <southBoundingCoordinate>47.34854688</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 6, Upper Cedar R, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.5983626</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.5983626</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.35756025</northBoundingCoordinate>
+          <southBoundingCoordinate>47.35756025</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 7, Taylor, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.8424837</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.8424837</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.38277052</northBoundingCoordinate>
+          <southBoundingCoordinate>47.38277052</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 8, Taylor, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.8282059</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.8282059</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.36822493</northBoundingCoordinate>
+          <southBoundingCoordinate>47.36822493</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 9, Rock, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.8975172</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.8975172</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.40570145</northBoundingCoordinate>
+          <southBoundingCoordinate>47.40570145</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 10, Rex, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.6347088</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.6347088</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.33662667</northBoundingCoordinate>
+          <southBoundingCoordinate>47.33662667</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 11, South Fork Taylor, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.7806939</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.7806939</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.33978363</northBoundingCoordinate>
+          <southBoundingCoordinate>47.33978363</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 12, Boulder, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.697159</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.697159</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.36464178</northBoundingCoordinate>
+          <southBoundingCoordinate>47.36464178</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 13, South Fork Taylor, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.7881229</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.7881229</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.34538076</northBoundingCoordinate>
+          <southBoundingCoordinate>47.34538076</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 14, South Fork Cedar, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.471263</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.471263</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.28162995</northBoundingCoordinate>
+          <southBoundingCoordinate>47.28162995</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 15, Rock, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.9453689</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.9453689</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.39502801</northBoundingCoordinate>
+          <southBoundingCoordinate>47.39502801</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 16, Goat, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.5420865</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.5420865</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.30310386</northBoundingCoordinate>
+          <southBoundingCoordinate>47.30310386</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 17, Williams, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.8546156</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.8546156</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.39562092</northBoundingCoordinate>
+          <southBoundingCoordinate>47.39562092</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 18, Middle Fork Taylor, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.8008101</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.8008101</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.35486894</northBoundingCoordinate>
+          <southBoundingCoordinate>47.35486894</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 19, Webster, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.9237922</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.9237922</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.4094534</northBoundingCoordinate>
+          <southBoundingCoordinate>47.4094534</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 20, Rock, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.9290782</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.9290782</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.39646977</northBoundingCoordinate>
+          <southBoundingCoordinate>47.39646977</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 21, South Fork Cedar, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.5185927</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.5185927</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.3079528</northBoundingCoordinate>
+          <southBoundingCoordinate>47.3079528</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 22, South Fork Cedar, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.5068628</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.5068628</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.29817275</northBoundingCoordinate>
+          <southBoundingCoordinate>47.29817275</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 23, Williams, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.8573686</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.8573686</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.40468375</northBoundingCoordinate>
+          <southBoundingCoordinate>47.40468375</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 24, Steele, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.8239161</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.8239161</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.42329044</northBoundingCoordinate>
+          <southBoundingCoordinate>47.42329044</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 25, North Fork Taylor, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.8079696</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.8079696</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.36971789</northBoundingCoordinate>
+          <southBoundingCoordinate>47.36971789</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2006-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2017-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>Update yearly if additional data is collected.</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+    </maintenance>
+    <contact>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/</onlineUrl>
+      <userId directory="https://ror.org/">https://ror.org/05wkbzn97</userId>
+    </contact>
+    <publisher>
+      <organizationName>Environmental Data Initiative</organizationName>
+      <electronicMailAddress>info@edirepository.org</electronicMailAddress>
+      <onlineUrl>https://edirepository.org</onlineUrl>
+      <userId directory="https://ror.org">0330j0z60</userId>
+    </publisher>
+    <pubPlace>Environmental Data Initiative</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <para>The minimum large woody debris (LWD) size to be counted in the survey was minimum 4 inch sustained diameter for a minimum of 6 feet in length. Four zones were classified in and adjacent to the stream channel, and woody debris length was measured in each of the four zones. Small end and large end diameter was also measured for individual pieces. If there were (5) qualifying pieces that touched, these pieces were grouped into a LWD jam, where a percentage of volume in each of the for zones was estimated and qualifying pieces were tallied.</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Long-term Stream Monitoring</title>
+      <personnel>
+        <individualName>
+          <givenName>Amy</givenName>
+          <surName>Reichenbach</surName>
+        </individualName>
+        <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+        <address>
+          <city>North Bend</city>
+          <administrativeArea>WA</administrativeArea>
+          <postalCode>98045</postalCode>
+          <country>United States</country>
+        </address>
+        <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+        <onlineUrl>https://www.seattle.gov/</onlineUrl>
+        <role>Hydrologist</role>
+      </personnel>
+      <abstract>
+        <para>Long Term Aquatic Monitoring (LTAM) pebble count summary data and individual working data, 2006-2017, in support of the Cedar River Watershed Habitat Conservation Plan, for Seattle Public Utilities in North Bend, Washington. Field methods were based on Wolman Pebble Count methods, e.g. using the blind touch method off the tip of the boot and measuring intermediate b-axis for at least 100 particles, bankfull to bankfull, for all channels at a particular cross section. Data is summarized for each cross section for each year at each site, as well as all cross sections for each year at each site, into particle size class distribution classes and noting p-value significance.</para>
+      </abstract>
+      <award>
+        <funderName>City of Seattle</funderName>
+        <awardNumber>N781601</awardNumber>
+        <title>Long-term Stream Monitoring</title>
+      </award>
+    </project>
+    <dataTable id="917d84db5b68bd680318a333927031a9" scope="document" system="https://pasta.edirepository.org">
+      <entityName>LTAM_LWD_Zones_Sites01_25_2006_2017_SIMS_v01</entityName>
+      <entityDescription>Large woody debris counts, tallies, and function for each of the (25) monitoring sties.</entityDescription>
+      <physical>
+        <objectName>LTAM_LWD_Zones_Sites01_25_2006_2017_SIMS_v01.csv</objectName>
+        <size unit="byte">1598183</size>
+        <authentication method="MD5">3cc69d9af0e228d9830b355471143a34</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/117/3/917d84db5b68bd680318a333927031a9</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>SORT_MAIN</attributeName>
+          <attributeLabel>SORT_MAIN</attributeLabel>
+          <attributeDefinition>SORT_MAIN</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>METHOD</attributeName>
+          <attributeLabel>METHOD</attributeLabel>
+          <attributeDefinition>METHOD</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>YEARSITE_ID</attributeName>
+          <attributeLabel>YEARSITE_ID</attributeLabel>
+          <attributeDefinition>YEARSITE_ID</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>USER_NAME</attributeName>
+          <attributeLabel>USER_NAME</attributeLabel>
+          <attributeDefinition>USER_NAME</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>TIMESTAMP_24HR</attributeName>
+          <attributeLabel>TIMESTAMP_24HR</attributeLabel>
+          <attributeDefinition>TIMESTAMP_24HR</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM/DD/YYYY hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LWDMEAS_TYP</attributeName>
+          <attributeLabel>LWDMEAS_TYP</attributeLabel>
+          <attributeDefinition>LWDMEAS_TYP</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LWD_JAM_NO</attributeName>
+          <attributeLabel>LWD_JAM_NO</attributeLabel>
+          <attributeDefinition>LWD_JAM_NO</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LWD_TALLYTYPE</attributeName>
+          <attributeLabel>LWD_TALLYTYPE</attributeLabel>
+          <attributeDefinition>LWD_TALLYTYPE</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LWD_TALLY_NO</attributeName>
+          <attributeLabel>LWD_TALLY_NO</attributeLabel>
+          <attributeDefinition>LWD_TALLY_NO</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LWDTLLY_Z12_E</attributeName>
+          <attributeLabel>LWDTLLY_Z12_E</attributeLabel>
+          <attributeDefinition>LWDTLLY_Z12_E</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LWDTLLY_Z3_E</attributeName>
+          <attributeLabel>LWDTLLY_Z3_E</attributeLabel>
+          <attributeDefinition>LWDTLLY_Z3_E</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LWDTLLY_Z4_E</attributeName>
+          <attributeLabel>LWDTLLY_Z4_E</attributeLabel>
+          <attributeDefinition>LWDTLLY_Z4_E</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LWDTLLY_Z14_E</attributeName>
+          <attributeLabel>LWDTLLY_Z14_E</attributeLabel>
+          <attributeDefinition>LWDTLLY_Z14_E</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LWDTLLY_Z12_V</attributeName>
+          <attributeLabel>LWDTLLY_Z12_V</attributeLabel>
+          <attributeDefinition>LWDTLLY_Z12_V</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LWDTLLY_Z3_V</attributeName>
+          <attributeLabel>LWDTLLY_Z3_V</attributeLabel>
+          <attributeDefinition>LWDTLLY_Z3_V</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LWDTLLY_Z4_V</attributeName>
+          <attributeLabel>LWDTLLY_Z4_V</attributeLabel>
+          <attributeDefinition>LWDTLLY_Z4_V</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LWD_TALLY_VOL</attributeName>
+          <attributeLabel>LWD_TALLY_VOL</attributeLabel>
+          <attributeDefinition>LWD_TALLY_VOL</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LWD_ROOTWAD_6FT</attributeName>
+          <attributeLabel>LWD_ROOTWAD_6FT</attributeLabel>
+          <attributeDefinition>LWD_ROOTWAD_6FT</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LWD_BOLE_RND</attributeName>
+          <attributeLabel>LWD_BOLE_RND</attributeLabel>
+          <attributeDefinition>LWD_BOLE_RND</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LWD_BOLE_DIAM</attributeName>
+          <attributeLabel>LWD_BOLE_DIAM</attributeLabel>
+          <attributeDefinition>LWD_BOLE_DIAM</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LWD_LGEND_RADIUS</attributeName>
+          <attributeLabel>LWD_LGEND_RADIUS</attributeLabel>
+          <attributeDefinition>LWD_LGEND_RADIUS</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LWD_LG_DI_RND</attributeName>
+          <attributeLabel>LWD_LG_DI_RND</attributeLabel>
+          <attributeDefinition>LWD_LG_DI_RND</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>inch</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LWD_LGEND_DIAM</attributeName>
+          <attributeLabel>LWD_LGEND_DIAM</attributeLabel>
+          <attributeDefinition>LWD_LGEND_DIAM</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LWD_SM_RADIUS</attributeName>
+          <attributeLabel>LWD_SM_RADIUS</attributeLabel>
+          <attributeDefinition>LWD_SM_RADIUS</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LWD_SM_DIAM_RND</attributeName>
+          <attributeLabel>LWD_SM_DIAM_RND</attributeLabel>
+          <attributeDefinition>LWD_SM_DIAM_RND</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>inch</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LWD_SM_DIAM</attributeName>
+          <attributeLabel>LWD_SM_DIAM</attributeLabel>
+          <attributeDefinition>LWD_SM_DIAM</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>inch</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LWD_Z12_LNGTH</attributeName>
+          <attributeLabel>LWD_Z12_LNGTH</attributeLabel>
+          <attributeDefinition>LWD_Z12_LNGTH</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LWD_Z3_LENGTH</attributeName>
+          <attributeLabel>LWD_Z3_LENGTH</attributeLabel>
+          <attributeDefinition>LWD_Z3_LENGTH</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LWD_Z4_LENGTH</attributeName>
+          <attributeLabel>LWD_Z4_LENGTH</attributeLabel>
+          <attributeDefinition>LWD_Z4_LENGTH</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LWD_TOTLLNGTH</attributeName>
+          <attributeLabel>LWD_TOTLLNGTH</attributeLabel>
+          <attributeDefinition>LWD_TOTLLNGTH</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LWD_Z12_VOL</attributeName>
+          <attributeLabel>LWD_Z12_VOL</attributeLabel>
+          <attributeDefinition>LWD_Z12_VOL</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LWD_Z3_VOL</attributeName>
+          <attributeLabel>LWD_Z3_VOL</attributeLabel>
+          <attributeDefinition>LWD_Z3_VOL</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LWD_Z4_VOL</attributeName>
+          <attributeLabel>LWD_Z4_VOL</attributeLabel>
+          <attributeDefinition>LWD_Z4_VOL</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LWD_Z14_VOL</attributeName>
+          <attributeLabel>LWD_Z14_VOL</attributeLabel>
+          <attributeDefinition>LWD_Z14_VOL</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LWD_POOL_SIZE</attributeName>
+          <attributeLabel>LWD_POOL_SIZE</attributeLabel>
+          <attributeDefinition>LWD_POOL_SIZE</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SC_NO_TXT</attributeName>
+          <attributeLabel>SC_NO_TXT</attributeLabel>
+          <attributeDefinition>SC_NO_TXT</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>QUAD_NO</attributeName>
+          <attributeLabel>QUAD_NO</attributeLabel>
+          <attributeDefinition>QUAD_NO</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>PHRASES</attributeName>
+          <attributeLabel>PHRASES</attributeLabel>
+          <attributeDefinition>PHRASES</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>COMMENTS</attributeName>
+          <attributeLabel>COMMENTS</attributeLabel>
+          <attributeDefinition>COMMENTS</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SITENO</attributeName>
+          <attributeLabel>SITENO</attributeLabel>
+          <attributeDefinition>SITENO</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>STREAM_NAME_SHORT</attributeName>
+          <attributeLabel>STREAM_NAME_SHORT</attributeLabel>
+          <attributeDefinition>STREAM_NAME_SHORT</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>OBSERVERS</attributeName>
+          <attributeLabel>OBSERVERS</attributeLabel>
+          <attributeDefinition>OBSERVERS</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>7935</numberOfRecords>
+    </dataTable>
+    <otherEntity id="6bd1d0a9b02fe12c0d0f9946f58c3b39" scope="document" system="https://pasta.edirepository.org">
+      <entityName>LTAM LWD Zones_all years</entityName>
+      <entityDescription>Large woody debris (LWD) data for all (25) monitoring sites for data collection years 2006-2017.</entityDescription>
+      <physical>
+        <objectName>LTAM LWD Zones_all years.xlsx</objectName>
+        <size unit="byte">6440725</size>
+        <authentication method="MD5">2666ebb67160470a75ec8aaafad21374</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/117/3/6bd1d0a9b02fe12c0d0f9946f58c3b39</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <emlEditor app="ezEML" release="2025.04.16"/>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

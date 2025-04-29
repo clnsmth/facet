@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="cos-spu.15.3" system="https://pasta.edirepository.org" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>SPU_EDI_Data_Author</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>uid=zloutos,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.0311/FK2/b0affc80f8453f7c2b3ab1c5b89a1c3b</alternateIdentifier>
+    <title>City of Seattle, Seattle Public Utilities, Riparian Restoration 2001-current, Cedar River Municipal Watershed, King County, WA</title>
+    <creator>
+      <individualName>
+        <givenName>David</givenName>
+        <surName>Chapin</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Rd SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <userId directory="https://ror.org/">https://ror.org/05wkbzn97</userId>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Zoe</givenName>
+        <surName>Loutos</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <userId directory="https://orcid.org">0009-0002-6287-4822</userId>
+      <userId directory="https://ror.org/">https://ror.org/05wkbzn97</userId>
+    </metadataProvider>
+    <pubDate>2025-04-09</pubDate>
+    <abstract>
+      <para>The City of Seattle’s Cedar River Municipal Watershed is managed to support and supply clean drinking water to 1.6 million people in the greater Seattle area. The watershed covers 91,000 acres, hosts a rich diversity of plants, animals, and habitats, and is owned by the City of Seattle. In 2001 the City of Seattle prepared a multi-species Habitat Conservation Plan (HCP) to comply with the federal Endangered Species Act and to address a variety of related natural resource issues in the Cedar River Watershed. As defined in the HCP, the riparian zone is the area adjacent to surface waters and areas of high groundwater levels where the terrestrial system both influences, and is influenced by, the aquatic system. The City’s strategies for the riparian ecosystem are designed to protect the region’s supply of high-quality drinking water, to preserve and enhance stream and riparian ecosystems within the municipal watershed, and to restore and rehabilitate stream and riparian functions. This package includes as-builts from riparian restoration projects and their associated monitoring data.</para>
+      <para>The data is a result of monitoring that occurred after installation of riparian restoration projects in the Cedar River Municipal Watershed. The monitoring data includes plant survivorship but varies by project in what information was collected. The monitoring data was collected by multiple people over many years. Some projects were monitored for several years after project installation and some projects were monitored only once. Some projects included experimental plantings that were assigned a variety of treatments to test the efficacy of different planting strategies. In this instance, the monitoring data can be used to identify the success of the various strategies. Monitoring tabular data will be updated as more restoration projects are installed, and as previously installed projects receive continued monitoring.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>Habitat Conservation Plan</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Cedar River Municipal Watershed (CRMW)</keyword>
+      <keywordThesaurus>City of Seattle Remote Watershed</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Watershed Management</keyword>
+      <keywordThesaurus>HCP Category</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Stream and Riparian Restoration</keyword>
+      <keywordThesaurus>HCP Group</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>riparian</keyword>
+      <keyword>restoration</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Riparian Restoration</keyword>
+      <keyword>Bank Revegetation</keyword>
+      <keyword>Riparian Conifer Underplanting</keyword>
+      <keywordThesaurus>Project Name</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>City of Seattle</keyword>
+      <keyword>King County</keyword>
+      <keyword>Seattle Public Utilities</keyword>
+      <keyword>SPU</keyword>
+      <keyword>Washington</keyword>
+      <keywordThesaurus>SPU</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</para>
+    </intellectualRights>
+    <licensed>
+      <licenseName>Creative Commons Attribution 4.0 International</licenseName>
+      <url>https://spdx.org/licenses/CC-BY-4.0</url>
+      <identifier>CC-BY-4.0</identifier>
+    </licensed>
+    <distribution id="10.0311/FK2/b0affc80f8453f7c2b3ab1c5b89a1c3b" scope="system" system="https://pasta.edirepository.org">
+      <online>
+        <url function="information">https://doi.org/10.0311/FK2/b0affc80f8453f7c2b3ab1c5b89a1c3b</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Cedar River Municipal Watershed</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.0334104</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.3631524</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.49192463</northBoundingCoordinate>
+          <southBoundingCoordinate>47.24097306</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <singleDateTime>
+          <calendarDate>2001</calendarDate>
+        </singleDateTime>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Kingdom</taxonRankName>
+          <taxonRankValue>Viridiplantae</taxonRankValue>
+          <commonName>green plants</commonName>
+          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">33090</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>Phylum</taxonRankName>
+            <taxonRankValue>Streptophyta</taxonRankValue>
+            <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">35493</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>Subphylum</taxonRankName>
+              <taxonRankValue>Streptophytina</taxonRankValue>
+              <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">131221</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>Class</taxonRankName>
+                <taxonRankValue>Pinopsida</taxonRankValue>
+                <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">58019</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>Subclass</taxonRankName>
+                  <taxonRankValue>Pinidae</taxonRankValue>
+                  <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3313</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>Order</taxonRankName>
+                    <taxonRankValue>Pinales</taxonRankValue>
+                    <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">1446380</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>Family</taxonRankName>
+                      <taxonRankValue>Pinaceae</taxonRankValue>
+                      <commonName>pine family</commonName>
+                      <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3318</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>Genus</taxonRankName>
+                        <taxonRankValue>Abies</taxonRankValue>
+                        <commonName>fir trees</commonName>
+                        <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3319</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>Species</taxonRankName>
+                          <taxonRankValue>Abies grandis</taxonRankValue>
+                          <commonName>yellow fir</commonName>
+                          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">46611</taxonId>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Kingdom</taxonRankName>
+          <taxonRankValue>Viridiplantae</taxonRankValue>
+          <commonName>green plants</commonName>
+          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">33090</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>Phylum</taxonRankName>
+            <taxonRankValue>Streptophyta</taxonRankValue>
+            <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">35493</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>Subphylum</taxonRankName>
+              <taxonRankValue>Streptophytina</taxonRankValue>
+              <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">131221</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>Class</taxonRankName>
+                <taxonRankValue>Pinopsida</taxonRankValue>
+                <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">58019</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>Subclass</taxonRankName>
+                  <taxonRankValue>Pinidae</taxonRankValue>
+                  <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3313</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>Order</taxonRankName>
+                    <taxonRankValue>Pinales</taxonRankValue>
+                    <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">1446380</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>Family</taxonRankName>
+                      <taxonRankValue>Pinaceae</taxonRankValue>
+                      <commonName>pine family</commonName>
+                      <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3318</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>Genus</taxonRankName>
+                        <taxonRankValue>Picea</taxonRankValue>
+                        <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3328</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>Species</taxonRankName>
+                          <taxonRankValue>Picea sitchensis</taxonRankValue>
+                          <commonName>Sitka spruce</commonName>
+                          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3332</taxonId>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Subspecies</taxonRankName>
+          <taxonRankValue>Populus balsamifera ssp trichocarpa</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Kingdom</taxonRankName>
+          <taxonRankValue>Viridiplantae</taxonRankValue>
+          <commonName>green plants</commonName>
+          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">33090</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>Phylum</taxonRankName>
+            <taxonRankValue>Streptophyta</taxonRankValue>
+            <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">35493</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>Subphylum</taxonRankName>
+              <taxonRankValue>Streptophytina</taxonRankValue>
+              <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">131221</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>Class</taxonRankName>
+                <taxonRankValue>Pinopsida</taxonRankValue>
+                <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">58019</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>Subclass</taxonRankName>
+                  <taxonRankValue>Pinidae</taxonRankValue>
+                  <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3313</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>Order</taxonRankName>
+                    <taxonRankValue>Cupressales</taxonRankValue>
+                    <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">1446379</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>Family</taxonRankName>
+                      <taxonRankValue>Cupressaceae</taxonRankValue>
+                      <commonName>cypress family</commonName>
+                      <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3367</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>Genus</taxonRankName>
+                        <taxonRankValue>Thuja</taxonRankValue>
+                        <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3315</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>Species</taxonRankName>
+                          <taxonRankValue>Thuja plicata</taxonRankValue>
+                          <commonName>giant arborvitae</commonName>
+                          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3316</taxonId>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Kingdom</taxonRankName>
+          <taxonRankValue>Viridiplantae</taxonRankValue>
+          <commonName>green plants</commonName>
+          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">33090</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>Phylum</taxonRankName>
+            <taxonRankValue>Streptophyta</taxonRankValue>
+            <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">35493</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>Subphylum</taxonRankName>
+              <taxonRankValue>Streptophytina</taxonRankValue>
+              <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">131221</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>Class</taxonRankName>
+                <taxonRankValue>Pinopsida</taxonRankValue>
+                <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">58019</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>Subclass</taxonRankName>
+                  <taxonRankValue>Pinidae</taxonRankValue>
+                  <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3313</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>Order</taxonRankName>
+                    <taxonRankValue>Pinales</taxonRankValue>
+                    <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">1446380</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>Family</taxonRankName>
+                      <taxonRankValue>Pinaceae</taxonRankValue>
+                      <commonName>pine family</commonName>
+                      <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3318</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>Genus</taxonRankName>
+                        <taxonRankValue>Tsuga</taxonRankValue>
+                        <commonName>hemlocks</commonName>
+                        <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3358</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>Species</taxonRankName>
+                          <taxonRankValue>Tsuga heterophylla</taxonRankValue>
+                          <commonName>western hemlock</commonName>
+                          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3359</taxonId>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>Riparian Restoration is an ongoing Habitat Conservation Plan program and this package will be updated as projects are installed and monitored.<para>Riparian Restoration is an ongoing Habitat Conservation Plan program and this package will be updated annually as projects are installed and monitored.</para>
+         </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+    </maintenance>
+    <contact>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>700 5th Avenue</deliveryPoint>
+        <deliveryPoint>Suite 4900</deliveryPoint>
+        <city>Seattle</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98104</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilites</onlineUrl>
+      <userId directory="https://ror.org/">https://ror.org/05wkbzn97</userId>
+    </contact>
+    <publisher>
+      <organizationName>Environmental Data Initiative</organizationName>
+      <electronicMailAddress>info@edirepository.org</electronicMailAddress>
+      <onlineUrl>https://edirepository.org</onlineUrl>
+      <userId directory="https://ror.org">0330j0z60</userId>
+    </publisher>
+    <pubPlace>Environmental Data Initiative</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Webster Creek, 2001: browse control experiment; tested 3 browse control types to determine most effective; types: mesh vexar tubing, translucent tree cones, and no browse control.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Webster Creek, 2010: experiment to determine best methods for establishing Thuja plicata. Variables included clearing understory in planting circles and leaving understory uncleared, adding wire cages for browse control and leaving some trees unprotected, and using small and large seedling sizes.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Webster Creek, 2012: experiment to test best browse control methods for establishing Thuja plicata. Variables included plastic cages, planting Thuja plicata in the same hole as Picea sitchensis, and providing no browse control.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Webster Creek, 2014: cleared understory in 30' diameter planting circles; planted some Thuja plicata and Picea sitchensis in the same hole.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Webster Creek, 2015: cleared understory in 30' diameter planting circles; planted some Thuja plicata and Picea sitchensis in the same hole.</para>
+          <para/>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Webster Creek, 2016: cleared understory in 2' diameter planting circles.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Webster Creek, 2017: cleared understory in 30' diameter planting circles.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Rock Creek, 2004: replanted site disturbance in skyline corridors used to install instream large woody debris.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Rock Creek, 2005: replanted site disturbance after installed instream large woody debris.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Taylor Creek, 2003: 3 sites, each with a unique treatment. One site along mainstem cleared understory in planting circles. Two sites along Middle Fork Taylor Creek: one project thinned dense young Abies grandis, one site girdled and felled Alnus rubra to release conifers.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Taylor Creek, 2009: cleared understory in 30' diameter planting circles.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Upper Cedar River, 2008 and 2009: cleared understory to release conifers; underplanted conifers in areas of little understory.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Upper Cedar River, 2011: underplanted low floodplain, lower than areas planted in 2008 to maximize future large woody debris recruitment to stream.</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Riparian Restoration</title>
+      <personnel>
+        <individualName>
+          <givenName>David</givenName>
+          <surName>Chapin</surName>
+        </individualName>
+        <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+        <address>
+          <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+          <city>North Bend</city>
+          <administrativeArea>WA</administrativeArea>
+          <postalCode>98045</postalCode>
+          <country>USA</country>
+        </address>
+        <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+        <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+        <userId directory="https://ror.org/">https://ror.org/05wkbzn97</userId>
+        <role>Former Project Manager</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Zoe</givenName>
+          <surName>Loutos</surName>
+        </individualName>
+        <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+        <address>
+          <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+          <city>North Bend</city>
+          <administrativeArea>WA</administrativeArea>
+          <postalCode>98045</postalCode>
+          <country>USA</country>
+        </address>
+        <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+        <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+        <userId directory="https://orcid.org">0009-0009-1923-4441</userId>
+        <userId directory="https://ror.org/">https://ror.org/05wkbzn97</userId>
+        <role>Project Manager</role>
+      </personnel>
+      <abstract>
+        <para>This project is a combination of Riparian Thinning and Riparian Conifer Underplanting projects implemented under the Cedar River Habitat Conservation Plan. The projects merged to form the Riparian Restoration project. </para>
+        <para>The current Riparian Restoration project continues the objectives of these former projects by reestablishing conifers and a diversity of hardwoods in riparian and streamside areas to help accelerate the restoration of diverse and structurally complex riparian stands within the watershed. The highest priority riparian restoration projects will be those in recently disturbed riparian zones that are currently vegetated but have a species composition that is not typical of such sites and does not contribute to healthy, natural riparian function. Adaptive management is used to ensure project objectives are met.</para>
+      </abstract>
+      <award>
+        <funderName>City of Seattle</funderName>
+        <awardNumber>C100020</awardNumber>
+        <title>Riparian Restoration</title>
+      </award>
+    </project>
+    <dataTable id="2f7f8739050ec6da3b5dadc6ec155ccd" scope="document" system="https://pasta.edirepository.org">
+      <entityName>RiparianRestoration_Monitoring</entityName>
+      <entityDescription>Monitoring data from riparian restoration projects installed in the Cedar River Municipal Watershed, King County, Washington, USA from 2001-present.</entityDescription>
+      <physical>
+        <objectName>RiparianRestoration_Monitoring.csv</objectName>
+        <size unit="byte">221710</size>
+        <authentication method="MD5">54dbf1049bb13d2a1d8250f7732414f7</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/15/3/2f7f8739050ec6da3b5dadc6ec155ccd</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Stream Name</attributeName>
+          <attributeLabel>Stream Name</attributeLabel>
+          <attributeDefinition>Name of stream adjacent to plantings.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="no">
+                  <codeDefinition>
+                    <code>Rex River</code>
+                    <definition>Rex River, tributary to Chester Morse Lake, within the Cedar River Municipal Watershed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Rock Creek</code>
+                    <definition>Rock Creek, tributary to the Cedar River, within the Cedar River Municipal Watershed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Taylor Creek</code>
+                    <definition>Taylor Creek, tributary to the Cedar River, within the Cedar River Municipal Watershed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Upper Cedar River</code>
+                    <definition>Cedar River upstream of Chester Morse Lake, within the Cedar River Municipal Watershed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Webster Creek</code>
+                    <definition>Webster Creek, tributary to Walsh Lake, within the Cedar River Municipal Watershed</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Project Date</attributeName>
+          <attributeLabel>Project Date</attributeLabel>
+          <attributeDefinition>Date of project installation.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Monitoring Date</attributeName>
+          <attributeLabel>Monitoring Date</attributeLabel>
+          <attributeDefinition>Date planting was monitored. Date is reported to closest precision available for historic data (date, month and year, only year)</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>PlotNo</attributeName>
+          <attributeLabel>PlotNo</attributeLabel>
+          <attributeDefinition>Plot number. Size and shape vary depending on project.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SeedlingNo</attributeName>
+          <attributeLabel>SeedlingNo</attributeLabel>
+          <attributeDefinition>Seedling number within a specified area of a project. Planted trees were assigned numbers to monitor survival and change in height and diameter.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeLabel>Species</attributeLabel>
+          <attributeDefinition>Species of tree planted.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="no">
+                  <codeDefinition>
+                    <code>abgr</code>
+                    <definition>Abies grandis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>pisi</code>
+                    <definition>Picea sitchensis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>poba</code>
+                    <definition>Populus balsamifera ssp trichocarpa</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>thpl</code>
+                    <definition>Thuja plicata</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>tshe</code>
+                    <definition>Tsuga heterophylla</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Seedling Size</attributeName>
+          <attributeLabel>Seedling Size</attributeLabel>
+          <attributeDefinition>Seedling size was used as an experimental variable to evaluate different methods of planting Thuja plicata.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>large</code>
+                    <definition>Averaged height 40.2 inches with standard deviation 4.6 inches; 2 gallon pot; age 1-3 years</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>small</code>
+                    <definition>Averaged height 25.8 inches with standard deviation of 3.8 inches; 2 gallon pot; age 1-2 years</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Treatment</attributeName>
+          <attributeLabel>Treatment</attributeLabel>
+          <attributeDefinition>Treatment within planting plot.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="no">
+                  <codeDefinition>
+                    <code>brushed</code>
+                    <definition>Different depending on project year. 2001: understory clearing within 1-meter radius of the planted seedling. 2010: understory clearing within 30-foot radius of plantings</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>brushed/tilled</code>
+                    <definition>Understory clearing and root removal within 1 meter radius of seedling.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>none</code>
+                    <definition>No brushing or tilling in plot.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>None</code>
+            <codeExplanation>no treatment was recorded or performed</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Protection</attributeName>
+          <attributeLabel>Protection</attributeLabel>
+          <attributeDefinition>Tree protection from browse. Different types of protective cages were installed on Webster Creek plantings in 2001, 2010, and 2012 to determine best methods for establishing conifer plantings.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>paired thpl pisi</code>
+                    <definition>Thuja plicata and Picea sitchensis planted together in the same hole without browse protection.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>plastic cage</code>
+                    <definition>4-foot tall plastic fencing (Tenax poultry fence with 3/4 inche hexagonal mesh) averaging 16 inches in diameter secured with zip ties attached to 5-foot tall t-posts.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>tree cone</code>
+                    <definition>Translucent browse control tubes secured with wooden post.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>vexar tubing</code>
+                    <definition>Plastic mesh vexar tubes secured with wooden post.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>wire cage</code>
+                    <definition>16 gage wire 4-foot tall fencing averaging 1-foot in diameter secured with 4-foot wooden stakes.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>none</code>
+                    <definition>No tree protection.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>None</code>
+            <codeExplanation>no protection was recorded or installed</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Caliper (mm)</attributeName>
+          <attributeLabel>Caliper (mm)</attributeLabel>
+          <attributeDefinition>Diameter breast height of planted tree at time of observation in millimeters. Collected using calipers.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Height (cm)</attributeName>
+          <attributeLabel>Height (cm)</attributeLabel>
+          <attributeDefinition>Height of planted tree at time of observation in centimeters.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NoPlanted</attributeName>
+          <attributeLabel>NoPlanted</attributeLabel>
+          <attributeDefinition>Number of trees planted in plot.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Alive</attributeName>
+          <attributeLabel>Alive</attributeLabel>
+          <attributeDefinition>Observed living planted trees in plot. Depending on the project there may be a count of total living trees in plot or determination of individual trees to be alive or dead.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Notes</attributeName>
+          <attributeLabel>Notes</attributeLabel>
+          <attributeDefinition>Notes about each observation, as needed.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>3494</numberOfRecords>
+    </dataTable>
+    <otherEntity id="f0ce471eee0133c1dcd120a7f9a07bfb" scope="document" system="https://pasta.edirepository.org">
+      <entityName>2004_RockCreek_RiparianRestoration_ProjectPlan</entityName>
+      <entityDescription>Rock Creek 2004 riparian restoration project plan including goals and objectives, rationale for project, project description, evaluation of potential effects, and costs.</entityDescription>
+      <physical>
+        <objectName>2004_RockCreek_RiparianRestoration_ProjectPlan.pdf</objectName>
+        <size unit="byte">972951</size>
+        <authentication method="MD5">8a4f63c3488dd1cb304efff7bee8ba6f</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/15/3/f0ce471eee0133c1dcd120a7f9a07bfb</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+    <otherEntity id="bac35ec50c88191eb4b1b3ae057d7c83" scope="document" system="https://pasta.edirepository.org">
+      <entityName>2003_TaylorCreek_RiparianRestoration_ProjectPlan</entityName>
+      <entityDescription>Taylor Creek 2003 riparian restoration project plan including site descriptions, restoration actions, project objectives and justification, evaluation of potential benefits, and costs.</entityDescription>
+      <physical>
+        <objectName>2003_TaylorCreek_RiparianRestoration_ProjectPlan.pdf</objectName>
+        <size unit="byte">220065</size>
+        <authentication method="MD5">cf83fc5340f5446b68626fb965408ced</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/15/3/bac35ec50c88191eb4b1b3ae057d7c83</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+    <otherEntity id="3469398d258eec1369f5ad1e8cf1c033" scope="document" system="https://pasta.edirepository.org">
+      <entityName>2009_TaylorCreek_RiparianRestoration_AsBuilt</entityName>
+      <entityDescription>Taylor Creek 2009 riparian restoration as built, including site descriptions, planting specifications, and costs.</entityDescription>
+      <physical>
+        <objectName>2009_TaylorCreek_RiparianRestoration_AsBuilt.pdf</objectName>
+        <size unit="byte">327354</size>
+        <authentication method="MD5">7210bc027f187f696a29d5c583db4f92</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/15/3/3469398d258eec1369f5ad1e8cf1c033</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+    <otherEntity id="7b946f48629aac42145e2df5bb1c7537" scope="document" system="https://pasta.edirepository.org">
+      <entityName>2008_2009_UpperCedarRiver_RiparianRestoration_AsBuilt</entityName>
+      <entityDescription>Upper Cedar River 2008 and 2009 riparian restoration as built, including project description, objectives, and justification, planting specifications, evaluation of potential benefits, and costs.</entityDescription>
+      <physical>
+        <objectName>2008_2009_UpperCedarRiver_RiparianRestoration_AsBuilt.pdf</objectName>
+        <size unit="byte">1428271</size>
+        <authentication method="MD5">4db5a5b273a11b314abe9011940b518b</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/15/3/7b946f48629aac42145e2df5bb1c7537</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+    <otherEntity id="e686d4374d911b5398cdb623b7a4aa55" scope="document" system="https://pasta.edirepository.org">
+      <entityName>2011_UpperCedarRiver_RiparianRestoration_AsBuilt</entityName>
+      <entityDescription>Upper Cedar River 2011 riparian restoration project plan, site description, planting specifications, project objectives, and costs.</entityDescription>
+      <physical>
+        <objectName>2011_UpperCedarRiver_PlantingLocations_AsBuilt.pdf</objectName>
+        <size unit="byte">1921294</size>
+        <authentication method="MD5">fc603e8a33ee4b99312f67ab2d95ef15</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/15/3/e686d4374d911b5398cdb623b7a4aa55</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+    <otherEntity id="a75f14e70b4602ca37c298e2f2948565" scope="document" system="https://pasta.edirepository.org">
+      <entityName>2001-2017_WebsterCreekConiferUnderplanting_Report</entityName>
+      <entityDescription>Webster Creek 2001-2017 riparian restoration project description, planting specifications, and monitoring discussion.</entityDescription>
+      <physical>
+        <objectName>2001-2017_WebsterCreekConiferUnderplanting_Report.pdf</objectName>
+        <size unit="byte">2441121</size>
+        <authentication method="MD5">4afb817f1cf3692c18250ea61a753103</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/15/3/a75f14e70b4602ca37c298e2f2948565</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+    <otherEntity id="ebeabf421e49b8b909d8e447459b93f9" scope="document" system="https://pasta.edirepository.org">
+      <entityName>2011_UpperCedarRiver_PlantingLocations_Map</entityName>
+      <entityDescription>Upper Cedar River 2011 planting locations map.</entityDescription>
+      <physical>
+        <objectName>2011_UpperCedarRiver_PlantingLocations_Map.jpg</objectName>
+        <size unit="byte">2123768</size>
+        <authentication method="MD5">2bda6a9b521e340805d73273fc4a6555</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>image/jpeg</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/15/3/ebeabf421e49b8b909d8e447459b93f9</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>image/jpeg</entityType>
+    </otherEntity>
+    <otherEntity id="c682658dfc907d8ac9adcb61dbf86035" scope="document" system="https://pasta.edirepository.org">
+      <entityName>2008_2009_UpperCedarRiver_PlantingLocations_Map</entityName>
+      <entityDescription>Upper Cedar River 2008 and 2009 planting locations map.</entityDescription>
+      <physical>
+        <objectName>2008_2009_UpperCedarRiver_PlantingLocations_Map.jpg</objectName>
+        <size unit="byte">858381</size>
+        <authentication method="MD5">07357a0afbc98ab1de5ca5a088da102b</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>image/jpeg</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/15/3/c682658dfc907d8ac9adcb61dbf86035</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>image/jpeg</entityType>
+    </otherEntity>
+    <otherEntity id="18c75248d4da07e56df01848ccb0fad8" scope="document" system="https://pasta.edirepository.org">
+      <entityName>2010-2017_WebsterCreek_PlantingLocations_Map</entityName>
+      <entityDescription>Webster Creek 2010-2017 planting locations map.</entityDescription>
+      <physical>
+        <objectName>2010-2017_WebsterCreek_PlantingLocations_Map.jpg</objectName>
+        <size unit="byte">471864</size>
+        <authentication method="MD5">c85a66ea58d3d7fa916ad799eed90371</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>image/jpeg</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/15/3/18c75248d4da07e56df01848ccb0fad8</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>image/jpeg</entityType>
+    </otherEntity>
+    <otherEntity id="4f8e797e2b3b80547e8cc1906573126b" scope="document" system="https://pasta.edirepository.org">
+      <entityName>2008_UpperCedarRiver_RiparianRestoration</entityName>
+      <entityDescription>Shapefile of 2008 riparian restoration project on the Upper Cedar River in the Cedar River Municipal Watershed, King County, WA.</entityDescription>
+      <physical>
+        <objectName>2008_UpperCedarRiver_RiparianRestoration.zip</objectName>
+        <size unit="byte">5819</size>
+        <authentication method="MD5">168cf69da43c91a89bc3835912b4061e</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/15/3/4f8e797e2b3b80547e8cc1906573126b</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity id="cd653d3a79aed49f7ef56426b8f942c5" scope="document" system="https://pasta.edirepository.org">
+      <entityName>2009_UpperCedarRiver_RiparianRestoration</entityName>
+      <entityDescription>Shapefile of 2009 riparian restoration project on the Upper Cedar River in the Cedar River Municipal Watershed, King County, WA.</entityDescription>
+      <physical>
+        <objectName>2009_UpperCedarRiver_RiparianRestoration.zip</objectName>
+        <size unit="byte">3170</size>
+        <authentication method="MD5">c75512883597d55b76c884eb743b2e94</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/15/3/cd653d3a79aed49f7ef56426b8f942c5</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity id="f2d9da3afc32a09e0687b4858eea0d0b" scope="document" system="https://pasta.edirepository.org">
+      <entityName>2011_UpperCedarRiver_RiparianRestoration</entityName>
+      <entityDescription>Shapefile of 2011 riparian restoration project on the Upper Cedar River in the Cedar River Municipal Watershed, King County, WA.</entityDescription>
+      <physical>
+        <objectName>2011_UpperCedarRiver_RiparianRestoration.zip</objectName>
+        <size unit="byte">5426</size>
+        <authentication method="MD5">bea290f037df29ee97059f7d5f1d42aa</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/15/3/f2d9da3afc32a09e0687b4858eea0d0b</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <emlEditor app="ezEML" release="2025.02.19"/>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

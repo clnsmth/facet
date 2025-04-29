@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="cos-spu.8.2" system="https://pasta.edirepository.org" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>SPU_EDI_Data_Author</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>uid=cgries,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.0311/FK2/7ffd27262413223c00837ca80d18a2bc</alternateIdentifier>
+    <title>City of Seattle, Cedar River Watershed, Planting for Resilience 2011 - 2017</title>
+    <creator>
+      <individualName>
+        <givenName>David</givenName>
+        <surName>Chapin</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Rd SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <userId directory="https://ror.org/">https://ror.org/05wkbzn97</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Amy</givenName>
+        <surName>LaBarge</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Rd SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <userId directory="https://ror.org/">https://ror.org/05wkbzn97</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Rolf</givenName>
+        <surName>Gersonde</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Rd SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-5044-4203</userId>
+      <userId directory="https://ror.org/">https://ror.org/05wkbzn97</userId>
+    </creator>
+    <pubDate>2025-04-28</pubDate>
+    <abstract>
+      <para>The resilience planting trail was designed to test adaptations of different tree species to changing environmental conditions. Select tree species and Douglas-fir from an Oregon seed zone were evaluated for their ability to grow and reproduce in glacial outwash soils in the lower Cedar River Municipal Watershed (CRMW) under conditions expected with global climate change. </para>
+      <para>Glacial outwash soils in the lower CRMW have high permeability and low available water capacity that typically result in droughty conditions for tree growth. Areas of Douglas-fir dieback due to laminated root rot (Phellinus weirii) are common in these soils in the lower watershed. The lower CRMW location in the foothills of the Cascade Mountains experiences periodic high winds that descend from the Cascade crest and cause crown abrasion, likely root stress, and substantial tree blown down. Douglas-fir stress and mortality caused by laminated root rot and blow down can result in increased Douglas-fir bark beetle populations that can then spread to live trees.</para>
+      <para>This combination of factors- drought stress, laminated root rot, windthrow, and bark beetles- makes forests on glacial outwash soils in the lower CRMW particularly sensitive to expected warmer temperatures resulting from global climate change. Greater moisture deficits resulting from warmer summer temperatures and reduced summer precipitation will make these forests highly vulnerable to disturbance from fire, insects, and pathogens, which in turn threaten the ability of the watershed to provide a clean water supply. Diversifying these forests will help to reduce their vulnerability to global climate change.</para>
+      <para/>
+      <para>Bud-break phenology was observed on seedlings of the resilience planting trial in the Cedar River Municipal Watershed. Winter dormancy and timing of bud-break are important climate adaptations of tree species in temperate montane regions that experience cold winter temperatures. The study examined whether the timing of bud-break differs between species and seed sources for Douglas-fir. Greater plasticity in bud-break timing may indicate adaptive capacity to respond to changing spring temperatures associated with global climate change.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>King County</keyword>
+      <keyword>Cedar River Municipal Watershed (CRMW)</keyword>
+      <keyword>Habitat Conservation Plan</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Watershed Research and Monitoring</keyword>
+      <keywordThesaurus>HCP Category</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Upland Reserve Forest Restoration</keyword>
+      <keywordThesaurus>HCP Group</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>trees</keyword>
+      <keyword>growth</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>City of Seattle</keyword>
+      <keyword>Forest Ecology Program</keyword>
+      <keyword>Seattle Public Utilities</keyword>
+      <keyword>SPU</keyword>
+      <keyword>Washington</keyword>
+      <keyword>Watershed Management Division</keyword>
+      <keywordThesaurus>SPU</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</para>
+    </intellectualRights>
+    <licensed>
+      <licenseName>Creative Commons Attribution 4.0 International</licenseName>
+      <url>https://spdx.org/licenses/CC-BY-4.0</url>
+      <identifier>CC-BY-4.0</identifier>
+    </licensed>
+    <distribution id="10.0311/FK2/7ffd27262413223c00837ca80d18a2bc" scope="system" system="https://pasta.edirepository.org">
+      <online>
+        <url function="information">https://doi.org/10.0311/FK2/7ffd27262413223c00837ca80d18a2bc</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Cedar River Municipal Watershed</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.0334104</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.3631524</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.49192463</northBoundingCoordinate>
+          <southBoundingCoordinate>47.24097306</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2011</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2017</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Kingdom</taxonRankName>
+          <taxonRankValue>Viridiplantae</taxonRankValue>
+          <commonName>green plants</commonName>
+          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">33090</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>Phylum</taxonRankName>
+            <taxonRankValue>Streptophyta</taxonRankValue>
+            <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">35493</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>Subphylum</taxonRankName>
+              <taxonRankValue>Streptophytina</taxonRankValue>
+              <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">131221</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>Class</taxonRankName>
+                <taxonRankValue>Pinopsida</taxonRankValue>
+                <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">58019</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>Subclass</taxonRankName>
+                  <taxonRankValue>Pinidae</taxonRankValue>
+                  <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3313</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>Order</taxonRankName>
+                    <taxonRankValue>Pinales</taxonRankValue>
+                    <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">1446380</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>Family</taxonRankName>
+                      <taxonRankValue>Pinaceae</taxonRankValue>
+                      <commonName>pine family</commonName>
+                      <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3318</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>Genus</taxonRankName>
+                        <taxonRankValue>Pseudotsuga</taxonRankValue>
+                        <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3356</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>Species</taxonRankName>
+                          <taxonRankValue>Pseudotsuga menziesii</taxonRankValue>
+                          <commonName>Douglas-fir</commonName>
+                          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3357</taxonId>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Kingdom</taxonRankName>
+          <taxonRankValue>Viridiplantae</taxonRankValue>
+          <commonName>green plants</commonName>
+          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">33090</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>Phylum</taxonRankName>
+            <taxonRankValue>Streptophyta</taxonRankValue>
+            <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">35493</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>Subphylum</taxonRankName>
+              <taxonRankValue>Streptophytina</taxonRankValue>
+              <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">131221</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>Class</taxonRankName>
+                <taxonRankValue>Pinopsida</taxonRankValue>
+                <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">58019</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>Subclass</taxonRankName>
+                  <taxonRankValue>Pinidae</taxonRankValue>
+                  <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3313</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>Order</taxonRankName>
+                    <taxonRankValue>Pinales</taxonRankValue>
+                    <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">1446380</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>Family</taxonRankName>
+                      <taxonRankValue>Pinaceae</taxonRankValue>
+                      <commonName>pine family</commonName>
+                      <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3318</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>Genus</taxonRankName>
+                        <taxonRankValue>Pinus</taxonRankValue>
+                        <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3337</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>Subgenus</taxonRankName>
+                          <taxonRankValue>Pinus subgen. Strobus</taxonRankValue>
+                          <commonName>soft pines</commonName>
+                          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">139272</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>Species</taxonRankName>
+                            <taxonRankValue>Pinus monticola</taxonRankValue>
+                            <commonName>Western white pine</commonName>
+                            <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3345</taxonId>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Kingdom</taxonRankName>
+          <taxonRankValue>Viridiplantae</taxonRankValue>
+          <commonName>green plants</commonName>
+          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">33090</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>Phylum</taxonRankName>
+            <taxonRankValue>Streptophyta</taxonRankValue>
+            <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">35493</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>Subphylum</taxonRankName>
+              <taxonRankValue>Streptophytina</taxonRankValue>
+              <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">131221</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>Class</taxonRankName>
+                <taxonRankValue>Pinopsida</taxonRankValue>
+                <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">58019</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>Subclass</taxonRankName>
+                  <taxonRankValue>Pinidae</taxonRankValue>
+                  <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3313</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>Order</taxonRankName>
+                    <taxonRankValue>Pinales</taxonRankValue>
+                    <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">1446380</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>Family</taxonRankName>
+                      <taxonRankValue>Pinaceae</taxonRankValue>
+                      <commonName>pine family</commonName>
+                      <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3318</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>Genus</taxonRankName>
+                        <taxonRankValue>Pinus</taxonRankValue>
+                        <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3337</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>Subgenus</taxonRankName>
+                          <taxonRankValue>Pinus subgen. Pinus</taxonRankValue>
+                          <commonName>hard pines</commonName>
+                          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">139271</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>Species</taxonRankName>
+                            <taxonRankValue>Pinus contorta</taxonRankValue>
+                            <commonName>lodgepole pine</commonName>
+                            <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3339</taxonId>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Kingdom</taxonRankName>
+          <taxonRankValue>Viridiplantae</taxonRankValue>
+          <commonName>green plants</commonName>
+          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">33090</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>Phylum</taxonRankName>
+            <taxonRankValue>Streptophyta</taxonRankValue>
+            <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">35493</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>Subphylum</taxonRankName>
+              <taxonRankValue>Streptophytina</taxonRankValue>
+              <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">131221</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>Class</taxonRankName>
+                <taxonRankValue>Magnoliopsida</taxonRankValue>
+                <commonName>flowering plants</commonName>
+                <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3398</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>Order</taxonRankName>
+                  <taxonRankValue>Fagales</taxonRankValue>
+                  <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3502</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>Family</taxonRankName>
+                    <taxonRankValue>Fagaceae</taxonRankValue>
+                    <commonName>beech family</commonName>
+                    <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3503</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>Genus</taxonRankName>
+                      <taxonRankValue>Quercus</taxonRankValue>
+                      <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3511</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>Species</taxonRankName>
+                        <taxonRankValue>Quercus garryana</taxonRankValue>
+                        <commonName>Oregon oak</commonName>
+                        <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">168162</taxonId>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Kingdom</taxonRankName>
+          <taxonRankValue>Viridiplantae</taxonRankValue>
+          <commonName>green plants</commonName>
+          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">33090</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>Phylum</taxonRankName>
+            <taxonRankValue>Streptophyta</taxonRankValue>
+            <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">35493</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>Subphylum</taxonRankName>
+              <taxonRankValue>Streptophytina</taxonRankValue>
+              <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">131221</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>Class</taxonRankName>
+                <taxonRankValue>Pinopsida</taxonRankValue>
+                <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">58019</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>Subclass</taxonRankName>
+                  <taxonRankValue>Pinidae</taxonRankValue>
+                  <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3313</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>Order</taxonRankName>
+                    <taxonRankValue>Cupressales</taxonRankValue>
+                    <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">1446379</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>Family</taxonRankName>
+                      <taxonRankValue>Cupressaceae</taxonRankValue>
+                      <commonName>cypress family</commonName>
+                      <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3367</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>Genus</taxonRankName>
+                        <taxonRankValue>Thuja</taxonRankValue>
+                        <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3315</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>Species</taxonRankName>
+                          <taxonRankValue>Thuja plicata</taxonRankValue>
+                          <commonName>giant arborvitae</commonName>
+                          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">3316</taxonId>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>Complete.<para>complete</para>
+         </description>
+    </maintenance>
+    <contact>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>700 5th Avenue</deliveryPoint>
+        <deliveryPoint>Suite 4900</deliveryPoint>
+        <city>Seattle</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98104</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilites</onlineUrl>
+      <userId directory="https://ror.org/">https://ror.org/05wkbzn97</userId>
+    </contact>
+    <publisher>
+      <organizationName>Environmental Data Initiative</organizationName>
+      <electronicMailAddress>info@edirepository.org</electronicMailAddress>
+      <onlineUrl>https://edirepository.org</onlineUrl>
+      <userId directory="https://ror.org">0330j0z60</userId>
+    </publisher>
+    <pubPlace>Environmental Data Initiative</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Planting trial design: This trial evaluated the success of planting several tree species and an Oregon seed zone Douglas-fir in a Douglas-fir dominated stand. Three 0.9 acre openings were created at the Foothills and Barneston planting sites. The openings are oriented North-South to maximize direct sunlight to the most seedlings. A total of 180 seedlings of each species or seed zone (Douglas-fir) were planted. The planting design consisted of two blocks of seven rows at Foothills and Barneston and two blocks of four rows at Thompson. Each row had 10 seedlings. Each of the four species other than Douglas-fir was represented by one row in each block. The two seed zones of Douglas-fir were only planted at Foothills and Thompson, where 15 seedlings of each seed zone were planted in each block (i.e. three rows of Douglas-fir). Each site had 60 seedlings of each species except Douglas-fir, and Foothills and Barneston had 90 seedlings of each Douglas-fir seed zone. The placement of each species in the block rows was randomized. Each Douglas-fir row was divided into two, with half the row planted with the Oregon and the other half with the Washington seed zone. The placement of the Oregon or Washington seed zone within a row was randomized, with the requirement that all three Douglas-fir rows in a block could not be of the same arrangement. The blocks were arranged north and south at Foothills and Barneston, along the long axis of the planting areas.  At Thompson, the blocks were arranged east-west, which conformed better with the shape and size of the openings created by root rot. The nested-block design will allow analysis of variance among planting locations (Foothills, Barneston, and Thompson), including the effects of planting area (1, 2, and 3) and of block position (north, south). All seedlings except Douglas-fir were bare root or plug seedlings in March 2011 from Wabash Nursery in Enumclaw. Douglas-fir seedlings from Washington and Oregon were bare root seedlings. For more detail see attached pdf.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Phenology study:</para>
+          <para>Bud-break was observed in the spring of 2015 and 2016 on terminal buds of seedlings installed in the 2011 planting trial. Bud-break stage description was adapted following Bailey and Harrington (2006) on seedlings of Pseudotsuga menziesii, Pinus monticola, Pinus contorta, ad Quercus garryana. Bud-break of Thuja plicata, which does not have buds with pre-formed growth, was determined by shoot elongation. Terminal shoots were marked 10-centimeters below the shoot terminus and total shoot length was measured. Seedlings were observed weekly beginning in April of 2015 and 2016 and sign of bud-break stage or shoot elongation was recorded together with Julian date. Once stage 2.0 of bud-break phenology was observed, the seedling was excluded from further observation.</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Upland Forest Planting</title>
+      <personnel>
+        <individualName>
+          <givenName>Rolf</givenName>
+          <surName>Gersonde</surName>
+        </individualName>
+        <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+        <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+        <role>Project Manager</role>
+      </personnel>
+      <abstract>Restoration planting [C100025] Restoration planting will be done in selected upland secondgrowth stands where needed to diversify the plant community. The planting program will be designed to develop a diversity of trees and shrubs characteristic of naturally regenerated stands on similar sites and that will support a diversity of native wildlife species. Techniques are likely to include planting native forbs, shrubs, and trees, and spraying lichen fragments in the canopy. Hardwood development will be enhanced by recruiting species such as big leaf maple (Acer macrophyllum) and black cottonwood (Populus trichcocarpa) to diversify stand structure at lower elevations. The stands that will receive highest priority for restoration planting will be those that have plant diversity much lower than expected, based on site characteristics, and those with the greatest potential for beneficial results. Restoration planting is an experimental approach, and will be conducted within the adaptive management program described in Section 4.5.7. Projects will be monitored, and techniques will be changed in response to better understanding of how desired effects can be achieved. The program may be reduced or terminated if the City and Services determine that it is not effective in achieving its conservation objectives. Funding for restoration planting in upland areas will total $300,000. This includes $75,000 over the first 8 years, $75,000 over the second 8 years, and $150,000 over the remainder of the HCP term. The funding level is based on an estimated approximate average cost of $300 per acre for planting and maintenance. Based on that assumed cost per acre, the City expects that about 1,000 acres could be treated by restoration planting, about half of which would be treated in the first 16 years of the HCP term.</abstract>
+      <award>
+        <funderName>City of Seattle</funderName>
+        <awardNumber>C100025</awardNumber>
+        <title>Upland Forest Planting</title>
+      </award>
+    </project>
+    <dataTable id="919839c80033d70988c79d8fd5d5df76" scope="document" system="https://pasta.edirepository.org">
+      <entityName>ResiliencePlantingTrial_Monitoring</entityName>
+      <entityDescription>Individual tree growth observations at time of planting in 2012 and in subsequent monitoring years 2013, 2014, 2015, and 2017. Includes tree ID, species, date of observation, vigor class, browse class, timing of bud break, and height. More information on methodology is included under methods and in attached Protocols for Monitoring Resilience Planting Trial pdf.</entityDescription>
+      <physical>
+        <objectName>RPT_All_Data_Raw.csv</objectName>
+        <size unit="byte">113829</size>
+        <authentication method="MD5">cff7e1c8011441f2125a7ace4105604b</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/8/2/919839c80033d70988c79d8fd5d5df76</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Location of trial site</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>Barneston</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>F</code>
+                    <definition>Foothills</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>T</code>
+                    <definition>Thompson</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>tree_id</attributeName>
+          <attributeLabel>tree_id</attributeLabel>
+          <attributeDefinition>Seedling specific identifier</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>species</attributeName>
+          <attributeLabel>species</attributeLabel>
+          <attributeDefinition>tree species code</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>PSWA</code>
+                    <definition>Pseudotsuga meziesii Washignton origin</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PSOR</code>
+                    <definition>Pseudotsuga menziesii Oregon origin</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PIMO</code>
+                    <definition>Pinus monticola</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PICO</code>
+                    <definition>Pinus cordata</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>QUGA</code>
+                    <definition>Quercus garryana</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>THPL</code>
+                    <definition>Thuja plicata</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>sample date</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>vigor</attributeName>
+          <attributeLabel>vigor</attributeLabel>
+          <attributeDefinition>Vigor code</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>0 percent green foliage, dead</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>less than 50 percent green foliage</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>50-80 percent green foliage</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>greater than 80 percent green foliage</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>Leader dead only: the only tissue that has died is the leader</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>nan</code>
+                    <definition>not available</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>browse_damage</attributeName>
+          <attributeLabel>browse_damage</attributeLabel>
+          <attributeDefinition>Browse damage</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>0 percent browsed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>less than 20 percent branches browsed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>20-50 percent branches browsed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>greater than 50 percent branches browsed</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>leader_browse</attributeName>
+          <attributeLabel>leader_browse</attributeLabel>
+          <attributeDefinition>Leader shoot browse damage code</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>terminal shoot not browsed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>terminal shoot browsed</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>height_cm</attributeName>
+          <attributeLabel>height_cm</attributeLabel>
+          <attributeDefinition>seedling total height</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>3240</numberOfRecords>
+    </dataTable>
+    <dataTable id="b7e49d7f6c78136cc09864c9f2d1950c" scope="document" system="https://pasta.edirepository.org">
+      <entityName>ResiliencePlantingTrial_Phenology_2015_2016</entityName>
+      <entityDescription>Bud-break phenology was observed on seedlings of the resilience planting trial in the Cedar River Municipal Watershed. Winter dormancy and timing of bud-break are important climate adaptations of tree species in temperate montane regions that experience cold winter temperatures. The resilience planting trial was designed to test adaptation of different tree species to changing environmental conditions. This data captures if timing of bud-break differs between species and seed sources for Pseudotsuga menziesii. Greater plasticity in bud-break timing may indicate adaptive capacity to respond to changing spring temperatures associated with climate change. Bud-break was observed in the spring of 2015 and 2016 on terminal buds of seedlings installed in the 2011 planting trial. More information about methodology included under methods and in Phenology Study pdf.</entityDescription>
+      <physical>
+        <objectName>RPT_phenology_2015_16.csv</objectName>
+        <size unit="byte">16145</size>
+        <authentication method="MD5">616137105fc334ec8204130357062c68</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/8/2/b7e49d7f6c78136cc09864c9f2d1950c</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Location of trial site</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>Barneston</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>F</code>
+                    <definition>Foothills</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>T</code>
+                    <definition>Thompson</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>species</attributeName>
+          <attributeLabel>species</attributeLabel>
+          <attributeDefinition>Seedling specific identifier</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>PICO</code>
+                    <definition>Pinus cordata</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PIMO</code>
+                    <definition>Pinus monticola</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PSME</code>
+                    <definition>Pseudotsuga menziesii</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PSMO</code>
+                    <definition>Pseudotsuga menziesii Oregon origin</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PSMW</code>
+                    <definition>Pseudotsuga meziesii Washignton origin</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PSOR</code>
+                    <definition>Pseudotsuga menziesii Oregon origin</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PSWA</code>
+                    <definition>Pseudotsuga meziesii Washignton origin</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>QUGA</code>
+                    <definition>Quercus garryana</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TSHE</code>
+                    <definition>Thuja plicata</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>tree_id</attributeName>
+          <attributeLabel>tree_id</attributeLabel>
+          <attributeDefinition>tree species code</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeLabel>year</attributeLabel>
+          <attributeDefinition>sample year</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>bps05</attributeName>
+          <attributeLabel>bps05</attributeLabel>
+          <attributeDefinition>budburst stage 0.5 Slightly swollen with some elongation, minor separation of terminal bud scales</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>JulianDayOfYear</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>bps1</attributeName>
+          <attributeLabel>bps1</attributeLabel>
+          <attributeDefinition>budburst stage 1 Elongated, swollen bud with scale separation throughout the bud, lighter color overall</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>JulianDayOfYear</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>bps15</attributeName>
+          <attributeLabel>bps15</attributeLabel>
+          <attributeDefinition>budburst stage 1.5 Extremely-swollen whitish buds, green tissue visible between scales near terminus</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>JulianDayOfYear</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>bps2</attributeName>
+          <attributeLabel>bps2</attributeLabel>
+          <attributeDefinition>budburst stage 2 Fully-ruptured bud with new green foliage visible and protruding</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>JulianDayOfYear</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>515</numberOfRecords>
+    </dataTable>
+    <otherEntity id="0030222767e1936f7b2e1b8b0dc3e9a4" scope="document" system="https://pasta.edirepository.org">
+      <entityName>CRMW_PlantingforResilience_ProjectReport_2017</entityName>
+      <entityDescription>Report including project plan from 2011, as-built report from 2012, initial results from 2013, and results update from 2017. Includes experiment rational, design, costs, monitoring and maintenance plans, and initial results. Written by David Chapin, Amy LaBarge, and Rolf Gersonde.</entityDescription>
+      <physical>
+        <objectName>CRMW Planting for Resilience Project Report_2017.pdf</objectName>
+        <size unit="byte">1586328</size>
+        <authentication method="MD5">6fd2c2e5618440c1317597f1488d5cf6</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/8/2/0030222767e1936f7b2e1b8b0dc3e9a4</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+    <otherEntity id="bff4ab15bb1fddc454bff4f317b46bd7" scope="document" system="https://pasta.edirepository.org">
+      <entityName>Protocols_MonitoringResiliencePlantingTrial</entityName>
+      <entityDescription>Protocol for monitoring the resilience planting trail, author and date unknown.</entityDescription>
+      <physical>
+        <objectName>Protocols for Monitoring Resilience Planting Trial.pdf</objectName>
+        <size unit="byte">112674</size>
+        <authentication method="MD5">f41f82d5bb496421b130c733d8022427</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/8/2/bff4ab15bb1fddc454bff4f317b46bd7</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+    <otherEntity id="05e61560f9730986836cb5fafb1d3c20" scope="document" system="https://pasta.edirepository.org">
+      <entityName>RPT_Gersonde_2019</entityName>
+      <entityDescription>Publication of results and analysis written by Rolf Gersonde in 2019. Includes abstract, introduction, methods, results, and discussion.</entityDescription>
+      <physical>
+        <objectName>RPT_Gersonde_2019.pdf</objectName>
+        <size unit="byte">306969</size>
+        <authentication method="MD5">2f63f932c023260963486c6df656b571</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/8/2/05e61560f9730986836cb5fafb1d3c20</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+    <otherEntity id="3cf37a4ee0b3483df0bcd79068a9201d" scope="document" system="https://pasta.edirepository.org">
+      <entityName>PhenologyStudy_ResiliencePlantingTrial</entityName>
+      <entityDescription>Phenology protocol and report for resilience planting trail in the Cedar River Municipal Watershed written by Rolf Gersonde in 2015-2016. Includes code descriptions for phenology data and median day of first observation of bud-break stage for species.</entityDescription>
+      <physical>
+        <objectName>Phenology Study of Resilience Planting Trial.pdf</objectName>
+        <size unit="byte">179596</size>
+        <authentication method="MD5">fd2d9a595744a814424ac193ec8b2921</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/8/2/3cf37a4ee0b3483df0bcd79068a9201d</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList>
+        <stmml:unit id="JulianDayOfYear" name="JulianDayOfYear">
+          <stmml:description/>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <emlEditor app="ezEML" release="2025.04.16"/>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

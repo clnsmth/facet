@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="cos-spu.119.1" system="https://pasta.edirepository.org" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>SPU_EDI_Data_Author</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.0311/FK2/2ffdcfc1b16ad00e536129c68849c071</alternateIdentifier>
+    <title>Long Term Aquatic Monitoring Program (LTAM) Bankfull Surveys and Data Analysis, 2006-2017, in support of the Cedar River Watershed Habitat Conservation Plan for City of Seattle, Seattle Public Utilities, in King County, WA</title>
+    <creator>
+      <individualName>
+        <givenName>Amy</givenName>
+        <surName>Reichenbach</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Erin</givenName>
+        <surName>Meehan</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Ann</givenName>
+        <surName>McCauley</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Amy</givenName>
+        <surName>Reichenbach</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+    </metadataProvider>
+    <metadataProvider>
+      <individualName>
+        <givenName>Erin</givenName>
+        <surName>Meehan</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Steve</givenName>
+        <surName>Ralph</surName>
+      </individualName>
+      <organizationName>Stillwater Sciences, Inc.</organizationName>
+      <address>
+        <deliveryPoint>1314 NE 43rd Street</deliveryPoint>
+        <city>Seattle</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98105</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>Ralph@stillwatersci.com</electronicMailAddress>
+      <role>Consultant Planner</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Tamre</givenName>
+        <surName>Cardoso</surName>
+      </individualName>
+      <organizationName>TerraStat Consulting Group</organizationName>
+      <address>
+        <deliveryPoint>6322 14th Ave. NE</deliveryPoint>
+        <city>Seattle</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98115</postalCode>
+        <country>USA</country>
+      </address>
+      <role>Consultant Planner</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Amy</givenName>
+        <surName>Reichenbach</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Lead surveyor</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Erin</givenName>
+        <surName>Meehan</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Lead surveyor</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Ann</givenName>
+        <surName>McCauley</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Field observer</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Sarah</givenName>
+        <surName>Heyne</surName>
+      </individualName>
+      <organizationName>West Fork Environmental, Inc.</organizationName>
+      <address>
+        <deliveryPoint>2350 Mottman Rd SW</deliveryPoint>
+        <city>Tumwater</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98512</postalCode>
+        <country>USA</country>
+      </address>
+      <onlineUrl>http://www.westforkenv.com/</onlineUrl>
+      <role>Consultant Field observer</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Todd</givenName>
+        <surName>Bohle</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Planner</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Wendy</givenName>
+        <surName>Sammarco</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Field observer</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Heidy</givenName>
+        <surName>Barnett</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Field observer</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>David</givenName>
+        <surName>Chapin</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Field observer</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Bill</givenName>
+        <surName>Richards</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Field observer</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Dave</givenName>
+        <surName>Beedle</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Planner</role>
+    </associatedParty>
+    <pubDate>2025-04-18</pubDate>
+    <abstract>
+      <para>This package contains site verification data for the Long Term Aquatic Monitoring (LTAM) program, a level bankfull survey was conducted for all (25) monitoring sites.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>City of Seattle</keyword>
+      <keyword>Seattle Public Utilities</keyword>
+      <keyword>SPU</keyword>
+      <keyword>King County</keyword>
+      <keyword>Washington</keyword>
+      <keyword>Cedar River Municipal Watershed (CRMW)</keyword>
+      <keyword>Habitat Conservation Plan</keyword>
+      <keyword>verification</keyword>
+      <keyword>xs</keyword>
+      <keyword>cross section</keyword>
+      <keyword>hydro</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Watershed Research and Monitoring</keyword>
+      <keywordThesaurus>HCP Category</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Watershed Aquatic Monitoring and Research</keyword>
+      <keywordThesaurus>HCP Group</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>hydrology</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</para>
+    </intellectualRights>
+    <licensed>
+      <licenseName>Creative Commons Attribution 4.0 International</licenseName>
+      <url>https://spdx.org/licenses/CC-BY-4.0</url>
+      <identifier>CC-BY-4.0</identifier>
+    </licensed>
+    <distribution id="10.0311/FK2/2ffdcfc1b16ad00e536129c68849c071" scope="system" system="https://pasta.edirepository.org">
+      <online>
+        <url function="information">https://doi.org/10.0311/FK2/2ffdcfc1b16ad00e536129c68849c071</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Cedar River Municipal Watershed</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.0334104</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.3631524</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.24097306</northBoundingCoordinate>
+          <southBoundingCoordinate>47.49192463</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 1, North Fork Cedar, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.4778031</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.4778031</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.32216306</northBoundingCoordinate>
+          <southBoundingCoordinate>47.32216306</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 2, Rock, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.887347</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.887347</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.41493339</northBoundingCoordinate>
+          <southBoundingCoordinate>47.41493339</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 3, South Fork Taylor, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.7982566</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.7982566</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.35088959</northBoundingCoordinate>
+          <southBoundingCoordinate>47.35088959</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 4, Hotel, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.919718</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.919718</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.41094901</northBoundingCoordinate>
+          <southBoundingCoordinate>47.41094901</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 5, Upper Cedar R, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.5602029</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.5602029</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.34854688</northBoundingCoordinate>
+          <southBoundingCoordinate>47.34854688</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 6, Upper Cedar R, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.5983626</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.5983626</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.35756025</northBoundingCoordinate>
+          <southBoundingCoordinate>47.35756025</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 7, Taylor, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.8424837</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.8424837</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.38277052</northBoundingCoordinate>
+          <southBoundingCoordinate>47.38277052</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 8, Taylor, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.8282059</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.8282059</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.36822493</northBoundingCoordinate>
+          <southBoundingCoordinate>47.36822493</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 9, Rock, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.8975172</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.8975172</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.40570145</northBoundingCoordinate>
+          <southBoundingCoordinate>47.40570145</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 10, Rex, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.6347088</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.6347088</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.33662667</northBoundingCoordinate>
+          <southBoundingCoordinate>47.33662667</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 11, South Fork Taylor, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.7806939</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.7806939</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.33978363</northBoundingCoordinate>
+          <southBoundingCoordinate>47.33978363</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 12, Boulder, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.697159</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.697159</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.36464178</northBoundingCoordinate>
+          <southBoundingCoordinate>47.36464178</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 13, South Fork Taylor, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.7881229</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.7881229</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.34538076</northBoundingCoordinate>
+          <southBoundingCoordinate>47.34538076</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 14, South Fork Cedar, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.471263</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.471263</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.28162995</northBoundingCoordinate>
+          <southBoundingCoordinate>47.28162995</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 15, Rock, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.9453689</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.9453689</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.39502801</northBoundingCoordinate>
+          <southBoundingCoordinate>47.39502801</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 16, Goat, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.5420865</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.5420865</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.30310386</northBoundingCoordinate>
+          <southBoundingCoordinate>47.30310386</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 17, Williams, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.8546156</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.8546156</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.39562092</northBoundingCoordinate>
+          <southBoundingCoordinate>47.39562092</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 18, Middle Fork Taylor, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.8008101</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.8008101</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.35486894</northBoundingCoordinate>
+          <southBoundingCoordinate>47.35486894</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 19, Webster, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.9237922</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.9237922</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.4094534</northBoundingCoordinate>
+          <southBoundingCoordinate>47.4094534</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 20, Rock, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.9290782</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.9290782</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.39646977</northBoundingCoordinate>
+          <southBoundingCoordinate>47.39646977</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 21, South Fork Cedar, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.5185927</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.5185927</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.3079528</northBoundingCoordinate>
+          <southBoundingCoordinate>47.3079528</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 22, South Fork Cedar, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.5068628</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.5068628</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.29817275</northBoundingCoordinate>
+          <southBoundingCoordinate>47.29817275</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 23, Williams, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.8573686</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.8573686</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.40468375</northBoundingCoordinate>
+          <southBoundingCoordinate>47.40468375</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 24, Steele, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.8239161</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.8239161</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.42329044</northBoundingCoordinate>
+          <southBoundingCoordinate>47.42329044</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 25, North Fork Taylor, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.8079696</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.8079696</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.36971789</northBoundingCoordinate>
+          <southBoundingCoordinate>47.36971789</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2006-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2017-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>Update yearly if additional data is collected.</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+    </maintenance>
+    <contact>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/</onlineUrl>
+      <userId directory="https://ror.org/">https://ror.org/05wkbzn97</userId>
+    </contact>
+    <publisher>
+      <organizationName>Environmental Data Initiative</organizationName>
+      <electronicMailAddress>info@edirepository.org</electronicMailAddress>
+      <onlineUrl>https://edirepository.org</onlineUrl>
+      <userId directory="https://ror.org">0330j0z60</userId>
+    </publisher>
+    <pubPlace>Environmental Data Initiative</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Cross section end points were established during the first monitoring year and consisted of pounding in rebar at least 25 feet away from bankfull edge and at approximately the same elevation on both the right and left banks. The same cross section was surveyed in subsequent monitoring years. Occasionally a rebar was damaged or missing, and if so, they were re-established using information from the Permanent Reference survey such that the elevation of the new rebar could always be related to the elevation of the old rebar.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>A fiberglass reel tape was attached from right bank rebar to left bank rebar (where right and left banks refer to the stream bank when facing downstream) such that the zero end of the tape was always at the right bank.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>The survey started and ended on a stable point, usually the top of right bank rebar. Doing so “closed the survey loop” and ensured that accuracy could be calculated. If the accuracy was more than +/- 0.25 feet, the survey was re-done. Re-doing a survey only happened a few times over the course of the 12 year study.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>One observer used a level attached to a tripod to measure readings on a stadia rod held by another observer in the stream. The observer in the stream captured significant features such as floodplain, bankfull edge, wetted with, thalweg, woody debris, terrace, and permanent vegetation line. The focus of the survey was to get detailed information near and under bankfull elevation, with fewer data points outside of bankfull and served only as confirmation of bankfull.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>The data was reviewed for completeness and errors and graphed in Excel. Obvious data outliers were removed from analysis. Bankfull elevation was confirmed by interpreting the graphs, considering the surveyor notes, and reviewing photos. Totals and averages were calculated for cross sectional area, bankfull depth and width, and width to depth ratio for each cross section and then averaged for each site for a particular survey year.</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Long-term Stream Monitoring</title>
+      <personnel>
+        <individualName>
+          <givenName>Amy</givenName>
+          <surName>Reichenbach</surName>
+        </individualName>
+        <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+        <address>
+          <city>North Bend</city>
+          <administrativeArea>WA</administrativeArea>
+          <postalCode>98045</postalCode>
+          <country>United States</country>
+        </address>
+        <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+        <onlineUrl>https://www.seattle.gov/</onlineUrl>
+        <role>Hydrologist</role>
+      </personnel>
+      <abstract>
+        <para>Long Term Aquatic Monitoring (LTAM) pebble count summary data and individual working data, 2006-2017, in support of the Cedar River Watershed Habitat Conservation Plan, for Seattle Public Utilities in North Bend, Washington. Field methods were based on Wolman Pebble Count methods, e.g. using the blind touch method off the tip of the boot and measuring intermediate b-axis for at least 100 particles, bankfull to bankfull, for all channels at a particular cross section. Data is summarized for each cross section for each year at each site, as well as all cross sections for each year at each site, into particle size class distribution classes and noting p-value significance.</para>
+      </abstract>
+      <award>
+        <funderName>City of Seattle</funderName>
+        <awardNumber>N781601</awardNumber>
+        <title>Long-term Stream Monitoring</title>
+      </award>
+    </project>
+    <otherEntity id="657f0e810732bc72d7e14204de01f6df" scope="document" system="https://pasta.edirepository.org">
+      <entityName>LTAM Bankfull_all years</entityName>
+      <entityDescription>Formatted spreadsheet.</entityDescription>
+      <physical>
+        <objectName>LTAM Bankfull_all years.xlsx</objectName>
+        <size unit="byte">185812</size>
+        <authentication method="MD5">51e971e2ff54394ed55d4cee7799d4cd</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/119/1/657f0e810732bc72d7e14204de01f6df</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <importedFromXML dateImported="2025-03-05" filename="cos-spu-people_projects_geog_template.1.4.xml" taxonomicCoverageExempt="True"/>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <emlEditor app="ezEML" release="2025.04.16"/>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

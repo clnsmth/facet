@@ -1,0 +1,1807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="cos-spu.111.3" system="https://pasta.edirepository.org" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>SPU_EDI_Data_Author</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.0311/FK2/213246a472ff839bc5814b1436c00e51</alternateIdentifier>
+    <title>Long Term Aquatic Monitoring Program (LTAM) Photos, 2006-2017, in support of the Cedar River Watershed Habitat Conservation Plan for City of Seattle, Seattle Public Utilities, in King County, WA</title>
+    <creator>
+      <individualName>
+        <givenName>Amy</givenName>
+        <surName>Reichenbach</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Erin</givenName>
+        <surName>Meehan</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Ann</givenName>
+        <surName>McCauley</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Amy</givenName>
+        <surName>Reichenbach</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Steve</givenName>
+        <surName>Ralph</surName>
+      </individualName>
+      <organizationName>Stillwater Sciences, Inc.</organizationName>
+      <address>
+        <deliveryPoint>1314 NE 43rd Street</deliveryPoint>
+        <city>Seattle</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98105</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>Ralph@stillwatersci.com</electronicMailAddress>
+      <role>Consultant Planner</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Tamre</givenName>
+        <surName>Cardoso</surName>
+      </individualName>
+      <organizationName>TerraStat Consulting Group</organizationName>
+      <address>
+        <deliveryPoint>6322 14th Ave. NE</deliveryPoint>
+        <city>Seattle</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98115</postalCode>
+        <country>USA</country>
+      </address>
+      <role>Consultant Planner</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Amy</givenName>
+        <surName>Reichenbach</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Lead surveyor</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Erin</givenName>
+        <surName>Meehan</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Crew Lead</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Ann</givenName>
+        <surName>McCauley</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Field observer</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Sarah</givenName>
+        <surName>Heyne</surName>
+      </individualName>
+      <organizationName>West Fork Environmental, Inc.</organizationName>
+      <address>
+        <deliveryPoint>2350 Mottman Rd SW</deliveryPoint>
+        <city>Tumwater</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98512</postalCode>
+        <country>USA</country>
+      </address>
+      <onlineUrl>http://www.westforkenv.com/</onlineUrl>
+      <role>Consultant Field observer</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Todd</givenName>
+        <surName>Bohle</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Planner</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Wendy</givenName>
+        <surName>Sammarco</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Field observer</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Heidy</givenName>
+        <surName>Barnett</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Field observer</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>David</givenName>
+        <surName>Chapin</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Field observer</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Bill</givenName>
+        <surName>Richards</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Field observer</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Dave</givenName>
+        <surName>Beedle</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Planner</role>
+    </associatedParty>
+    <pubDate>2025-04-17</pubDate>
+    <abstract>
+      <para>This package contains photos and photo comparison documents for the Long Term Aquatic Monitoring (LTAM) program, in support of the Cedar River Watershed Habitat Conservation Plan for City of Seattle, Seattle Public Utilities, in King County, WA. At least (5) photos were taken at photo monitoring locations for all (25) monitoring sites for 2006-2017. Additional photos were taken to note other interesting features, such as side channels, fish barriers, bank erosion, and overview of the cross section line.</para>
+      <para/>
+      <para>For more detailed information on the LTAM program, refer to the LTAM Methods and Reports package.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>City of Seattle</keyword>
+      <keyword>Seattle Public Utilities</keyword>
+      <keyword>SPU</keyword>
+      <keyword>King County</keyword>
+      <keyword>Washington</keyword>
+      <keyword>Cedar River Municipal Watershed (CRMW)</keyword>
+      <keyword>Habitat Conservation Plan</keyword>
+      <keyword>image</keyword>
+      <keyword>photo</keyword>
+      <keyword>hydro</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Watershed Research and Monitoring</keyword>
+      <keywordThesaurus>HCP Category</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Watershed Aquatic Monitoring and Research</keyword>
+      <keywordThesaurus>HCP Group</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>hydrology</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</para>
+    </intellectualRights>
+    <licensed>
+      <licenseName>Creative Commons Attribution 4.0 International</licenseName>
+      <url>https://spdx.org/licenses/CC-BY-4.0</url>
+      <identifier>CC-BY-4.0</identifier>
+    </licensed>
+    <distribution id="10.0311/FK2/213246a472ff839bc5814b1436c00e51" scope="system" system="https://pasta.edirepository.org">
+      <online>
+        <url function="information">https://doi.org/10.0311/FK2/213246a472ff839bc5814b1436c00e51</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Cedar River Municipal Watershed</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.0334104</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.3631524</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.24097306</northBoundingCoordinate>
+          <southBoundingCoordinate>47.49192463</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 1, North Fork Cedar, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.4778031</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.4778031</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.32216306</northBoundingCoordinate>
+          <southBoundingCoordinate>47.32216306</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 2, Rock, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.887347</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.887347</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.41493339</northBoundingCoordinate>
+          <southBoundingCoordinate>47.41493339</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 3, South Fork Taylor, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.7982566</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.7982566</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.35088959</northBoundingCoordinate>
+          <southBoundingCoordinate>47.35088959</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 4, Hotel, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.919718</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.919718</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.41094901</northBoundingCoordinate>
+          <southBoundingCoordinate>47.41094901</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 5, Upper Cedar R, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.5602029</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.5602029</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.34854688</northBoundingCoordinate>
+          <southBoundingCoordinate>47.34854688</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 6, Upper Cedar R, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.5983626</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.5983626</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.35756025</northBoundingCoordinate>
+          <southBoundingCoordinate>47.35756025</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 7, Taylor, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.8424837</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.8424837</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.38277052</northBoundingCoordinate>
+          <southBoundingCoordinate>47.38277052</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 8, Taylor, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.8282059</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.8282059</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.36822493</northBoundingCoordinate>
+          <southBoundingCoordinate>47.36822493</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 9, Rock, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.8975172</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.8975172</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.40570145</northBoundingCoordinate>
+          <southBoundingCoordinate>47.40570145</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 10, Rex, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.6347088</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.6347088</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.33662667</northBoundingCoordinate>
+          <southBoundingCoordinate>47.33662667</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 11, South Fork Taylor, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.7806939</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.7806939</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.33978363</northBoundingCoordinate>
+          <southBoundingCoordinate>47.33978363</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 12, Boulder, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.697159</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.697159</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.36464178</northBoundingCoordinate>
+          <southBoundingCoordinate>47.36464178</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 13, South Fork Taylor, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.7881229</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.7881229</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.34538076</northBoundingCoordinate>
+          <southBoundingCoordinate>47.34538076</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 14, South Fork Cedar, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.471263</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.471263</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.28162995</northBoundingCoordinate>
+          <southBoundingCoordinate>47.28162995</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 15, Rock, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.9453689</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.9453689</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.39502801</northBoundingCoordinate>
+          <southBoundingCoordinate>47.39502801</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 16, Goat, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.5420865</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.5420865</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.30310386</northBoundingCoordinate>
+          <southBoundingCoordinate>47.30310386</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 17, Williams, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.8546156</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.8546156</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.39562092</northBoundingCoordinate>
+          <southBoundingCoordinate>47.39562092</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 18, Middle Fork Taylor, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.8008101</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.8008101</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.35486894</northBoundingCoordinate>
+          <southBoundingCoordinate>47.35486894</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 19, Webster, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.9237922</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.9237922</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.4094534</northBoundingCoordinate>
+          <southBoundingCoordinate>47.4094534</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 20, Rock, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.9290782</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.9290782</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.39646977</northBoundingCoordinate>
+          <southBoundingCoordinate>47.39646977</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 21, South Fork Cedar, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.5185927</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.5185927</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.3079528</northBoundingCoordinate>
+          <southBoundingCoordinate>47.3079528</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 22, South Fork Cedar, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.5068628</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.5068628</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.29817275</northBoundingCoordinate>
+          <southBoundingCoordinate>47.29817275</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 23, Williams, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.8573686</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.8573686</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.40468375</northBoundingCoordinate>
+          <southBoundingCoordinate>47.40468375</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 24, Steele, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.8239161</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.8239161</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.42329044</northBoundingCoordinate>
+          <southBoundingCoordinate>47.42329044</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 25, North Fork Taylor, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.8079696</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.8079696</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.36971789</northBoundingCoordinate>
+          <southBoundingCoordinate>47.36971789</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2006-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2017-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>Update yearly if additional data is collected.</description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+    </maintenance>
+    <contact>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/</onlineUrl>
+      <userId directory="https://ror.org/">https://ror.org/05wkbzn97</userId>
+    </contact>
+    <publisher>
+      <organizationName>Environmental Data Initiative</organizationName>
+      <electronicMailAddress>info@edirepository.org</electronicMailAddress>
+      <onlineUrl>https://edirepository.org</onlineUrl>
+      <userId directory="https://ror.org">0330j0z60</userId>
+    </publisher>
+    <pubPlace>Environmental Data Initiative</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Five photos are required for all (25) monitoring sites (BOU, TOU, xs1, xs2, and xs3). Photos are taken mid channel, landscape view, holding the camera about 4 feet above ground, with the top half of the photo view above the stream and the bottom half of the photo view of the stream. There are errors in the dataset with missing photos and/or photos taken in portrait mode. For required photos, azimuth, photo view (US or DS), and if applicable, distance on cross section tape was recorded. Optional photos were also taken to note other interesting features, such as side channels, fish barriers, bank erosion, and overview of the cross section line. There was no required standard for taking optional photos.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Photos were downloaded and re-named the same day they were taken or the next day.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>At the end of the field season, required photos were copied into a photo comparison document in Microsoft Word, where photos are arranged side by side for different years at the same location.</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Long-term Stream Monitoring</title>
+      <personnel>
+        <individualName>
+          <givenName>Amy</givenName>
+          <surName>Reichenbach</surName>
+        </individualName>
+        <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+        <address>
+          <city>North Bend</city>
+          <administrativeArea>WA</administrativeArea>
+          <postalCode>98045</postalCode>
+          <country>United States</country>
+        </address>
+        <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+        <onlineUrl>https://www.seattle.gov/</onlineUrl>
+        <role>Hydrologist</role>
+      </personnel>
+      <abstract>
+        <para>Data supports the long-term stream monitoring program within the Cedar River Habitat Conservation Plan (HCP). Data measures the overall ecological response of the watershed to HCP management activities to monitor stream health, document recovery from past water supply and land management operations, evaluate the success of stream habitat restoration projects, and help to identify any impacts of the City’s operations on stream ecosystems.</para>
+      </abstract>
+      <award>
+        <funderName>City of Seattle, Seattle Public Utilities</funderName>
+        <awardNumber>N541802</awardNumber>
+        <title>Long-term Stream Monitoring</title>
+      </award>
+    </project>
+    <dataTable id="e792420dbee1df3281288d6615c4b087" scope="document" system="https://pasta.edirepository.org">
+      <entityName>LTAM_Photos_Descriptions_Sites01_25_2006_2017_SIMS_v01.csv</entityName>
+      <entityDescription>Descriptions for every photo taken at all (25) monitoring sites for 2006-2017. Includes location, view, and azimuth.</entityDescription>
+      <physical>
+        <objectName>LTAM_Photos_Descriptions_Sites01_25_2006_2017_SIMS_v01.csv</objectName>
+        <size unit="byte">215786</size>
+        <authentication method="MD5">5be92b7a4490928646f647f4c1f5cf6a</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/111/3/e792420dbee1df3281288d6615c4b087</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Main Sorting No</attributeName>
+          <attributeLabel>Main Sorting No</attributeLabel>
+          <attributeDefinition>Main Sorting No, a number that is used to order records for the purposes of loading data, grouping data, or building formulas.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Method</attributeName>
+          <attributeLabel>Method</attributeLabel>
+          <attributeDefinition>Method, an abbreviation or acronym whereas the method is a group of methods for a project or program and is described in a separate document.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Year Site ID</attributeName>
+          <attributeLabel>Year Site ID</attributeLabel>
+          <attributeDefinition>Year Site ID, a number that is used to group data and is a conjugate of the 4 digit Sample Year and Site No. For example, 20062 refers to Sample Year 2006, Site 2, and 201022 refers to Sample Year 2010, Site 22. If the analysis is a Enter "999" for</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>User Name</attributeName>
+          <attributeLabel>User Name</attributeLabel>
+          <attributeDefinition>User Name, as downloaded from Pendragon Forms or other electronic form. Also, "999" refers to not applicable; and "-999" refers to data that is required but is missing.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Timestamp</attributeName>
+          <attributeLabel>Timestamp</attributeLabel>
+          <attributeDefinition>Timestamp, Date or Date and Time for when the data was collected and in format MM/DD/YYY hh:mm:ss.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM/DD/YYYY hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Site No</attributeName>
+          <attributeLabel>Site No</attributeLabel>
+          <attributeDefinition>Site No, a number that has been assigned to the site, whereas the same site number is used for repeat surveys.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Stream Name (short)</attributeName>
+          <attributeLabel>Stream Name (short)</attributeLabel>
+          <attributeDefinition>Stream Name (short), the abbreviated or shortened stream name of the site that is being surveyed.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Reach Location</attributeName>
+          <attributeLabel>Reach Location</attributeLabel>
+          <attributeDefinition>Reach Location, where where data was collected and is usually abbreviated (ie. "xs1" is cross section 1, "xs2" is cross seciton 2, "xs3: is cross section 3, "BOU" is bottom of unit and is the downstream boundary of the site, "TOU" is top of unit and is the upstream boundary of the site, "ch" is channel, "LB" is left bank when facing downstream, "RB" is right bank when facing downstream, etc. This attribute does not have domains because the abbreviation could be different depending on the site. Abbreviations are described more fully in the written protocol document.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Photo View</attributeName>
+          <attributeLabel>Photo View</attributeLabel>
+          <attributeDefinition>Photo View, which is the direction in which the photo was taken (US, DS, LB to RB overview, etc.) Note that US refers to upstream, DS refers to Downstream, LB refers to Left Bank when facing downstream, and RB refers to Right Bank when facing downstream. This attribute does not have domains because the abbreviation could be different depending on the site. Abbreviations are described more fully in the written protocol document.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Photo Location and View</attributeName>
+          <attributeLabel>Photo Location and View</attributeLabel>
+          <attributeDefinition>Photo Location and View, which is a conjugate of Method abbreviation, Site No, Stream Name, Reach Location, and Photo View. This attribute can be used to more efficiently sort and find records.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Photo No. on Camera</attributeName>
+          <attributeLabel>Photo No. on Camera</attributeLabel>
+          <attributeDefinition>Photo No on Camera, which is the number as noted by the camara. Photo numbers with decimal points mean that more than 1 photo was taken, and after download, generally one of the photos was deleted. Photo No tends to be duplicated if photos are erasted from the camera.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Photo Azimuth</attributeName>
+          <attributeLabel>Photo Azimuth</attributeLabel>
+          <attributeDefinition>Photo Azimuth, which is the angle in degrees, clockwise from North, as measured from a compass, and represents the photo direction. Must be qualified with Declination in order to determine if the azimuth is from magnetic north or true north (ie grid north). In decimal degrees.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Distance on XS Tape For Photos (ft)</attributeName>
+          <attributeLabel>Distance on XS Tape For Photos (ft)</attributeLabel>
+          <attributeDefinition>Distance on Cross Section Tape, which is the number on a fiberglass reel tape that is spanning across the stream banks and is adjacent to or overhead of the observer when they take the photo. The observer records the number that is closest to them when they take the photo. Recording the number allows for repeat monitoring photos, as long as the cross section end points are known and can be related over time.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Comments</attributeName>
+          <attributeLabel>Comments</attributeLabel>
+          <attributeDefinition>Comments, free form text for interesting or unusual sightings, problems, or issues.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Photo No per Year Site ID (based on Timestamp)</attributeName>
+          <attributeLabel>Photo No per Year Site ID (based on Timestamp)</attributeLabel>
+          <attributeDefinition>Photo number per Year-Site Identifier, whereas photo number is sequentially ordered based on Timestamp. It may or may not be the same number as Photo Number, which tends to duplicate if photos are erasted from the camera.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Declination East</attributeName>
+          <attributeLabel>Declination East</attributeLabel>
+          <attributeDefinition>Declination East, at the time the azimuth direction was measured. It is the angle between magnetic morth (the direction a compass needle points) and true north (ie grid north or geogrpahic north pole), Declination East is a positive number when magnetic north is east of true north. Note that Declination East changes about 0.5 degrees every 3 years in the North Bend, Washington vicinity. Declination is usually set on the backside of the compas by turning a small screw that shifts a black arrow to the desired degrees setting. If declination is not set properly on a compass, all azimuth readings will be incorrect. At the beginning of the field season, all observers should set their compass to the same degrees setting to reduce error between observers. Units in decimal degrees.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Observers</attributeName>
+          <attributeLabel>Observers</attributeLabel>
+          <attributeDefinition>The names or initials of each person who participated in the survey.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>1879</numberOfRecords>
+    </dataTable>
+    <dataTable id="82e643189238b9dd9c3894b724a0c52c" scope="document" system="https://pasta.edirepository.org">
+      <entityName>LTAM_Photos_Filenames_Images_Sites01_25_2006_2017_SIMS_v01.csv</entityName>
+      <entityDescription>A filename inventory of the (5) zipped folders that contain photos for all (25) monitoring sites for 2006-2017. Includes stream location, folder name, and filename.</entityDescription>
+      <physical>
+        <objectName>LTAM_Photos_Filenames_Images_Sites01_25_2006_2017_SIMS_v01.csv</objectName>
+        <size unit="byte">638738</size>
+        <authentication method="MD5">00d116f8a37b8902d150cceb4c93fcf7</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/111/3/82e643189238b9dd9c3894b724a0c52c</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>SORT_MAIN</attributeName>
+          <attributeLabel>SORT_MAIN</attributeLabel>
+          <attributeDefinition>Main Sorting No, a number that is used to order records for the purposes of loading data, grouping data, or building formulas.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>METHOD</attributeName>
+          <attributeLabel>METHOD</attributeLabel>
+          <attributeDefinition>Method, an abbreviation or acronym whereas the method is a group of methods for a project or program and is described in a separate document.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>YEARSITE_ID</attributeName>
+          <attributeLabel>YEARSITE_ID</attributeLabel>
+          <attributeDefinition>Year Site ID, a number that is used to group data and is a conjugate of the 4 digit Sample Year and Site No. For example, 20062 refers to Sample Year 2006, Site 2, and 201022 refers to Sample Year 2010, Site 22. If the analysis is a Enter "999" for</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SURVEY_YEAR_NUM</attributeName>
+          <attributeLabel>SURVEY_YEAR_NUM</attributeLabel>
+          <attributeDefinition>Survey Year, the sample year of a dataset.. Loaded as 4 digit number and not a date format.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SITENO</attributeName>
+          <attributeLabel>SITENO</attributeLabel>
+          <attributeDefinition>Site No, a number that has been assigned to the site, whereas the same site number is used for repeat surveys.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>STREAM_NAME_SHORT</attributeName>
+          <attributeLabel>STREAM_NAME_SHORT</attributeLabel>
+          <attributeDefinition>Stream Name (short), the abbreviated or shortened stream name of the site that is being surveyed.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>REACH_LOC</attributeName>
+          <attributeLabel>REACH_LOC</attributeLabel>
+          <attributeDefinition>Reach Location, where where data was collected and is usually abbreviated (ie. "xs1" is cross section 1, "xs2" is cross seciton 2, "xs3: is cross section 3, "BOU" is bottom of unit and is the downstream boundary of the site, "TOU" is top of unit and is the upstream boundary of the site, "ch" is channel, "LB" is left bank when facing downstream, "RB" is right bank when facing downstream, etc. This attribute does not have domains because the abbreviation could be different depending on the site. Abbreviations are described more fully in the written protocol document.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>PHOTO_VIEW</attributeName>
+          <attributeLabel>PHOTO_VIEW</attributeLabel>
+          <attributeDefinition>Photo View, which is the direction in which the photo was taken (US, DS, LB to RB overview, etc.) Note that US refers to upstream, DS refers to Downstream, LB refers to Left Bank when facing downstream, and RB refers to Right Bank when facing downstream. This attribute does not have domains because the abbreviation could be different depending on the site. Abbreviations are described more fully in the written protocol document.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>ZIP_FOLDER</attributeName>
+          <attributeLabel>ZIP_FOLDER</attributeLabel>
+          <attributeDefinition>Compressed Zip Folder Name, where the folder contains multiple files.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>FOLDER_PATH</attributeName>
+          <attributeLabel>FOLDER_PATH</attributeLabel>
+          <attributeDefinition>Folder Path Name, which is the subfolder path in a compressed zip folder. The zip folder name and the filename of the individual file is not included.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>PHOTO_LOC_VIEW</attributeName>
+          <attributeLabel>PHOTO_LOC_VIEW</attributeLabel>
+          <attributeDefinition>Photo Location and View, which is a conjugate of Method abbreviation, Site No, Stream Name, Reach Location, and Photo View. This attribute can be used to more efficiently sort and find records.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>FILENAME</attributeName>
+          <attributeLabel>FILENAME</attributeLabel>
+          <attributeDefinition>Filename, which is the name of file with the file extension included. It does not include any folders or subfolder names. The filename should contain descriptive information such has site number, sample year, and/or location.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>FILE_EXT_TYPE</attributeName>
+          <attributeLabel>FILE_EXT_TYPE</attributeLabel>
+          <attributeDefinition>File Extension Type, which is the electronic file extension type that is recognized by computers (ie. .doc, .docx, .xlsx, pdf, etc) and includes the decimal point.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>FOLDER_PATH_FILENAME</attributeName>
+          <attributeLabel>FOLDER_PATH_FILENAME</attributeLabel>
+          <attributeDefinition>Folder Path and Filename, which is a conjugate of the Folder Path Name and Filename and is the full path of the document name, with folders and subfolders, but excluding the Compressed Zip Folder Name.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>2306</numberOfRecords>
+    </dataTable>
+    <dataTable id="f4093e2f4a41cea4f1755dd7b3cf7faa" scope="document" system="https://pasta.edirepository.org">
+      <entityName>LTAM_Photos_Filenames_ImagesComparison_Sites01_25_2006_2017_SIMS_v01.csv</entityName>
+      <entityDescription>A filename inventory of the zipped folder that contains photo comparison documents in both Microsoft Word and Adobe pdf formats for all (25) monitoring sites for 2006-2017. Includes stream location, folder name, and filename.</entityDescription>
+      <physical>
+        <objectName>LTAM_Photos_Filenames_ImagesComparison_Sites01_25_2006_2017_SIMS_v01.csv</objectName>
+        <size unit="byte">12176</size>
+        <authentication method="MD5">51151efee0d255ff6dcead78a3abf0d3</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/111/3/f4093e2f4a41cea4f1755dd7b3cf7faa</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>SORT_MAIN</attributeName>
+          <attributeLabel>SORT_MAIN</attributeLabel>
+          <attributeDefinition>Main Sorting No, a number that is used to order records for the purposes of loading data, grouping data, or building formulas.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>METHOD</attributeName>
+          <attributeLabel>METHOD</attributeLabel>
+          <attributeDefinition>Method, an abbreviation or acronym whereas the method is a group of methods for a project or program and is described in a separate document.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SITENO</attributeName>
+          <attributeLabel>SITENO</attributeLabel>
+          <attributeDefinition>Site No, a number that has been assigned to the site, whereas the same site number is used for repeat surveys.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>STREAM_NAME_SHORT</attributeName>
+          <attributeLabel>STREAM_NAME_SHORT</attributeLabel>
+          <attributeDefinition>Stream Name (short), the abbreviated or shortened stream name of the site that is being surveyed.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>FILENAME_DESC</attributeName>
+          <attributeLabel>FILENAME_DESC</attributeLabel>
+          <attributeDefinition>Filename Description, a brief and general description of the document and should be distinctively different from the filename, where the filename usually has site number, sample year, and/or location information.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>ZIP_FOLDER</attributeName>
+          <attributeLabel>ZIP_FOLDER</attributeLabel>
+          <attributeDefinition>Compressed Zip Folder Name, where the folder contains multiple files.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>FOLDER_PATH</attributeName>
+          <attributeLabel>FOLDER_PATH</attributeLabel>
+          <attributeDefinition>Folder Path Name, which is the subfolder path in a compressed zip folder. The zip folder name and the filename of the individual file is not included.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>FILENAME</attributeName>
+          <attributeLabel>FILENAME</attributeLabel>
+          <attributeDefinition>Filename, which is the name of file with the file extension included. It does not include any folders or subfolder names. The filename should contain descriptive information such has site number, sample year, and/or location.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>FILE_EXT_TYPE</attributeName>
+          <attributeLabel>FILE_EXT_TYPE</attributeLabel>
+          <attributeDefinition>File Extension Type, which is the electronic file extension type that is recognized by computers (ie. .doc, .docx, .xlsx, pdf, etc) and includes the decimal point.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>FOLDER_PATH_FILENAME</attributeName>
+          <attributeLabel>FOLDER_PATH_FILENAME</attributeLabel>
+          <attributeDefinition>Folder Path and Filename, which is a conjugate of the Folder Path Name and Filename and is the full path of the document name, with folders and subfolders, but excluding the Compressed Zip Folder Name.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>50</numberOfRecords>
+    </dataTable>
+    <otherEntity id="807451845d7501fdf32c0599d084ba00" scope="document" system="https://pasta.edirepository.org">
+      <entityName>LTAM_Photos_Images_Sites01_05_2006_2017.zip</entityName>
+      <entityDescription>A zipped folder that contains images. Includes required and optional photos in .jpg format for sites 01-05, for 2006-2017. Required photos are taken at BOU (bottom of unit, the farthest downstream boundary of the site), TOU (top of unit, the farthest upstream boundary of the site), and xs1, xs2, and xs3 (cross sections 1, 2, and 3). Additional photos were taken to note other interesting features, such as side channels, fish barriers, bank erosion, and overview of the cross section line.</entityDescription>
+      <physical>
+        <objectName>LTAM_Photos_Images_Sites01_05_2006_2017.zip</objectName>
+        <size unit="byte">1102809359</size>
+        <authentication method="MD5">ed4ef49b7a3d521adf63f56e26901673</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/111/3/807451845d7501fdf32c0599d084ba00</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity id="2ce3697ffb6612425140f43bc7fdab80" scope="document" system="https://pasta.edirepository.org">
+      <entityName>LTAM_Photos_Images_Sites06_10_2006_2017.zip</entityName>
+      <entityDescription>A zipped folder that contains images. Includes required and optional photos in .jpg format for sites 06-10, for 2006-2017. Required photos are taken at BOU (bottom of unit, the farthest downstream boundary of the site), TOU (top of unit, the farthest upstream boundary of the site), and xs1, xs2, and xs3 (cross sections 1, 2, and 3). Additional photos were taken to note other interesting features, such as side channels, fish barriers, bank erosion, and overview of the cross section line.</entityDescription>
+      <physical>
+        <objectName>LTAM_Photos_Images_Sites06_10_2006_2017.zip</objectName>
+        <size unit="byte">1744448000</size>
+        <authentication method="MD5">8437b19b3e0c994687bc70ec16a68857</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/111/3/2ce3697ffb6612425140f43bc7fdab80</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity id="cd1cf6b26400a3836bf278fd2df25f3f" scope="document" system="https://pasta.edirepository.org">
+      <entityName>LTAM_Photos_Images_Sites11_15_2006_2017.zip</entityName>
+      <entityDescription>A zipped folder that contains images. Includes required and optional photos in .jpg format for sites 11-15, for 2006-2017. Required photos are taken at BOU (bottom of unit, the farthest downstream boundary of the site), TOU (top of unit, the farthest upstream boundary of the site), and xs1, xs2, and xs3 (cross sections 1, 2, and 3). Additional photos were taken to note other interesting features, such as side channels, fish barriers, bank erosion, and overview of the cross section line.</entityDescription>
+      <physical>
+        <objectName>LTAM_Photos_Images_Sites11_15_2006_2017.zip</objectName>
+        <size unit="byte">510790953</size>
+        <authentication method="MD5">10e4de9ebd0e651e6692ba920933ff9a</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/111/3/cd1cf6b26400a3836bf278fd2df25f3f</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity id="519ef49365467787975f89edd979955e" scope="document" system="https://pasta.edirepository.org">
+      <entityName>LTAM_Photos_Images_Sites16_20_2006_2017.zip</entityName>
+      <entityDescription>A zipped folder that contains images. Includes required and optional photos in .jpg format for sites 16-20, for 2006-2017. Required photos are taken at BOU (bottom of unit, the farthest downstream boundary of the site), TOU (top of unit, the farthest upstream boundary of the site), and xs1, xs2, and xs3 (cross sections 1, 2, and 3). Additional photos were taken to note other interesting features, such as side channels, fish barriers, bank erosion, and overview of the cross section line.</entityDescription>
+      <physical>
+        <objectName>LTAM_Photos_Images_Sites16_20_2006_2017.zip</objectName>
+        <size unit="byte">1126256480</size>
+        <authentication method="MD5">b55aea5404d17a21f2ff8ee68a2466f9</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/111/3/519ef49365467787975f89edd979955e</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity id="1ac61b322107ec33b3b089e821e99ca4" scope="document" system="https://pasta.edirepository.org">
+      <entityName>LTAM_Photos_Images_Sites21_25_2006_2017.zip</entityName>
+      <entityDescription>A zipped folder that contains images. Includes required and optional photos in .jpg format for sites 21-25, for 2006-2017. Required photos are taken at BOU (bottom of unit, the farthest downstream boundary of the site), TOU (top of unit, the farthest upstream boundary of the site), and xs1, xs2, and xs3 (cross sections 1, 2, and 3). Additional photos were taken to note other interesting features, such as side channels, fish barriers, bank erosion, and overview of the cross section line.</entityDescription>
+      <physical>
+        <objectName>LTAM_Photos_Images_Sites21_25_2006_2017.zip</objectName>
+        <size unit="byte">1174279852</size>
+        <authentication method="MD5">bd8f501b09adfbe1b1546d86a6e6ec57</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/111/3/1ac61b322107ec33b3b089e821e99ca4</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity id="9f4961c267eb80f713f0c2502076a662" scope="document" system="https://pasta.edirepository.org">
+      <entityName>LTAM_Photos_ImagesComparison_Sites01_25_2006_2017.zip</entityName>
+      <entityDescription>A zipped folder that contains photo comparison documents in both Microsoft Word and Adobe pdf formats for all (25) monitoring sites for 2006-2017. Photos are arranged side by side for easy comparison for required photos taken at BOU (bottom of unit, the farthest downstream boundary of the site), TOU (top of unit, the farthest upstream boundary of the site), and xs1, xs2, and xs3 (cross sections 1, 2, and 3).</entityDescription>
+      <physical>
+        <objectName>LTAM_Photos_ImagesComparison_Sites01_25_2006_2017.zip</objectName>
+        <size unit="byte">349443805</size>
+        <authentication method="MD5">c5c87e8f7ff2e481b08e84162a27e1de</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/111/3/9f4961c267eb80f713f0c2502076a662</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <importedFromXML dateImported="2025-03-05" filename="cos-spu-people_projects_geog_template.1.4.xml" taxonomicCoverageExempt="True"/>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <emlEditor app="ezEML" release="2025.04.16"/>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

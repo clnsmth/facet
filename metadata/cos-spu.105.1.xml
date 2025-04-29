@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="cos-spu.105.1" system="https://pasta.edirepository.org" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=seattlewatersheds,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.0311/FK2/6f657a337027a0c30f44188f2b99d20e</alternateIdentifier>
+    <title>City of Seattle Remote Watersheds GIS 1998 Orthophotography</title>
+    <creator>
+      <individualName>
+        <givenName>Tom</givenName>
+        <surName>Van Buren</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Rd SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">206 386 4212</phone>
+      <electronicMailAddress>tom.vanburen@seattle.gov</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0002-8251-4771</userId>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <surName>Tom Van Buren</surName>
+      </individualName>
+      <organizationName>Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Rd</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">206 233 1510</phone>
+      <electronicMailAddress>tom.vanburen@seattle.gov</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0002-8251-4771</userId>
+    </metadataProvider>
+    <pubDate>2024-03-12</pubDate>
+    <abstract>Orthophotography of City of Seattle Remote Watersheds including Cedar River Municipal Watershed and South Fork Tolt Municipal Watershed, flown 1998</abstract>
+    <keywordSet>
+      <keyword>Watershed Research and Monitoring</keyword>
+      <keywordThesaurus>HCP Category</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Watershed Terrestrial Monitoring and Research</keyword>
+      <keywordThesaurus>HCP Group</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>GIS Data Compatibility Study</keyword>
+      <keywordThesaurus>HCP Project Name</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>geographic information systems</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">orthophotography</keyword>
+      <keyword keywordType="theme">aerial</keyword>
+      <keyword keywordType="theme">Cedar RIver Municipal Watershed</keyword>
+      <keyword keywordType="theme">South Fork Tolt Municipal Watershed</keyword>
+      <keyword keywordType="theme">1998</keyword>
+      <keyword keywordType="theme">HCP</keyword>
+      <keyword keywordType="theme">City of Seattle Remote Watersheds GIS</keyword>
+      <keywordThesaurus>None</keywordThesaurus>
+    </keywordSet>
+    <additionalInfo>Data presentation form - raster digital data.</additionalInfo>
+    <intellectualRights>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</intellectualRights>
+    <distribution id="10.0311/FK2/6f657a337027a0c30f44188f2b99d20e" scope="system" system="https://pasta.edirepository.org">
+      <online>
+        <url function="information">https://doi.org/10.0311/FK2/6f657a337027a0c30f44188f2b99d20e</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>City of Seattle Remote Watersheds</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.244117</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.333799</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.78292</northBoundingCoordinate>
+          <southBoundingCoordinate>47.246907</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1998-06-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>1998-10-01</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <purpose>Arial orthophotography purchased by the City of Seattle from Washington State DNR. 1998. Paper prints were digitized by the City of Seattle, Seattle Public Utilities, Watershed Management Division. Also heads up digitized on screen to capture features important to SPU Habitat Conservation Plan and Watershed operations</purpose>
+    <maintenance>
+      <description>
+        <para>completed</para>
+      </description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <surName>Tom Van Buren</surName>
+      </individualName>
+      <organizationName>Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Rd</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">206 233 1510</phone>
+      <electronicMailAddress>tom.vanburen@seattle.gov</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0002-8251-4771</userId>
+    </contact>
+    <publisher>
+      <organizationName>Environmental Data Initiative</organizationName>
+      <electronicMailAddress>info@edirepository.org</electronicMailAddress>
+      <onlineUrl>https://edirepository.org</onlineUrl>
+      <userId directory="https://ror.org">0330j0z60</userId>
+    </publisher>
+    <pubPlace>Environmental Data Initiative</pubPlace>
+    <methods>
+      <methodStep>
+        <description>Washington State Department of Natural Resources fixed wing aerial orthophotography purchased by township and mosaiced by City of Seattle, Seattle Public Utilities in Arc/Info Grid</description>
+        <instrumentation>fixed wing</instrumentation>
+      </methodStep>
+    </methods>
+    <project>
+      <title>GIS Data Compatibility Study</title>
+      <personnel>
+        <individualName>
+          <givenName>Tom</givenName>
+          <surName>Van Buren</surName>
+        </individualName>
+        <organizationName>City of Seattle</organizationName>
+        <address>
+          <deliveryPoint>19901 Cedar Falls Rd SE</deliveryPoint>
+          <city>North Bend</city>
+          <administrativeArea>WA</administrativeArea>
+          <postalCode>98045</postalCode>
+          <country>US</country>
+        </address>
+        <phone phonetype="voice">206 386 4212</phone>
+        <electronicMailAddress>tom.vanburen@seattle.gov</electronicMailAddress>
+        <userId directory="https://orcid.org">0000-0002-8251-4771</userId>
+        <role/>
+      </personnel>
+      <award>
+        <funderName>City of Seattle</funderName>
+        <awardNumber>N781312</awardNumber>
+        <title>GIS Data Compatibility Study</title>
+      </award>
+    </project>
+    <otherEntity id="1cace4115ff89eff969c8105f8c793e8" scope="document" system="https://pasta.edirepository.org">
+      <entityName>1998 orthophotography aerial mosaic Cedar River Municipal Watershed</entityName>
+      <entityDescription>1998 orthophotography exported from ESRI ArcPro 3.2 raster spatial database engine</entityDescription>
+      <physical>
+        <objectName>ORTHO_1998_geotiff.zip</objectName>
+        <size unit="byte">3325819929</size>
+        <authentication method="md5">9cdf99903f280e6e57d9c560264ac683</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/105/1/1cace4115ff89eff969c8105f8c793e8</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>spatial raster</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <importedFromXML dateImported="2024-03-12" filename="cos-spu105_eml_import_into_ezeml.xml" taxonomicCoverageExempt="True"/>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <emlEditor app="ezEML" release="2024.02.21"/>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

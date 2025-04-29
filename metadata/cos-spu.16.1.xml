@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="cos-spu.16.1" system="https://pasta.edirepository.org" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>SPU_EDI_Data_Author</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>uid=vanburt,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.0311/FK2/2171b1fc26e7c36f13becc81023998a7</alternateIdentifier>
+    <title>City of Seattle Chester Morse Reservoir, Washington Topobathymetric Lidar and Sonar Integration Technical Data Report, Cedar River Municipal Watershed, 2020</title>
+    <creator>
+      <organizationName>Quantum Spatial Corvalis</organizationName>
+      <address>
+        <deliveryPoint>1100 NE Circle Blvd</deliveryPoint>
+        <deliveryPoint>Ste. 126</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97330</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">541-752-1204</phone>
+      <onlineUrl>https://www.nv5.com/geospatial/</onlineUrl>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Tom</givenName>
+        <surName>Van Buren</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov?</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-8251-4771</userId>
+    </metadataProvider>
+    <pubDate>2024-06-07</pubDate>
+    <abstract>
+      <para>In August of 2019, Quantum Spatial was contracted by Seattle Public Utilities (SPU) to collect topobathymetric Light Detection and Ranging (lidar) data in the fall of 2019 for the Chester Morse Reservoir site in Washington. Traditional near-infrared (NIR) lidar was fully integrated with green wavelength return data (bathymetric) lidar and multi-beam sonar (collected by Northwest Hydro), in order to provide a seamless topobathymetric dataset. Data were collected to help to better characterize the topography and bathymetry of Chester Morse Lake, Masonry Pool, and the deltas of the Cedar and Rex Rivers in the Cedar River Municipal Watershed. This report accompanies the final integrated lidar and sonar dataset and documents contract specifications, data acquisition procedures, processing methods, and analysis of the final dataset including lidar accuracy and density.  Chester Morse Reservoir Lidar Integration Products Projection: Washington State Plane North Horizontal Datum: NAD83 (2011) Vertical Datum: NAVD88 (Geoid 12B) NGVD29 (Geoid 12B) Units: US Survey Feet</para>
+    </abstract>
+    <keywordSet>
+      <keyword>spatial vector</keyword>
+      <keyword>GIS</keyword>
+      <keyword>spatial raster</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Watershed Research and Monitoring</keyword>
+      <keywordThesaurus>HCP Category</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Watershed Terrestrial Monitoring and Research</keyword>
+      <keywordThesaurus>HCP Group</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>GIS Data Compatibility Study</keyword>
+      <keywordThesaurus>HCP Project Name</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>geographic information systems</keyword>
+      <keyword>freshwater</keyword>
+      <keyword>bathymetry</keyword>
+      <keyword>LiDAR</keyword>
+      <keyword>mapping</keyword>
+      <keyword>spatial methods</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</para>
+    </intellectualRights>
+    <distribution id="10.0311/FK2/2171b1fc26e7c36f13becc81023998a7" scope="system" system="https://pasta.edirepository.org">
+      <online>
+        <url function="information">https://doi.org/10.0311/FK2/2171b1fc26e7c36f13becc81023998a7</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Chester Morse Lake</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.7566602</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.5936456</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.4164889</northBoundingCoordinate>
+          <southBoundingCoordinate>47.35408119</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>City of Seattle Remote Watersheds</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.2123175</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.3132675</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.81485074</northBoundingCoordinate>
+          <southBoundingCoordinate>47.24425491</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>South Fork Tolt River Municipal Watershed</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.9426419</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.5159609</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.79385566</northBoundingCoordinate>
+          <southBoundingCoordinate>47.62092507</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Cedar River Municipal Watershed</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.0334104</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.3631524</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.49192463</northBoundingCoordinate>
+          <southBoundingCoordinate>47.24097306</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2019-08-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2020-10-09</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>final product - no updates anticipated</para>
+      </description>
+      <maintenanceUpdateFrequency>notPlanned</maintenanceUpdateFrequency>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Tom</givenName>
+        <surName>Van Buren</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov?</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-8251-4771</userId>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Mark</givenName>
+        <surName>Joselyn</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Environmental Data Initiative</organizationName>
+      <electronicMailAddress>info@edirepository.org</electronicMailAddress>
+      <onlineUrl>https://edirepository.org</onlineUrl>
+      <userId directory="https://ror.org">0330j0z60</userId>
+    </publisher>
+    <pubPlace>Environmental Data Initiative</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <para>In preparation for data collection, Quantum Spatial reviewed the project area and developed a specialized flight plan to ensure complete coverage of the Chester Morse Reservoir lidar study area at the target combined point density of ≥8 points/m2. Acquisition parameters including orientation relative to terrain, flight altitude, pulse rate, scan angle, and ground speed were adapted to optimize flight paths and flight times while meeting all contract specifications. Factors such as satellite constellation availability and weather windows must be considered during the planning stage. Any weather hazards or conditions affecting the flight were continuously monitored due to their potential impact on the daily success of airborne and ground operations. In addition, logistical considerations including private property access, potential air space restrictions, and water clarity were reviewed.</para>
+          <para/>
+          <para>The lidar survey was accomplished using a Riegl VQ-880-GH laser system mounted in a Cessna Caravan 208B. The Riegl VQ-880-GH boasts a higher repetition pulse rate (up to 550 kHz), higher scanning speed, small laser footprint, and wide field of view which allows for seamless collection of high resolution data of both topographic and bathymetric surfaces. The green wavelength (ʎ=532 nm) laser is capable of collecting high resolution topography data, as well as penetrating the water surface with minimal spectral absorption by water. The Riegl VQ-880-GH contains an integrated NIR laser (ʎ=1064 nm) that adds additional topography data and aids in water surface modeling. The recorded waveform enables range measurements for all discernible targets for a given pulse. The typical number of returns digitized from a single pulse range from 1 to 14 for the Chester Morse Reservoir project area. It is not uncommon for some types of surfaces (e.g., dense vegetation or water) to return fewer pulses to the lidar sensor than the laser originally emitted. The discrepancy between first return and overall delivered density will vary depending on terrain, land cover, and the prevalence of water bodies. All discernible laser returns were processed for the output dataset.</para>
+          <para/>
+          <para>All areas were surveyed with an opposing flight line side-lap of ≥60% (≥100% overlap) in order to reduce laser shadowing and increase surface laser painting. To accurately solve for laser point position (geographic coordinates x, y and z), the positional coordinates of the airborne sensor and the attitude of the aircraft were recorded continuously throughout the lidar data collection mission. Position of the aircraft was measured twice per second (2 Hz) by an onboard differential GPS unit, and aircraft attitude was measured 200 times per second (200 Hz) as pitch, roll and yaw (heading) from an onboard inertial measurement unit (IMU). To allow for post-processing correction and calibration, aircraft and sensor position and attitude data are indexed by GPS time.</para>
+          <para/>
+          <para>Upon completion of data acquisition, QSI processing staff initiated a suite of automated and manual techniques to process the data into the requested deliverables. Processing tasks included GPS control computations, smoothed best estimate trajectory (SBET) calculations, kinematic corrections, calculation of laser point position, sensor and data calibration for optimal relative and absolute accuracy, and lidar point classification. Riegl’s RiProcess software was used to facilitate bathymetric return processing. Once bathymetric points were differentiated, they were spatially corrected for refraction through the water column based on the angle of incidence of the laser. QSI refracted water column points using QSI’s proprietary LAS processing software, Las Monkey. The resulting point cloud data were classified using both manual and automated techniques. Processing methodologies were tailored for the landscape. Northwest Hydro performed all multi-beam sonar acquisitions using a R2 Sonic 2022 High-Resolution Multibeam sonar system and used Hypack Hysweep software to process and edit raw track lines to remove any noise and to evaluate the data for visual anomalies. Northwest Hydro delivered the cleaned sonar data to QSI whose processing staff imported the multi-beam sonar, as class 8 (Model Keypoints), into the existing bathymetric lidar using Bentley Microstation and Terrasolid software. Automatic and manual cleaning algorithms were run on the combined dataset to help ensure a seamless point cloud.</para>
+        </description>
+        <instrumentation>Riegl VQ-880-GH laser system mounted in a Cessna Caravan 208B</instrumentation>
+      </methodStep>
+    </methods>
+    <project>
+      <title>GIS Data Compatibility Study</title>
+      <personnel>
+        <individualName>
+          <givenName>Tom</givenName>
+          <surName>VanBuren</surName>
+        </individualName>
+        <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+        <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+        <role>Project Manager</role>
+      </personnel>
+      <abstract>GIS data compatibility [N54515] For all monitoring and research programs indicated above, the City will integrate data collection formats to make them compatible with watershed GIS systems and provide for mapping and analysis capability. All data collected and incorporated into the GIS system that could support refinement and operation of the modeling efforts proposed below will be collected in a format appropriate for that purpose and compatible with all integrated processing systems to the greatest extent possible. The objective of this program is to provide a systematic and efficient means by which data collection formats, incorporation of data in databases, database management, and integration with modeling efforts can be designed and maintained to maximize the system’s ability to support HCPrelated management activities. In addition, databases should be updated with the most current and best available information whenever possible from both departmental and appropriate external sources.The cost of this linkage will be up to $50,000 in HCP years 18 and then up to $25,000 in each HCP year interval 9-15, 16-25, 26-35, 36-50, for a total cost of $150,000.</abstract>
+      <award>
+        <funderName>City of Seattle</funderName>
+        <awardNumber>N781312</awardNumber>
+        <title>GIS Data Compatibility Study</title>
+      </award>
+    </project>
+    <otherEntity id="03c71b367417d7809e706fea63b80920" scope="document" system="https://pasta.edirepository.org">
+      <entityName>Chester_Morse_Reservoir_Technical_Data_Report_Signed</entityName>
+      <entityDescription>In August of 2019, Quantum Spatial was contracted by Seattle Public Utilities (SPU) to collect topobathymetric Light Detection and Ranging (lidar) data in the fall of 2019 for the Chester Morse Reservoir site in Washington. Traditional near-infrared (NIR) lidar was fully integrated with green wavelength return data (bathymetric) lidar and multi-beam sonar (collected by Northwest Hydro), in order to provide a seamless topobathymetric dataset. Data were collected to help to better characterize the topography and bathymetry of Chester Morse Lake, Masonry Pool, and the deltas of the Cedar and Rex Rivers in the Cedar River Municipal Watershed. This report accompanies the final integrated lidar and sonar dataset and documents contract specifications, data acquisition procedures, processing methods, and analysis of the final dataset including lidar accuracy and density.</entityDescription>
+      <physical>
+        <objectName>Chester_Morse_Reservoir_Technical_Data_Report_Signed.pdf</objectName>
+        <size unit="byte">2478414</size>
+        <authentication method="MD5">650bac042320e82372966646a68f43fb</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/16/1/03c71b367417d7809e706fea63b80920</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+    <otherEntity id="e08cbe18abe172c85b7a3e64c216b805" scope="document" system="https://pasta.edirepository.org">
+      <entityName>Rasters_Intensity_Images</entityName>
+      <entityDescription>This .zip file contains geotiffs that represent the intensity values of the Green and near infrared NIR lidar laser returns from the Chester Morse Reservoir Topobathymetric Lidar dataset. Two data sets have been provided with differing vertical datums. One in NAVD88, Geoid 12B and one in NGVD29, Geoid 12B. The horizontal datum for this dataset is NAD83(2011), and it is projected in Washington State Plane North. Units are in US Survey Feet. Quantum Spatial collected the Chester Morse Reservoir Topobathymetric Lidar data for Seattle Public Utilities on 10/30/2019 1.5-ft GeoTIFF (*.tif) * Green Intensity Image * NIR Intensity Image</entityDescription>
+      <physical>
+        <objectName>Rasters_Intensity_Images.zip</objectName>
+        <size unit="byte">187898850</size>
+        <authentication method="MD5">29a388fd5166d1e8303d545c011df963</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/16/1/e08cbe18abe172c85b7a3e64c216b805</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity id="46367b9d5f4c7e2319d318fec4376aa2" scope="document" system="https://pasta.edirepository.org">
+      <entityName>Rasters_NAVD88</entityName>
+      <entityDescription>The bare earth digital elevation model (DEM) represents the earth's surface with all vegetation and anthropogenic features removed. It is derived from fully integrated green and NIR lidar data and multi-beam sonar data using TIN processing of the ground, bathymetric bottom, and multi-beam sonar point returns. This version of topobathymetric models has been clipped to avoid triangulation and false interpolation over areas identified as voids in the Bathymetric Coverage Polygon (provided as a separate deliverable). The highest hit digital surface model (DSM) represents the earth's surface elevation with all natural and anthropogenic features included. It is derived from fully integrated Green and NIR lidar and multi-beam sonar data using highest hit method. Some elevation values have been interpolated across areas in the ground model where there is no elevation data (e.g. over water). The horizontal datum for this dataset is NAD83(2011), the vertical datum is NAVD29, Geoid 12B, and the data is projected in Washington State Plane North. Units are in US Survey Feet. Quantum Spatial collected the Chester Morse Reservoir Topobathymetric Lidar data for Seattle Public Utilities on 10/30/2019. Integrated multi-beam Sonar data was collected by Northwest Hydro between 06/30/20 and 07/29/20.Vertical Datum: NGVD29 (Geoid 12B) 3-ft ERDAS Imagine (*.img) * Integrated Bare Earth Digital Elevation Model (DEM) voids interpolated * Integrated Bare Earth Digital Elevation Model (DEM) voids clipped * Integrated Highest Hit Digital Surface Model (DSM)</entityDescription>
+      <physical>
+        <objectName>Rasters_NAVD88.zip</objectName>
+        <size unit="byte">208963269</size>
+        <authentication method="MD5">82ca1fda721e16d45ba4ebf202ec89d0</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/16/1/46367b9d5f4c7e2319d318fec4376aa2</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity id="4d6861e8888add10e1af44672c670b17" scope="document" system="https://pasta.edirepository.org">
+      <entityName>Rasters_NGVD29</entityName>
+      <entityDescription>The clipped bare earth digital elevation model (DEM) represents the earth's surface with all vegetation and anthropogenic features removed. It is derived from fully integrated green and NIR lidar data and multi-beam sonar data using TIN processing of the ground, bathymetric bottom, and multi-beam sonar point returns. This version of topobathymetric models has been clipped to avoid triangulation and false interpolation over areas identified as voids in the Bathymetric Coverage Polygon (provided as a separate deliverable). The highest hit digital surface model (DSM) represents the earth's surface elevation with all natural and anthropogenic features included. It is derived from fully integrated Green and NIR lidar and multi-beam sonar data using highest hit method. Some elevation values have been interpolated across areas in the ground model where there is no elevation data (e.g. over water). The horizontal datum for this dataset is NAD83(2011), the vertical datum is NAVD29, Geoid 12B, and the data is projected in Washington State Plane North. Units are in US Survey Feet. Quantum Spatial collected the Chester Morse Reservoir Topobathymetric Lidar data for Seattle Public Utilities on 10/30/2019. Integrated multi-beam Sonar data was collected by Northwest Hydro between 06/30/20 and 07/29/20.Vertical Datum: NGVD29 (Geoid 12B) 3-ft ERDAS Imagine (*.img) * Integrated Bare Earth Digital Elevation Model (DEM) voids interpolated * Integrated Bare Earth Digital Elevation Model (DEM) voids clipped * Integrated Highest Hit Digital Surface Model (DSM) 1.5-ft GeoTIFF (*.tif) * Green Intensity Image * NIR Intensity Image</entityDescription>
+      <physical>
+        <objectName>Rasters_NGVD29.zip</objectName>
+        <size unit="byte">175339545</size>
+        <authentication method="MD5">aa284b1d21e6f93d9c28edc37c91382b</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/16/1/4d6861e8888add10e1af44672c670b17</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity id="6ff71589690810e45825c54cb3a0fdef" scope="document" system="https://pasta.edirepository.org">
+      <entityName>Vectors_Bathymetric_Coverage_Polygon</entityName>
+      <entityDescription>This shapefile represents the bathymetric coverage of the Chester Morse Reservoir Topobathymetric Lidar study area. This shapefile was used to control the extent of the delivered clipped bathymetric model and to avoid false triangulation across areas &amp;gt;100 square feet with no bathymetric returns. Insufficiently mapped areas were identified by triangulating bathymetric bottom points with an edge length maximum of 15.2 feet. Two data sets have been provided with differing vertical datums. One in NAVD88, Geoid 12B and one in NGVD29, Geoid 12B. The horizontal datum for this dataset is NAD83(2011), and it is projected in Washington State Plane North. Units are in US Survey Feet. Quantum Spatial collected the Chester Morse Reservoir Topobathymetric Lidar data for Seattle Public Utilities on 10/30/2019. Integrated multi-beam Sonar data was collected by Northwest Hydro between 06/30/20 and 07/29/20.</entityDescription>
+      <physical>
+        <objectName>Vectors_Bathymetric_Coverage_Polygon.zip</objectName>
+        <size unit="byte">887963</size>
+        <authentication method="MD5">8b4f5c9315b2d34ebcf5dec2a4004d8b</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/16/1/6ff71589690810e45825c54cb3a0fdef</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity id="ffeedc0d8fed5f126cd449cde52f0125" scope="document" system="https://pasta.edirepository.org">
+      <entityName>Vectors_Breaklines</entityName>
+      <entityDescription>This shapefile represents the water's edge breaklines used to control the extent of refracted green laser returns. These lines were also used to classify water within the .las point cloud. Water boundary polygons were developed using an automated algorithm which weights lidar-derived slopes, intensities, and return densities to detect the water's edge, and then manually edited as needed. Two data sets have been provided with differing vertical datums. One in NAVD 88, Geoid 12B and one in NGVD29, Geoid 12B. The horizontal datum for this dataset is NAD83(2011), and it is projected in Washington State Plane North. Units are in US Survey Feet. Quantum Spatial collected the Chester Morse Reservoir Topobathymetric Lidar data for Seattle Public Utilities on 10/30/2019. Integrated multi-beam Sonar data was collected by Northwest Hydro between 06/30/20 and 07/29/20.</entityDescription>
+      <physical>
+        <objectName>Vectors_Breaklines.zip</objectName>
+        <size unit="byte">852272</size>
+        <authentication method="MD5">8ba93f5a2c794d90acc3551246836489</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/16/1/ffeedc0d8fed5f126cd449cde52f0125</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity id="93d3c8d68d22ee1af857cb1187b8b7bf" scope="document" system="https://pasta.edirepository.org">
+      <entityName>Vectors_Indices</entityName>
+      <entityDescription>This zip file contains 3 shapefiles representing the lidar LAS Index, contracted lidar survey boundary, and buffered lidar survey boundary for the Chester Morse Reservoir Topobathymetric Lidar study area. This data is delineated in 1500 x 1500 ft tiles. Two data sets have been provided with differing vertical datums. One in NAVD88, Geoid 12B and one in NGVD29, Geoid 12B. The horizontal datum for this dataset is NAD83(2011), and it is projected in Washington State Plane North. Units are in US Survey Feet. Quantum Spatial collected the Chester Morse Reservoir Topobathymetric Lidar data for Seattle Public Utilities on 10/30/2019. Integrated multi-beam Sonar data was collected by Northwest Hydro between 06/30/20 and 07/29/20.</entityDescription>
+      <physical>
+        <objectName>Vectors_Indices.zip</objectName>
+        <size unit="byte">43914</size>
+        <authentication method="MD5">86bc3e82042289bc66b179dc3979bb06</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/16/1/93d3c8d68d22ee1af857cb1187b8b7bf</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity id="28045c2cb735ce8eeafbb90e56185eac" scope="document" system="https://pasta.edirepository.org">
+      <entityName>Vectors_Ground_Survey</entityName>
+      <entityDescription>This zip file contains five shapefiles representing the ground control points and survey monuments collected for the Chester Morse Reservoir Topobathymetric Lidar dataset. Ground control points are used during the calibration process to help refine the vertical accuracy of the lidar data. The horizontal datum for this dataset is NAD83(2011), the vertical datum is NAVD88, Geoid 12B, and the data is projected in Washington State Plane North. Units are in US Survey Feet. Quantum Spatial collected the Chester Morse Reservoir Topobathymetric Lidar data for Seattle Public Utilities on 10/30/2019.</entityDescription>
+      <physical>
+        <objectName>Vectors_Ground_Survey.zip</objectName>
+        <size unit="byte">88648</size>
+        <authentication method="MD5">90a39cec41eb5f7a5873e177c5a6716a</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/16/1/28045c2cb735ce8eeafbb90e56185eac</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity id="c92a967ba90efca05773719bfde2cf3f" scope="document" system="https://pasta.edirepository.org">
+      <entityName>Points_NAVD88</entityName>
+      <entityDescription>Upon completion of data acquisition, QSI processing staff initiated a suite of automated and manual techniques to process the data into the requested deliverables. Processing tasks included GPS control computations, smoothed best estimate trajectory (SBET) calculations, kinematic corrections, calculation of laser point position, sensor and data calibration for optimal relative and absolute accuracy, and lidar point classification. Riegl’s RiProcess software was used to facilitate bathymetric return processing. Once bathymetric points were differentiated, they were spatially corrected for refraction through the water column based on the angle of incidence of the laser. QSI refracted water column points using QSI’s proprietary LAS processing software, Las Monkey. The resulting point cloud data were classified using both manual and automated techniques. Processing methodologies were tailored for the landscape. Northwest Hydro performed all multi-beam sonar acquisitions using a R2 Sonic 2022 High-Resolution Multibeam sonar system and used Hypack Hysweep software to process and edit raw track lines to remove any noise and to evaluate the data for visual anomalies. Northwest Hydro delivered the cleaned sonar data to QSI whose processing staff imported the multi-beam sonar, as class 8 (Model Keypoints), into the existing bathymetric lidar using Bentley Microstation and Terrasolid software. Automatic and manual cleaning algorithms were run on the combined dataset to help ensure a seamless point cloud. Chester Morse Reservoir Collection Dates: 10/30/2019 LiDAR point data are delivered in 1500ft x 1500ft tiles. Coordinate System: Washington State Plane, North Zone Horizontal Datum: NAD83 (2011) Vertical Datum: NAVD88 (GEOID 12B) Horizontal Units: US Survey Feet Vertical Units: US Survey Feet File Format: LAS 1.4 LiDAR point classification: 1 - Default 2 - Ground 7 - Noise 9 - NIR Water surface 40 - Bathy bottom 41 - GRN water column 45 - Water Column ---------------------------------- Data created by: Quantum Spatial 1100 NE Circle Blvd, Suite 126 Corvallis, OR 97330</entityDescription>
+      <physical>
+        <objectName>Points_NAVD88.zip</objectName>
+        <size unit="byte">5362517249</size>
+        <authentication method="MD5">ca96ab87f3abb2d578393dafac7e221a</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/16/1/c92a967ba90efca05773719bfde2cf3f</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity id="c135098e0e847f6ee03b28003e17d8fd" scope="document" system="https://pasta.edirepository.org">
+      <entityName>Points_NGVD29</entityName>
+      <entityDescription>Upon completion of data acquisition, QSI processing staff initiated a suite of automated and manual techniques to process the data into the requested deliverables. Processing tasks included GPS control computations, smoothed best estimate trajectory (SBET) calculations, kinematic corrections, calculation of laser point position, sensor and data calibration for optimal relative and absolute accuracy, and lidar point classification. Riegl’s RiProcess software was used to facilitate bathymetric return processing. Once bathymetric points were differentiated, they were spatially corrected for refraction through the water column based on the angle of incidence of the laser. QSI refracted water column points using QSI’s proprietary LAS processing software, Las Monkey. The resulting point cloud data were classified using both manual and automated techniques. Processing methodologies were tailored for the landscape. Northwest Hydro performed all multi-beam sonar acquisitions using a R2 Sonic 2022 High-Resolution Multibeam sonar system and used Hypack Hysweep software to process and edit raw track lines to remove any noise and to evaluate the data for visual anomalies. Northwest Hydro delivered the cleaned sonar data to QSI whose processing staff imported the multi-beam sonar, as class 8 (Model Keypoints), into the existing bathymetric lidar using Bentley Microstation and Terrasolid software. Automatic and manual cleaning algorithms were run on the combined dataset to help ensure a seamless point cloud. Chester Morse Reservoir Collection Dates: 10/30/2019 LiDAR point data are delivered in 1500ft x 1500ft tiles. Coordinate System: Washington State Plane, North Zone Horizontal Datum: NAD83 (2011) Vertical Datum: NAVD88 (GEOID 12B) Horizontal Units: US Survey Feet Vertical Units: US Survey Feet File Format: LAS 1.4 LiDAR point classification: 1 - Default 2 - Ground 7 - Noise 9 - NIR Water surface 40 - Bathy bottom 41 - GRN water column 45 - Water Column ---------------------------------- Data created by: Quantum Spatial 1100 NE Circle Blvd, Suite 126 Corvallis, OR 97330</entityDescription>
+      <physical>
+        <objectName>Points_NGVD29.zip</objectName>
+        <size unit="byte">5335167068</size>
+        <authentication method="MD5">5e0c6080541c911e7bc4717eb9714cc5</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/16/1/c135098e0e847f6ee03b28003e17d8fd</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <emlEditor app="ezEML" release="2024.05.22"/>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

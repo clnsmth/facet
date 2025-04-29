@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="cos-spu.100.1" system="https://pasta.edirepository.org" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=seattlewatersheds,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.0311/FK2/8a290997535d3caaf1d7118c1dac7826</alternateIdentifier>
+    <title>City of Seattle Remote Watersheds Minor Hydrologic Basins</title>
+    <creator>
+      <individualName>
+        <givenName>Mark</givenName>
+        <surName>Joselyn</surName>
+      </individualName>
+      <organizationName>City of Seattle</organizationName>
+      <positionName>IT Professional</positionName>
+      <electronicMailAddress>mark.joselyn@seattle.gov</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <surName>Tom Van Buren</surName>
+      </individualName>
+      <organizationName>City of Seattle</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Rd SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">206 386 4212</phone>
+      <electronicMailAddress>tom.vanburen@seattle.gov</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0002-8251-4771</userId>
+    </metadataProvider>
+    <pubDate>2024-02-06</pubDate>
+    <abstract>Hydrologic basins. City of Seattle Remote Watersheds, Cedar and South Tolt Municipal Watersheds delineated to the sub-basin or catchment level. Includes Major (SUBWAT) and Minor (CATCHMENT) basins referenced in the City of Seattle Habitat Conservation Plan. Includes basins from the Pacific Northwest Hydrography Framework Clearinghouse to the level of hydrologic unit code (HUC) 8 for some areas. City of Seattle remote watershed property ownership often shares hydrologic basins boundaries.</abstract>
+    <keywordSet>
+      <keyword keywordType="theme">inland waters</keyword>
+      <keyword keywordType="theme">watershed basin</keyword>
+      <keyword keywordType="theme">watershed</keyword>
+      <keyword keywordType="theme">HUC</keyword>
+      <keyword keywordType="theme">drainage</keyword>
+      <keyword keywordType="theme">City of Seattle Remote Watersheds</keyword>
+      <keywordThesaurus>None</keywordThesaurus>
+    </keywordSet>
+    <additionalInfo>Data presentation form - map.Other descriptive Information about the data set - HUC is the acronym for Hydrologic Unit Code (HUC). It is a hierarchical land area classification system created by the United States Geological Survey (USGS) that is based on surface hydrologic features in a standard, uniform geographical framework..</additionalInfo>
+    <intellectualRights>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</intellectualRights>
+    <distribution id="10.0311/FK2/8a290997535d3caaf1d7118c1dac7826" scope="system" system="https://pasta.edirepository.org">
+      <online>
+        <url function="information">https://doi.org/10.0311/FK2/8a290997535d3caaf1d7118c1dac7826</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>City of Seattle Cedar River Muinicpal Watershed, King County, Washington, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.999072</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.43021</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.725853</northBoundingCoordinate>
+          <southBoundingCoordinate>47.261454</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2015-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2024-01-05</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <purpose>Cartographic and analytic. Defines overland flow catchment areas at varies levels based HUC basin schema. Includes basins used in the HCP in the Cedar. Fifty seven basins.</purpose>
+    <maintenance>
+      <description>Progress - In work. Update - Annually.</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Tom</givenName>
+        <surName>Van Buren</surName>
+      </individualName>
+      <organizationName>City of Seattle</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Rd SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">206 386 4212</phone>
+      <electronicMailAddress>tom.vanburen@seattle.gov</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0002-8251-4771</userId>
+    </contact>
+    <publisher>
+      <organizationName>Environmental Data Initiative</organizationName>
+      <electronicMailAddress>info@edirepository.org</electronicMailAddress>
+      <onlineUrl>https://edirepository.org</onlineUrl>
+      <userId directory="https://ror.org">0330j0z60</userId>
+    </publisher>
+    <pubPlace>Environmental Data Initiative</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <para>CalculateField CRW.BASIN_MINOR_BEEDLE SUBBASIN_NAME "Cedar River Above Landsburg" VB #; CalculateField CRW.BASIN_MINOR_BEEDLE SUBBASIN_NAME "Landsburg Drainage Subbasin" VB #; CalculateField CRW.BASIN_MINOR_BEEDLE WATERSHED_NAME "Landsburg Drainage Subbasin" VB #; CalculateField CRW.BASIN_MINOR_BEEDLE WATERSHED_NAME "Cedar River" VB #; CalculateField CRW.BASIN_MINOR_BEEDLE SUBBASIN_NAME "Cedar River" VB #; CalculateField CRW.BASIN_MINOR_BEEDLE SUBWAT_NAME "Lower Cedar River" VB #; CalculateField CRW.BASIN_MINOR_BEEDLE SUBBASIN_NAME "Cedar River" VB #</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>GIS Data Compatibility Study</title>
+      <personnel>
+        <individualName>
+          <givenName>Thomas</givenName>
+          <givenName>S</givenName>
+          <surName>Van Buren</surName>
+        </individualName>
+        <organizationName>Seattle Public Utilities</organizationName>
+        <electronicMailAddress>tom.vanburen@seattle.gov</electronicMailAddress>
+        <userId directory="https://orcid.org">https://orcid.org/0000-0002-8251-4771</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <award>
+        <funderName>City of Seattle</funderName>
+        <awardNumber>N781312</awardNumber>
+        <title>GIS Data Compatibility Study</title>
+      </award>
+    </project>
+    <otherEntity id="370b50ad51b3dda262693766b65d96b3" scope="document" system="https://pasta.edirepository.org">
+      <entityName>COS_BASIN_MINOR</entityName>
+      <entityDescription>City of Seattle Remote Watersheds Minor Hydrologic Basins</entityDescription>
+      <physical>
+        <objectName>COS_BASIN_MINOR.zip</objectName>
+        <size unit="byte">231422</size>
+        <authentication method="MD5">f2d0d9f25e3cd4268a85b86b3d582f72</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/100/1/370b50ad51b3dda262693766b65d96b3</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <importedFromXML dateImported="2024-02-06" filename="cos_spu.100.1.xml" taxonomicCoverageExempt="True"/>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <emlEditor app="ezEML" release="2024.01.24"/>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

@@ -1,0 +1,1959 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="cos-spu.114.3" system="https://pasta.edirepository.org" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>SPU_EDI_Data_Author</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.0311/FK2/94c938e08e8040b97b934ce041a5ae2f</alternateIdentifier>
+    <title>City of Seattle, Seattle Public Utilities, Long Term Aquatic Monitoring Program (LTAM) Pools, 2006-2017, Cedar River Municipal Watershed, King County, WA</title>
+    <creator>
+      <individualName>
+        <givenName>Amy</givenName>
+        <surName>Reichenbach</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Erin</givenName>
+        <surName>Meehan</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Ann</givenName>
+        <surName>McCauley</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Amy</givenName>
+        <surName>Reichenbach</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+    </metadataProvider>
+    <metadataProvider>
+      <individualName>
+        <givenName>Erin</givenName>
+        <surName>Meehan</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Steve</givenName>
+        <surName>Ralph</surName>
+      </individualName>
+      <organizationName>Stillwater Sciences, Inc.</organizationName>
+      <address>
+        <deliveryPoint>1314 NE 43rd Street</deliveryPoint>
+        <city>Seattle</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98105</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>Ralph@stillwatersci.com</electronicMailAddress>
+      <role>Consultant Planner</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Tamre</givenName>
+        <surName>Cardoso</surName>
+      </individualName>
+      <organizationName>TerraStat Consulting Group</organizationName>
+      <address>
+        <deliveryPoint>6322 14th Ave. NE</deliveryPoint>
+        <city>Seattle</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98115</postalCode>
+        <country>USA</country>
+      </address>
+      <role>Consultant Planner</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Amy</givenName>
+        <surName>Reichenbach</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Lead surveyor</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Erin</givenName>
+        <surName>Meehan</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Lead surveyor</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Ann</givenName>
+        <surName>McCauley</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Field observer</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Sarah</givenName>
+        <surName>Heyne</surName>
+      </individualName>
+      <organizationName>West Fork Environmental, Inc.</organizationName>
+      <address>
+        <deliveryPoint>2350 Mottman Rd SW</deliveryPoint>
+        <city>Tumwater</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98512</postalCode>
+        <country>USA</country>
+      </address>
+      <onlineUrl>http://www.westforkenv.com/</onlineUrl>
+      <role>Consultant Field observer</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Todd</givenName>
+        <surName>Bohle</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Planner</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Wendy</givenName>
+        <surName>Sammarco</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Field observer</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Heidy</givenName>
+        <surName>Barnett</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Field observer</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>David</givenName>
+        <surName>Chapin</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Field observer</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Bill</givenName>
+        <surName>Richards</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Field observer</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Dave</givenName>
+        <surName>Beedle</surName>
+      </individualName>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <deliveryPoint>19901 Cedar Falls Road SE</deliveryPoint>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/utilities</onlineUrl>
+      <role>Planner</role>
+    </associatedParty>
+    <pubDate>2025-04-17</pubDate>
+    <abstract>
+      <para>Package contains pool data for each of the (25) monitoring sites for data collection years 2006-2017, for the Long Term Aquatic Monitoring (LTAM) program in support of Seattle Public Utilities Cedar River Watershed Habitat Conservation Plan, in North Bend, Washington. Pools were measured during the Profile survey. Qualifying pools had minimum length and residual pool depth requirements which were based on the average bankfull width of the monitoring site. Pools were also noted if they were formed by woody debris.
+
+For more detailed information on the LTAM program and methods, refer to the LTAM Methods and Reports data package</para>
+    </abstract>
+    <keywordSet>
+      <keyword>City of Seattle</keyword>
+      <keyword>Seattle Public Utilities</keyword>
+      <keyword>SPU</keyword>
+      <keyword>King County</keyword>
+      <keyword>Washington</keyword>
+      <keyword>Cedar River Municipal Watershed (CRMW)</keyword>
+      <keyword>Habitat Conservation Plan</keyword>
+      <keyword>hydro</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Watershed Research and Monitoring</keyword>
+      <keywordThesaurus>HCP Category</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Watershed Aquatic Monitoring and Research</keyword>
+      <keywordThesaurus>HCP Group</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>hydrology</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</para>
+    </intellectualRights>
+    <licensed>
+      <licenseName>Creative Commons Attribution 4.0 International</licenseName>
+      <url>https://spdx.org/licenses/CC-BY-4.0</url>
+      <identifier>CC-BY-4.0</identifier>
+    </licensed>
+    <distribution id="10.0311/FK2/94c938e08e8040b97b934ce041a5ae2f" scope="system" system="https://pasta.edirepository.org">
+      <online>
+        <url function="information">https://doi.org/10.0311/FK2/94c938e08e8040b97b934ce041a5ae2f</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Cedar River Municipal Watershed</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.0334104</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.3631524</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.24097306</northBoundingCoordinate>
+          <southBoundingCoordinate>47.49192463</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 1, North Fork Cedar, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.4778031</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.4778031</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.32216306</northBoundingCoordinate>
+          <southBoundingCoordinate>47.32216306</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 2, Rock, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.887347</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.887347</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.41493339</northBoundingCoordinate>
+          <southBoundingCoordinate>47.41493339</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 3, South Fork Taylor, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.7982566</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.7982566</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.35088959</northBoundingCoordinate>
+          <southBoundingCoordinate>47.35088959</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 4, Hotel, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.919718</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.919718</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.41094901</northBoundingCoordinate>
+          <southBoundingCoordinate>47.41094901</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 5, Upper Cedar R, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.5602029</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.5602029</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.34854688</northBoundingCoordinate>
+          <southBoundingCoordinate>47.34854688</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 6, Upper Cedar R, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.5983626</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.5983626</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.35756025</northBoundingCoordinate>
+          <southBoundingCoordinate>47.35756025</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 7, Taylor, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.8424837</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.8424837</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.38277052</northBoundingCoordinate>
+          <southBoundingCoordinate>47.38277052</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 8, Taylor, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.8282059</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.8282059</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.36822493</northBoundingCoordinate>
+          <southBoundingCoordinate>47.36822493</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 9, Rock, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.8975172</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.8975172</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.40570145</northBoundingCoordinate>
+          <southBoundingCoordinate>47.40570145</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 10, Rex, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.6347088</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.6347088</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.33662667</northBoundingCoordinate>
+          <southBoundingCoordinate>47.33662667</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 11, South Fork Taylor, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.7806939</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.7806939</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.33978363</northBoundingCoordinate>
+          <southBoundingCoordinate>47.33978363</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 12, Boulder, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.697159</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.697159</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.36464178</northBoundingCoordinate>
+          <southBoundingCoordinate>47.36464178</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 13, South Fork Taylor, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.7881229</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.7881229</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.34538076</northBoundingCoordinate>
+          <southBoundingCoordinate>47.34538076</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 14, South Fork Cedar, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.471263</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.471263</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.28162995</northBoundingCoordinate>
+          <southBoundingCoordinate>47.28162995</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 15, Rock, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.9453689</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.9453689</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.39502801</northBoundingCoordinate>
+          <southBoundingCoordinate>47.39502801</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 16, Goat, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.5420865</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.5420865</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.30310386</northBoundingCoordinate>
+          <southBoundingCoordinate>47.30310386</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 17, Williams, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.8546156</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.8546156</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.39562092</northBoundingCoordinate>
+          <southBoundingCoordinate>47.39562092</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 18, Middle Fork Taylor, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.8008101</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.8008101</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.35486894</northBoundingCoordinate>
+          <southBoundingCoordinate>47.35486894</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 19, Webster, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.9237922</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.9237922</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.4094534</northBoundingCoordinate>
+          <southBoundingCoordinate>47.4094534</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 20, Rock, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.9290782</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.9290782</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.39646977</northBoundingCoordinate>
+          <southBoundingCoordinate>47.39646977</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 21, South Fork Cedar, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.5185927</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.5185927</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.3079528</northBoundingCoordinate>
+          <southBoundingCoordinate>47.3079528</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 22, South Fork Cedar, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.5068628</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.5068628</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.29817275</northBoundingCoordinate>
+          <southBoundingCoordinate>47.29817275</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 23, Williams, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.8573686</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.8573686</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.40468375</northBoundingCoordinate>
+          <southBoundingCoordinate>47.40468375</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 24, Steele, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.8239161</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.8239161</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.42329044</northBoundingCoordinate>
+          <southBoundingCoordinate>47.42329044</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Site 25, North Fork Taylor, bou</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.8079696</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.8079696</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.36971789</northBoundingCoordinate>
+          <southBoundingCoordinate>47.36971789</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2006-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2017-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>Update yearly in additional data is collected.</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+    </maintenance>
+    <contact>
+      <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+      <address>
+        <city>North Bend</city>
+        <administrativeArea>WA</administrativeArea>
+        <postalCode>98045</postalCode>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+      <onlineUrl>https://www.seattle.gov/</onlineUrl>
+      <userId directory="https://ror.org/">https://ror.org/05wkbzn97</userId>
+    </contact>
+    <publisher>
+      <organizationName>Environmental Data Initiative</organizationName>
+      <electronicMailAddress>info@edirepository.org</electronicMailAddress>
+      <onlineUrl>https://edirepository.org</onlineUrl>
+      <userId directory="https://ror.org">0330j0z60</userId>
+    </publisher>
+    <pubPlace>Environmental Data Initiative</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Pools were measured during the Profile survey. Qualifying pools had minimum length and residual pool depth requirements which were based on the average bankfull width of the monitoring site. Pools were also noted if they were formed by woody debris. Pools were required to be at least as long as wide, except for plunge pools, which could be wider than long if the water had an air drop for at least 90% of the wetted width at the head of the pool.</para>
+        </description>
+        <instrumentation>Stadia rod graduated in hundredths of feet, drag tape graduated in tenths of feed, and Sokkia optical auto-level.</instrumentation>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Long-term Stream Monitoring</title>
+      <personnel>
+        <individualName>
+          <givenName>Zoe</givenName>
+          <surName>Loutos</surName>
+        </individualName>
+        <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+        <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+        <role>Project Manager</role>
+      </personnel>
+      <abstract>
+        <para>This data is part of a long-term stream research program to measure the overall ecological response of the watershed to HCP management activities and to monitor stream health, document recovery from past water supply and land management operations, evaluate the success of stream habitat restoration projects, and help to identify any impacts of the City’s operations on stream ecosystems.</para>
+      </abstract>
+      <award>
+        <funderName>City of Seattle, Seattle Public Utilities</funderName>
+        <awardNumber>N541802</awardNumber>
+        <title>Long-term Stream Monitoring</title>
+      </award>
+      <relatedProject>
+        <title>Aquatic Restoration Monitoring</title>
+        <personnel>
+          <individualName>
+            <givenName>Amy</givenName>
+            <surName>Reichenbach</surName>
+          </individualName>
+          <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+          <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+          <role>Project Manager</role>
+        </personnel>
+        <abstract>
+          <para>Data supports the Streambank stabilization program and the LWD placement program within the Cedar River Watershed Habitat Conservation Plan. Data is used for effectiveness monitoring, adaptive management and project modification.</para>
+        </abstract>
+        <award>
+          <funderName>City of Seattle</funderName>
+          <awardNumber>N000728</awardNumber>
+          <title>Aquatic Restoration Monitoring</title>
+        </award>
+        <award>
+          <funderName>City of Seattle</funderName>
+          <awardNumber>N781602</awardNumber>
+          <title>Aquatic Restoration Monitoring</title>
+        </award>
+      </relatedProject>
+      <relatedProject>
+        <title>Common Loon Monitoring</title>
+        <personnel>
+          <individualName>
+            <givenName>Alex</givenName>
+            <surName>May</surName>
+          </individualName>
+          <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+          <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+          <role>Project Manager</role>
+        </personnel>
+        <abstract>
+          <para>Surveys of common loon nesting success on Chester Morse Lake and Masonry Pool and the deployment of experimental nest platforms, when and where warranted based on evaluation of environmental conditions and results of ecological studies as discussed above, will be conducted on an annual basis throughout the term of the HCP.</para>
+        </abstract>
+        <award>
+          <funderName>City of Seattle</funderName>
+          <awardNumber>N000730</awardNumber>
+          <title>Common Loon Monitoring</title>
+        </award>
+        <award>
+          <funderName>City of Seattle</funderName>
+          <awardNumber>N781607</awardNumber>
+          <title>Common Loon Monitoring</title>
+        </award>
+      </relatedProject>
+      <relatedProject>
+        <title>Long-term Stream Monitoring</title>
+        <personnel>
+          <individualName>
+            <givenName>Amy</givenName>
+            <surName>Reichenbach</surName>
+          </individualName>
+          <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+          <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+          <role>Project Manager</role>
+        </personnel>
+        <abstract>
+          <para>Data supports the long-term stream monitoring program within the Cedar River Habitat Conservation Plan (HCP). Data measures the overall ecological response of the watershed to HCP management activities to monitor stream health, document recovery from past water supply and land management operations, evaluate the success of stream habitat restoration projects, and help to identify any impacts of the City’s operations on stream ecosystems.</para>
+        </abstract>
+        <award>
+          <funderName>City of Seattle</funderName>
+          <awardNumber>N000739</awardNumber>
+          <title>Longterm Stream Monitoring</title>
+        </award>
+        <award>
+          <funderName>City of Seattle</funderName>
+          <awardNumber>N781601</awardNumber>
+          <title>Long-term Stream Monitoring</title>
+        </award>
+      </relatedProject>
+      <relatedProject>
+        <title>Long-Term Forest Monitoring</title>
+        <personnel>
+          <individualName>
+            <givenName>Rolf</givenName>
+            <surName>Gersonde</surName>
+          </individualName>
+          <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+          <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+          <role>Project Manager</role>
+        </personnel>
+        <abstract>
+          <para>Long-term forest monitoring: Based on the evaluations of standard forest inventory and secondary forest attribute data, the City designed and conducts a long-term program of sampling and monitoring to update the forest and habitat inventory periodically over the full term of the HCP. Permanent sample plots are being re-sampled in a 5-10 year rotating panel design to detect vegetation change.</para>
+        </abstract>
+        <award>
+          <funderName>City of Seattle</funderName>
+          <awardNumber>N781303</awardNumber>
+          <title>Long-Term Forest Monitoring</title>
+        </award>
+        <award>
+          <funderName>City of Seattle</funderName>
+          <awardNumber>N000738</awardNumber>
+          <title>Long-term forest monitoring</title>
+        </award>
+      </relatedProject>
+      <relatedProject>
+        <title>Marbled Murrelet Habitat Enhancement</title>
+        <personnel>
+          <individualName>
+            <givenName>Alex</givenName>
+            <surName>May</surName>
+          </individualName>
+          <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+          <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+          <role>Project Manager</role>
+        </personnel>
+        <abstract>
+          <para>The City will consider developing a monitoring and research program, in cooperation with the USFWS, to enhance potential marbled murrelet nesting habitat in selected second-growth within the watershed.</para>
+        </abstract>
+        <award>
+          <funderName>City of Seattle</funderName>
+          <awardNumber>N781308</awardNumber>
+          <title>Marbled Murrelet Habitat Enhancement</title>
+        </award>
+        <award>
+          <funderName>City of Seattle</funderName>
+          <awardNumber>N000740</awardNumber>
+          <title>Marbled Murrelet Habitat Enhancement</title>
+        </award>
+      </relatedProject>
+      <relatedProject>
+        <title>Riparian Monitoring</title>
+        <personnel>
+          <individualName>
+            <givenName>Zoe</givenName>
+            <surName>Loutos</surName>
+          </individualName>
+          <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+          <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+          <role>Project Manager</role>
+        </personnel>
+        <abstract>
+          <para>This project includes a sampling program to monitor habitat structural development and plant species composition changes in representative forest sites and monitoring after implementation of riparian habitat restoration projects to ensure project objectives were met.</para>
+        </abstract>
+        <award>
+          <funderName>City of Seattle</funderName>
+          <awardNumber>N781305</awardNumber>
+          <title>Riparian Monitoring</title>
+        </award>
+        <award>
+          <funderName>City of Seattle</funderName>
+          <awardNumber>N000746</awardNumber>
+          <title>Riparian Monitoring</title>
+        </award>
+      </relatedProject>
+      <relatedProject>
+        <title>Wildlife Species and Habitat Surveys</title>
+        <personnel>
+          <individualName>
+            <givenName>Alex</givenName>
+            <surName>May</surName>
+          </individualName>
+          <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+          <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+          <role>Project Manager</role>
+        </personnel>
+        <abstract>
+          <para>The City will fund selected species surveys, monitoring, or research projects (the particular species or species groups and project scopes to be determined), as needed to support the efficient and successful implementation of HCP with respect to its conservation objectives.</para>
+        </abstract>
+        <award>
+          <funderName>City of Seattle</funderName>
+          <awardNumber>N781311</awardNumber>
+          <title>Wildlife Species and Habitat Surveys</title>
+        </award>
+        <award>
+          <funderName>City of Seattle</funderName>
+          <awardNumber>N000753</awardNumber>
+          <title>Wildlife Species and Habitat Surveys</title>
+        </award>
+      </relatedProject>
+      <relatedProject>
+        <title>Water Temperature Monitoring Program</title>
+        <personnel>
+          <individualName>
+            <givenName>Jamie</givenName>
+            <surName>Thompson</surName>
+          </individualName>
+          <organizationName>City of Seattle, Seattle Public Utilities</organizationName>
+          <electronicMailAddress>SPU_EDI_Account_Managers@seattle.gov</electronicMailAddress>
+          <role>Project Manager</role>
+        </personnel>
+        <abstract>
+          <para>The objective for water temperature monitoring above Masonry Dam is to determine if water temperatures in habitats of the Cedar and Rex rivers and Chester Morse Lake (CML) remain hospitable to bull trout as the climate and reservoir management change. Thermal characteristics of riverine habitats used by bull trout among life stages in the CRW above Masonry Dam remain poorly understood. Thermal regimes vary among different stream habitats, and different life stages of bull trout have different thermal requirements and tolerances. Persistence of the species is, in part, linked to the protection and maintenance of a broad diversity of thermally mediated habitats.</para>
+        </abstract>
+        <award>
+          <funderName>City of Seattle</funderName>
+          <awardNumber>N000874</awardNumber>
+          <title>Water Temperature Monitoring Program</title>
+        </award>
+      </relatedProject>
+    </project>
+    <dataTable id="0c1a554c61566463b1c2eea3adeec93f" scope="document" system="https://pasta.edirepository.org">
+      <entityName>LTAM_Pools_Data_Sites01_25_2006_2017_SIMS_v02</entityName>
+      <entityDescription>Pool field data for all (25) monitoring sties, and include max depth, average depth, and and pool type.</entityDescription>
+      <physical>
+        <objectName>LTAM_Pools_Data_Sites01_25_2006_2017_SIMS_v02.csv</objectName>
+        <size unit="byte">112179</size>
+        <authentication method="MD5">d836b97f80348ca6251313b7bfcfa236</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/114/3/0c1a554c61566463b1c2eea3adeec93f</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>SORT_MAIN</attributeName>
+          <attributeLabel>SORT_MAIN</attributeLabel>
+          <attributeDefinition>Main Sorting No, a number that is used to order records for the purposes of loading data, grouping data, or building formulas.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>YEARSITE_ID</attributeName>
+          <attributeLabel>YEARSITE_ID</attributeLabel>
+          <attributeDefinition>Year Site ID, a number that is used to group data and is a conjugate of the 4 digit Sample Year and Site No. For example, 20062 refers to Sample Year 2006, Site 2, and 201022 refers to Sample Year 2010, Site 22. If the analysis is a Enter "999" for</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>USER_NAME</attributeName>
+          <attributeLabel>USER_NAME</attributeLabel>
+          <attributeDefinition>User Name, as downloaded from Pendragon Forms or other electronic form. Also, "999" refers to not applicable; and "-999" refers to data that is required but is missing.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>TIMESTAMP_24HR</attributeName>
+          <attributeLabel>TIMESTAMP_24HR</attributeLabel>
+          <attributeDefinition>Timestamp , Timestamp, Date or Date and Time for when the data was collected and in format MM/DD/YYY hh:mm:ss.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM/DD/YYYY hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>DIST_ON_TAPE_FT</attributeName>
+          <attributeLabel>DIST_ON_TAPE_FT</attributeLabel>
+          <attributeDefinition>Distance on Tape, as noted on the drag tape, and if a Profile Pool survey exists, matches the Distance on Tape from the pool head record from the Profile Pool survey. Units in feet.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>UNIT_POOL_NO</attributeName>
+          <attributeLabel>UNIT_POOL_NO</attributeLabel>
+          <attributeDefinition>Unit pool numbers are generally (but not always) numbered sequentially from BOU; and must meet the minimum residual pool depth requirement (which is based on BFW class).</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>UNTPOOL_LNGT_REG</attributeName>
+          <attributeLabel>UNTPOOL_LNGT_REG</attributeLabel>
+          <attributeDefinition>Unit Pool Length_via stadia or rangefinder, The surface water length of the pool, measured mid-pool from pool tail to pool head using a rangefinder or stadia rod, and the value is generally stored in the pool head record. If not a pool length record, enter “999”.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>UNTPOOL_LNGT_PF</attributeName>
+          <attributeLabel>UNTPOOL_LNGT_PF</attributeLabel>
+          <attributeDefinition>Unit Pool Length_via profile, The channel bottom length of the pool, measured mid-pool from tail to head using a drag tape; whereas (Cumulative Distance from pool head record – Cumulative Distance from pool tail record); derived from a profile survey; and the value is generally stored in the pool head record. If not a pool length record, enter “999”.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>UNTPOOL_TAILDPT</attributeName>
+          <attributeLabel>UNTPOOL_TAILDPT</attributeLabel>
+          <attributeDefinition>Unit Pool Tail Depth, Water depth at deepest part of the unit pool tail, which is often times not near the drag tape; using a stadia rod and rod level. If not a max pool depth record, enter "999".</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>UNITPOOL_MAX</attributeName>
+          <attributeLabel>UNITPOOL_MAX</attributeLabel>
+          <attributeDefinition>Unit Pool Max Depth, Maximum water depth for the entire unit pool, which is often times not near the drag tape; using a stadia rod and rod level. If not a max pool depth record, enter "999".</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>UNTPOOL_RES_REG</attributeName>
+          <attributeLabel>UNTPOOL_RES_REG</attributeLabel>
+          <attributeDefinition>Unit Pool Residual Pool Depth_via stadia, Water depth difference from unit pool max depth to tail depth; whereas (Max Depth – Tail Depth); using a stadia rod and rod level; and the value is generally stored in the pool max record. If not a pool max record, enter “999”. Note that the water depth method is less precise and less accurate that the profile method, however, the water depth method is the standard of most pool surveys.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>UNTPOOL_RES_PF</attributeName>
+          <attributeLabel>UNTPOOL_RES_PF</attributeLabel>
+          <attributeDefinition>Unit Pool Residual Pool Depth_via profile, Channel bottom elevation difference from unit pool tail depth to max depth, whereas (Elevation from pool tail record – Elevation from pool max depth record); derived from a profile survey; and the value is generally stored in the pool max record. If not a pool max record, enter “999”. Note that the water depth method is less precise and less accurate that the profile method, however, the water depth method is the standard of most pool surveys.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>UNTPOOL_RES_CMP</attributeName>
+          <attributeLabel>UNTPOOL_RES_CMP</attributeLabel>
+          <attributeDefinition>Unit Pool Residual Pool Depth Method Comparison, The absolute difference (ie. no negative numbers) between the unit pool residual pool depth via stadia method vs profile method, whereas Absolute * (Residual Pool Depth Water Depth Method – Residual Pool Depth Profile Level Method); and the value is generally stored in the pool max record. If not a pool max record and/or there is no comparison of methods, enter "999". Note that the water depth method is less precise and less accurate that the profile method, however, the water depth method is the standard of most pool surveys.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>UNTPOOL_WIDTH</attributeName>
+          <attributeLabel>UNTPOOL_WIDTH</attributeLabel>
+          <attributeDefinition>Unit Pool Width, The average wetted width of the qualifying unit pool to the nearest tenth foot, using a stadia rod or laser rangefinder. Measured at a representative location in the pool (typically between tail and max) or if the pool is irregular shaped or especially long, then several averaged widths.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>UNTPOOL_TYPE</attributeName>
+          <attributeLabel>UNTPOOL_TYPE</attributeLabel>
+          <attributeDefinition>Unit Pool Type, Unit Pool Type describes the scour pattern of the unit pool, whereas for an LTAM survey, "Plunge" refers to an air drop of at least 90% of the wetted width; and "other" is for all other types. For not applicable, enter "999", and for required but missing data, enter "-999". Other types for non-LTAM surveys are "Lateral"; "Mid-channel"; "Dammed"; and "Scour".</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>UNTPOOL_FORMBY</attributeName>
+          <attributeLabel>UNTPOOL_FORMBY</attributeLabel>
+          <attributeDefinition>Unit Pool Formed By, The dominating factor for pool formation, whereas for an LTAM survey, “Wood” refers wood that is adjacent to tail, max, or head and if not there, the unit pool probably would not exist; and “other” is for all other factors. If there is more than one factor, record the factor that has the greatest impact on pool formation. For not applicable, enter "999", and for required but missing data, enter "-999". Other factors for non-LTAM surveys are "Boulder", "Tributary"; "Bank"; "Human Structure"; "Meander"; "Beaver"; and "Bedrock".</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>BFW_CLASS</attributeName>
+          <attributeLabel>BFW_CLASS</attributeLabel>
+          <attributeDefinition>Bankfull Width Class, BFW classes are based on a well established protocol like Montgomery Buffington or Rosgen, where the bankfull width is measured several times throughout the reach, is averaged, and then placed in Classes (ie. 0-8, 8-17, 17-33 33-50, 50-66, and &gt; 66); also "999" refers to not applicable, and "-999" refers to data that is required but is missing.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>UNTPOOL_RESRQ</attributeName>
+          <attributeLabel>UNTPOOL_RESRQ</attributeLabel>
+          <attributeDefinition>Unit Pool Residual Depth Requirement, The minimum residual pool depth to qualify as a unit pool and based on BFW class. Choices are 0.3 ft, 0.7 ft, 0.8 ft, 1.0 ft, 1.2 ft, or 1.3 ft.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>COMMENTS</attributeName>
+          <attributeLabel>COMMENTS</attributeLabel>
+          <attributeDefinition>Comments, free form text for interesting or unusual sightings, problems, or issues.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>OTHRCH_NO_TXT</attributeName>
+          <attributeLabel>OTHRCH_NO_TXT</attributeLabel>
+          <attributeDefinition>Other Channel Number (text), A number that identifies a channel that is not the main channel, such as a braided thread, split flow, side channel, etc; if not applicable, leave blank.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>QUAD_NO</attributeName>
+          <attributeLabel>QUAD_NO</attributeLabel>
+          <attributeDefinition>Quadrant No., The quadrant number in which the measurement is being taken whereas quadrants are used to divide the stream into sections and are generally (but not always) numbered sequentially in the upstream direction. An example numbering scheme is "1" for the downstream end of the site to and including cross-section 1; "2" is from just upstream of cross-section 1 to and including cross-section 2; "3" is just upstream from cross-section 2 to and including cross-section 3; and "4" is just upstream from cross-section 3 to and including the upstream end of the site. If the measurement is in more than one quadrant, record the quadrant that has the most area. If there are no quadrants in the site, remark "1" or "999" for the entire survey.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SITENO</attributeName>
+          <attributeLabel>SITENO</attributeLabel>
+          <attributeDefinition>Site No, a number that has been assigned to the site, whereas the same site number is used for repeat surveys.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>STREAM_NAME_SHORT</attributeName>
+          <attributeLabel>STREAM_NAME_SHORT</attributeLabel>
+          <attributeDefinition>Stream Name (short), the abbreviated or shortened stream name of the site that is being surveyed.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>OBSERVERS</attributeName>
+          <attributeLabel>OBSERVERS</attributeLabel>
+          <attributeDefinition>The names or initials of each person who participated in the survey.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>813</numberOfRecords>
+    </dataTable>
+    <dataTable id="5826a9162c64583d71449fe72a1d6058" scope="document" system="https://pasta.edirepository.org">
+      <entityName>LTAM_Pools_Reach_Summary_Sites01_25_2006_2017_SIMS_v01</entityName>
+      <entityDescription>Summarized pool data for all (25) monitoring sites and include average pool spacing for the reach and the dominate pool formation factor.</entityDescription>
+      <physical>
+        <objectName>LTAM_Pools_Reach_Summary_Sites01_25_2006_2017_SIMS_v01.csv</objectName>
+        <size unit="byte">9574</size>
+        <authentication method="MD5">1fadedd4cedcba0e24b71a6348362df7</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/114/3/5826a9162c64583d71449fe72a1d6058</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>SORT_MAIN</attributeName>
+          <attributeLabel>SORT_MAIN</attributeLabel>
+          <attributeDefinition>Main Sorting No, a number that is used to order records for the purposes of loading data, grouping data, or building formulas.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>YEARSITE_ID</attributeName>
+          <attributeLabel>YEARSITE_ID</attributeLabel>
+          <attributeDefinition>Year Site ID, a number that is used to group data and is a conjugate of the 4 digit Sample Year and Site No. For example, 20062 refers to Sample Year 2006, Site 2, and 201022 refers to Sample Year 2010, Site 22. If the analysis is a Enter "999" for</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SITENO</attributeName>
+          <attributeLabel>SITENO</attributeLabel>
+          <attributeDefinition>Site No, a number that has been assigned to the site, whereas the same site number is used for repeat surveys.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>STREAM_NAME_SHORT</attributeName>
+          <attributeLabel>STREAM_NAME_SHORT</attributeLabel>
+          <attributeDefinition>Stream Name (short), the abbreviated or shortened stream name of the site that is being surveyed.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SURVEY_YEAR_NUM</attributeName>
+          <attributeLabel>SURVEY_YEAR_NUM</attributeLabel>
+          <attributeDefinition>Survey Year, the sample year of a dataset.. Loaded as 4 digit number and not a date format.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>REACH_LGTH</attributeName>
+          <attributeLabel>REACH_LGTH</attributeLabel>
+          <attributeDefinition>Reach Length, Thalweg channel bottom length of the reach.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SLOPE_PERC</attributeName>
+          <attributeLabel>SLOPE_PERC</attributeLabel>
+          <attributeDefinition>Reach Slope %, Slope % is (rise/run)*100, where the rise and run are measured with instruments such as clinometer or eye level or optical level with stadia rod and drag tape or fiberglass reel tape. Slope % can also be estimated from a mapping exercise by calculating the rise and run between contours. Water surface or channel bottom needs to be specified, where this is typically specified in the distance type.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>COUNT_UNTPOOL_T</attributeName>
+          <attributeLabel>COUNT_UNTPOOL_T</attributeLabel>
+          <attributeDefinition>No. of Unit Pools, Count of Unit Pools in a survey.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>COUNT_UNTPOOL_W</attributeName>
+          <attributeLabel>COUNT_UNTPOOL_W</attributeLabel>
+          <attributeDefinition>No. Unit Pools Formed by LWD, Count of Unit Pools formed by woody debris in a survey.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>PERC_UNTPOOL_W</attributeName>
+          <attributeLabel>PERC_UNTPOOL_W</attributeLabel>
+          <attributeDefinition>% Unit Pools Formed by LWD, Formula is (No. of Unit Pools Formed by LWD / No. of Unit Pools)*100.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>COUNT_UNTPOOL_OTHER</attributeName>
+          <attributeLabel>COUNT_UNTPOOL_OTHER</attributeLabel>
+          <attributeDefinition>No. Unit Pools Formed by "other", Count of Unit Pools formed by "other", ie a formation factor other than woody debris.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>PERC_UNTPOOL_OTHER</attributeName>
+          <attributeLabel>PERC_UNTPOOL_OTHER</attributeLabel>
+          <attributeDefinition>% Unit Pools Formed by "other", Formula is (No. of Unit Pools Formed by "other" / No. of Unit Pools)*100.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>AVE_RSPOOLDEP_P</attributeName>
+          <attributeLabel>AVE_RSPOOLDEP_P</attributeLabel>
+          <attributeDefinition>Average Unit Pool Residual Depth via Profile, The mean average Unit Pool Residual Depth via Profile method for the survey.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>AVE_UNTPOOL_SP</attributeName>
+          <attributeLabel>AVE_UNTPOOL_SP</attributeLabel>
+          <attributeDefinition>Average Unit Pool Spacing (LENGTH/NUMBER), Formula is (Reach Length (ft) / No. of Unit Pools).</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>COUNT_UNTPOOL_100M</attributeName>
+          <attributeLabel>COUNT_UNTPOOL_100M</attributeLabel>
+          <attributeDefinition>No. of Unit Pools per 100 m, Formula is (No. of Unit Pools / (Reach Length (ft) * 0.3048/100).</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>BFW_CLASS</attributeName>
+          <attributeLabel>BFW_CLASS</attributeLabel>
+          <attributeDefinition>Bankfull Width Class, BFW classes are based on a well established protocol like Montgomery Buffington or Rosgen, where the bankfull width is measured several times throughout the reach, is averaged, and then placed in Classes (ie. 0-8, 8-17, 17-33 33-50, 50-66, and &gt; 66); also "999" refers to not applicable, and "-999" refers to data that is required but is missing.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>UNTPOOL_RESRQ</attributeName>
+          <attributeLabel>UNTPOOL_RESRQ</attributeLabel>
+          <attributeDefinition>Unit Pool Residual Depth Requirement, The minimum residual pool depth to qualify as a unit pool and based on BFW class. Choices are 0.3 ft, 0.7 ft, 0.8 ft, 1.0 ft, 1.2 ft, or 1.3 ft.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>TOTAL_POSS_ERR</attributeName>
+          <attributeLabel>TOTAL_POSS_ERR</attributeLabel>
+          <attributeDefinition>Total Number of Possible Errors in a dataset</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>COUNT_RESID_ERR</attributeName>
+          <attributeLabel>COUNT_RESID_ERR</attributeLabel>
+          <attributeDefinition>No. of Records where Unit Pool Residual Depth Method Comparison &gt; 0.20 ft, Number of records in a survey where the residual depth via water depth stadia rod method and the profile level method differ by greater than 0.20 feet. Many errors indicate a poor level of surveyor's competency in finding and measuring pools.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>PROBLEMS_WITH_DATA</attributeName>
+          <attributeLabel>PROBLEMS_WITH_DATA</attributeLabel>
+          <attributeDefinition>Problems With Data highlight issues about the dataset that could be an issue for data analysis (ie. poor bankfull indicators, not enough surveyed points, observer bias, etc)</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>999</code>
+            <codeExplanation>Does not apply</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>110</numberOfRecords>
+    </dataTable>
+    <otherEntity id="0df9306458cebacb715a5e6cb404d06f" scope="document" system="https://pasta.edirepository.org">
+      <entityName>LTAM Pools_all years</entityName>
+      <entityDescription>(1) Excel file that contains all the pool data for data collection years 2006-2017.</entityDescription>
+      <physical>
+        <objectName>LTAM Pools_all years.xlsx</objectName>
+        <size unit="byte">567817</size>
+        <authentication method="MD5">6670afca5e21d43ad30444eaf1bbb8f5</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/cos-spu/114/3/0df9306458cebacb715a5e6cb404d06f</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <importedFromXML dateImported="2025-03-05" filename="cos-spu-people_projects_geog_template.1.4.xml" taxonomicCoverageExempt="True"/>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <emlEditor app="ezEML" release="2025.04.16"/>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>
