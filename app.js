@@ -1,20 +1,3 @@
-const vocabulary = {
-  "concepts": [
-    { "id": "1", "label": "Animal", "narrower": ["2", "3"] },
-    { "id": "2", "label": "Mammal", "narrower": ["4"] },
-    { "id": "3", "label": "Bird", "narrower": [] },
-    { "id": "4", "label": "Dog", "narrower": [] }
-  ]
-};
-
-const data = {
-  "records": [
-    { "id": "a1", "title": "Golden Retriever", "concepts": ["4"] },
-    { "id": "a2", "title": "Bald Eagle", "concepts": ["3"] },
-    { "id": "a3", "title": "Elephant", "concepts": ["2"] }
-  ]
-};
-
 const conceptMap = {};
 vocabulary.concepts.forEach(c => {
   conceptMap[c.id] = c;
@@ -84,6 +67,14 @@ function filterRecords(selectedConcepts) {
     selectedConcepts.some(concept => record.concepts.includes(concept))
   );
 }
+
+const data = {
+  "records": [
+    { "id": "a1", "title": "Golden Retriever", "concepts": ["http://example.org/concept/dog"] },
+    { "id": "a2", "title": "Bald Eagle", "concepts": ["http://example.org/concept/bird"] },
+    { "id": "a3", "title": "Elephant", "concepts": ["http://example.org/concept/mammal"] }
+  ]
+};
 
 function updateResults() {
   const selected = Array.from(document.querySelectorAll('#concept-form input[type="checkbox"]:checked'))
